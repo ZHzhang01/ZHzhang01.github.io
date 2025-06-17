@@ -25,7 +25,7 @@ You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.g
 
 张智恒是上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
 
-## 🧠 Research Statement
+## Research Statement
 
 他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
 
@@ -52,8 +52,10 @@ You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.g
 
 
 
-<div class="highlight-box">
-  <h3>📢 招生信息 / Recruitment</h3>
+<div style="border: 1.5px solid #e0d7b1; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #fffbe6; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
+  <h3 style="margin-top: 0; color: #b28800; font-weight: 600; border-left: 4px solid #b28800; padding-left: 10px;">
+    📢 招生信息 / Recruitment
+  </h3>
   <p>
     我正在寻找若干将于 <strong>2025 年入学的硕士生</strong>，以及 <strong>2026 年入学的博士/硕士生</strong>。同时也长期招收科研实习生（支持远程线上实习）。<br><br>
     我对博士生的基本期望包括：
@@ -69,6 +71,7 @@ You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.g
     如果你对上述研究方向感兴趣，欢迎随时与我联系。
   </p>
 </div>
+
 
 
 
