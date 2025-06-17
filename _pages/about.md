@@ -16,6 +16,10 @@ Welcome to Zhiheng's Homepage!
 
 Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/), starting from 2025.08. Previously, he received his Ph.D. from the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/), Tsinghua University.
 
+张智恒是上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
+
+
+## Research Statement
 
 He is an interdisciplinary researcher centered on **causal inference**, with research interests spanning **experimental design**, **online learning**, **social networks**, and **partial identification**. His work focuses on understanding and constructing the fundamental components of causal learning systems, aiming to address the following key questions:
 
@@ -39,11 +43,6 @@ His [representative research works](https://scholar.google.com/citations?hl=zh-C
 
 You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png) for further discussion. 
 
-
-
-张智恒是上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
-
-## Research Statement
 
 他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
 
