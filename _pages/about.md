@@ -58,9 +58,9 @@ You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.g
   </h3>
   <p>
     我正在寻找若干将于 <strong>2025 年入学的硕士生</strong>，以及 <strong>2026 年入学的博士/硕士生</strong>。同时也长期招收科研实习生（支持远程线上实习）。<br><br>
-    我对博士生的基本期望包括：
+    我对博士生的基本期望是：
     <ul>
-      <li><strong>具备明确的内驱力</strong>（鼓励自主探索感兴趣的研究方向）；</li>
+      <li>具备良好的品德和强烈的<strong>内驱力</strong>，喜欢科研探索（鼓励自主探索感兴趣的研究方向——我会在能力范围内全力指导；在能力范围外帮助建立合作）；</li>
       <li>满足以下两项中的任意一项：
         <ul>
           <li>扎实的数学基础（尤其是概率统计，专业不限）；</li>
@@ -68,6 +68,8 @@ You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.g
         </ul>
       </li>
     </ul>
+      我对硕士生的基本期望是：对自己进入学界和业界有初步规划。对于有志于学界的，我会跟博士生共同带领你完成科研训练；对于有志于业界的，我会将你推荐到相关方向的研究部门实习。
+  
     如果你对上述研究方向感兴趣，欢迎随时与我联系。
   </p>
 </div>
