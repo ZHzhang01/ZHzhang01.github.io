@@ -61,8 +61,7 @@ Example: editing a markdown file for a talk
 -->
 
 
-Honords
+Selected Honours
 ------
-National scholarship
 
-National Chinese Undergraduate Mathematics Competition Final (CMC), Gold Medal (Top 10 in China)
+2018 Chinese Undergraduate Mathematics Competition Final (CMC), Gold Medal (Top 10 in China)
