@@ -17,7 +17,25 @@ Welcome to Zhiheng's Homepage!
 Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/), starting from 2025.08. Previously, he received his Ph.D. from the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/), Tsinghua University.
 
 
-He is an interdisciplinary researcher primarily focused on causal inference, with main research interests including experimental design, online learning, social networks, and partial identification.
+He is an interdisciplinary researcher centered on **causal inference**, with research interests spanning **experimental design**, **online learning**, **social networks**, and **partial identification**. His work focuses on understanding and constructing the fundamental components of causal learning systems, aiming to address the following key questions:
+
+1. **In observational studies**, how can we systematically characterize the fundamental relationship among *model assumptions*, *observed data*, and *identification boundaries*?
+
+2. **In offline experimental design**, how can we elucidate the interaction between *model assumptions*, *estimator structure*, and *estimation efficiency*?
+
+3. **In online learning and decision-making**, how can we build a unified mathematical framework to connect heterogeneous goals and techniques across *machine learning*, *economics and management*, and *mathematical statistics*—for example, seeking optimal trade-offs between regret and estimation?
+
+His long-term goal is to promote a **unified integration of causal inference and machine learning systems**, approached from two complementary directions:
+
+- On the one hand, to advance causal system design from a machine learning perspective, including:  
+  *(i) relaxed input assumptions; (ii) more efficient estimation structures; (iii) output forms with broader generalization*;
+
+- On the other hand, to explore how causal thinking can contribute back to foundational disciplines such as:  
+  social network analysis, game-theoretic modeling, and optimization algorithm design,  
+  further supporting decision-making in practical applications like **recommendation systems, dispatching mechanisms, and market intervention strategies**.
+
+His [representative research works](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate) aim to establish a closed-loop paradigm of *“identification–estimation–policy optimization”*, seeking a unified modeling pathway for *“assumptions–structures–inference objectives”*, and promoting the integration of causal learning theory and real-world applications.
+
 
 You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png) for further discussion. 
 
@@ -43,11 +61,12 @@ You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.g
 
 他的[代表性研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)尝试构建了*“识别-估计-策略优化”*的闭环范式，寻求*“假设-结构-推断目标”*的统一建模路径，致力于推动因果学习理论与应用的结合。
 
-
-
-
-
 如需进一步交流，可添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
+
+
+
+
+
 
 
 
