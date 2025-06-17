@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Zhiheng Zhang"
+title                    : "Zhiheng Zhang（张智恒）"
 title_separator          : "-"
 name                     : &name "Zhiheng Zhang (张智恒)"
 description              : &description "tenure-track AP at SUFE"
