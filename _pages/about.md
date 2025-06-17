@@ -14,11 +14,22 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 Welcome to Zhiheng's Homepage!
 
-Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/).
+Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/), starting from 2025.08. Previously, he received his Ph.D. from the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/), Tsinghua University.
+
 
 He is an interdisciplinary researcher primarily focused on causal inference, with main research interests including experimental design, online learning, social networks, and partial identification.
 
 You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png) for further discussion. 
+
+
+
+张智恒是上海财经大学统计与数据科学学院的 tenure-track 助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
+
+他是一名以因果推断为主要研究方向的交叉学者，研究兴趣涵盖实验设计、在线学习、社交网络以及部分识别等主题。
+
+如需进一步交流，可添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
+
+
 
 <!--
 A data-driven personal website
