@@ -18,7 +18,7 @@ Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and D
 
 He is an interdisciplinary researcher primarily focused on causal inference, with main research interests including experimental design, online learning, social networks, and partial identification.
 
-You can add his ![WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png) for further discussion. 
+You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png) for further discussion. 
 
 <!--
 A data-driven personal website
