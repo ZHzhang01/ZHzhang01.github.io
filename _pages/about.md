@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Zhiheng"
+title: "Zhiheng Zhang（张智恒）"
 author_profile: true
 redirect_from: 
   - /about/
