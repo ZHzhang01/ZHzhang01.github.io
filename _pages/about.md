@@ -146,12 +146,11 @@ Example: editing a markdown file for a talk
 
 
 ## Selected Honours
-------
 
 2018 Chinese Undergraduate Mathematics Competition Final (CMC), Gold Medal (Top 10 in China)
 
 ## Academic Service
-------
+
 Reviewer: ICML, NeurIPs, ICLR, AISTATS, UAI, ACM Transactions on Information Systems (TOIS), Transactions of Mobile Computing (TMC), Journal
 of Machine Research (JMLR), Journal of the Royal Statistical Society, Series B (JRSSB)
 
