@@ -16,7 +16,13 @@ Welcome to Zhiheng's Homepage!
 
 Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/), starting from 2025.08. Previously, he received his Ph.D. from the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/), Tsinghua University.
 
+Zhiheng Zhang's research is supported by the CCF-DiDi Gaia Collaborative Research Fund “The sequential decision-making problem for long-term causal effects based on RL”, 2025.
+
 张智恒（prounciation: Zhee-hung Jahng）是上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
+
+张智恒的科研工作受到2025年CCF-滴滴盖亚学者科研基金“基于RL的长期因果效应的序列决策问题”支持。
+
+
 
 
 ## Research Statement
