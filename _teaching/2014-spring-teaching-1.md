@@ -1,3 +1,4 @@
+<!--
 ---
 permalink: /
 title: "Teaching"
@@ -6,6 +7,7 @@ redirect_from:
   - /2014-spring-teaching-1.md/
   - /2014-spring-teaching-1.html
 ---
+-->
 
 
 
