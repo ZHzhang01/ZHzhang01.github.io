@@ -18,7 +18,7 @@ Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and D
 
 Zhiheng Zhang's research is supported by the CCF-DiDi Gaia Collaborative Research Fund “The sequential decision-making problem for long-term causal effects based on RL”, 2025.
 
-张智恒（prounciation: Zhee-hung Jahng）是上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
+张智恒（pronunciation: Zhee-hung Jahng）是上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
 
 张智恒的科研工作受到2025年CCF-滴滴盖亚学者科研基金“基于RL的长期因果效应的序列决策问题”支持。
 
@@ -161,3 +161,24 @@ Reviewer: ICML, NeurIPs, ICLR, AISTATS, UAI, ACM Transactions on Information Sys
 of Machine Research (JMLR), Journal of the Royal Statistical Society, Series B (JRSSB)
 
 Area Chair: AAAI 2025, Artificial Intelligence with Causal Techniques (AICT) track
+
+## Teaching
+
+Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2020-2021, Fall
+
+Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2021-2022, Fall 
+
+Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2022-2023, Spring
+
+Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2023-2024, Fall
+
+Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2023-2024, Spring
+
+Advanced Applied Probability (Tsinghua, 40470503-0), Yao Class TA, 2024-2025, Fall
+ 
+Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2024-2025, Spring
+
+概率论 （上海财经大学，105494），统计与数据科学学院，本科生课，授课教师，2025-2026, Fall
+
+数据分析与统计建模 （上海财经大学），统计与数据科学学院，研究生课，授课教师，2025-2026，Fall
+ 
