@@ -46,7 +46,7 @@ His long-term goal is to promote a **unified integration of causal inference and
 His [representative research works](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate) aim to establish a closed-loop paradigm of *“identification–estimation–policy optimization”*, seeking a unified modeling pathway for *“assumptions–structures–inference objectives”*, and promoting the integration of causal learning theory and real-world applications.
 
 
-You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png) for further discussion. 
+You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png) for further discussion and collaboration. 
 
 
 他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
@@ -65,7 +65,7 @@ You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.g
 
 他的[代表性研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)尝试构建了*“识别-估计-策略优化”*的闭环范式，寻求*“假设-结构-推断目标”*的统一建模路径，致力于推动因果学习理论与应用的结合。
 
-如需进一步交流，可添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
+他欢迎相关的交流或合作，若感兴趣，可添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
 
 
 
