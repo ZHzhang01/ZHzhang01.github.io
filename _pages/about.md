@@ -32,7 +32,7 @@ He is an interdisciplinary researcher centered on **causal inference**, with res
 
 2. **In offline experimental design**, how can we elucidate the interaction between *model assumptions*, *estimator structure*, and *estimation efficiency*?
 
-3. **In online learning and decision-making**, how can we build a unified mathematical framework to connect heterogeneous goals and techniques across *machine learning*, *economics and management*, and *mathematical statistics*—for example, seeking optimal trade-offs between regret and estimation?
+3. **In online learning and decision-making**, how can we build a unified mathematical framework to connect heterogeneous goals and techniques across *machine learning*, *economics and management*, and *mathematical statistics*—for example, seeking optimal trade-offs between different types of regret and estimation?
 
 His long-term goal is to promote a **unified integration of causal inference and machine learning systems**, approached from two complementary directions:
 
@@ -52,7 +52,7 @@ Open to discussions and collaborations at any time. You can add his [WeChat](htt
 
 1. **在观测性研究中**，如何系统地刻画 “模型假设 — 观测数据 — 识别边界” 之间的基本关系？
 2. **在离线实验设计中**，如何阐明 “模型假设 — 估计器结构 — 估计效率” 之间的相互作用？
-3. **在在线学习与决策中**，如何构建统一的数学框架，连接 “机器学习 — 经济管理 — 数理统计” 中异构的目标与技术，例如在 regret–estimation 之间寻求最优权衡？
+3. **在在线学习与决策中**，如何构建统一的数学框架，连接 “机器学习 — 经济管理 — 数理统计” 中异构的目标与技术，例如在各类 regret–estimation 之间寻求最优权衡？
 
 他的长期目标是推动 **因果推理与机器学习系统的融合统一**，从两个互补方向展开：
 
