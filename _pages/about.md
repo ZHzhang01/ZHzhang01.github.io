@@ -16,7 +16,7 @@ Welcome to Zhiheng's Homepage!
 
 Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/), starting from 2025.08. Previously, he received his Ph.D. from the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/), Tsinghua University.
 
-Zhiheng Zhang is the co-Principal Investigator of the 2025 [CCF-DiDi Gaia Collaborative Research Fund project](https://outreach.didichuxing.com/app-outreach/CRFYS) titled "Sequential Decision-Making for Long-Term Causal Effects Based on Reinforcement Learning" and "a unified causal model for multi-treatment long-term value (LTV)".
+Zhiheng Zhang is the co-Principal Investigator of the 2025 [CCF-DiDi Gaia Collaborative Research Fund project](https://outreach.didichuxing.com/app-outreach/CRFYS) titled "Sequential Decision-Making for Long-Term Causal Effects Based on Reinforcement Learning" and "A Unified Causal Model for Multi-Treatment Long-Term Value (LTV)".
 
 张智恒（pronunciation: Zhee-hung Jahng）担任上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
 
