@@ -18,7 +18,7 @@ Zhiheng is a tenure-track Assistant Professor in the [School of Statistics and D
 
 Zhiheng Zhang is the co-Principal Investigator of the 2025 [CCF-DiDi Gaia Collaborative Research Fund project](https://outreach.didichuxing.com/app-outreach/CRFYS) titled "Sequential Decision-Making for Long-Term Causal Effects Based on Reinforcement Learning" and "a unified causal model for multi-treatment long-term value (LTV)".
 
-张智恒（pronunciation: Zhee-hung Jahng）是上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
+张智恒（pronunciation: Zhee-hung Jahng）担任上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。
 
 张智恒担任2025年度[CCF-滴滴盖亚联合科研基金项目](https://outreach.didichuxing.com/app-outreach/CRFYS)“基于强化学习的长期因果效应序贯决策问题”和“统一的多 treatment LTV 因果模型”的联合负责人。
 
