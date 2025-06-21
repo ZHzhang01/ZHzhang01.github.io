@@ -168,4 +168,32 @@ Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua U
 概率论 （上海财经大学，105494），统计与数据科学学院，本科生课，授课教师，2025-2026, Fall  
 数据分析与统计建模 （上海财经大学，213488），统计与数据科学学院，研究生课，授课教师，2025-2026，Fall  
 
+
+## Invited Talks
+
+| Title                                                             | Venue                                                   | Date     |
+|-------------------------------------------------------------------|----------------------------------------------------------|----------|
+| Conceptual Mathematics, Article VI                                | Tsinghua FODS Seminar                                   | 2022.11  |
+| Tight Partial Identification of Causal Effects                    | AI Time                                                 | 2024.6   |
+|                                                                    | ICML 2024, Vienna                                       | 2024.6   |
+|                                                                    | Tsinghua Yao Class Graduate Forum                       | 2024.12  |
+| A Systematic ML Framework for Causality                           | Peking University Causality Seminar                     | 2024.11  |
+|                                                                    | 13th National Conference on Probability Statistics      | 2024.11  |
+|                                                                    | Shanghai Jiao Tong University John Hopcroft Center      | 2025.1   |
+|                                                                    | National University of Defense Technology               | 2025.2   |
+|                                                                    | Xi’an Jiaotong University                               | 2025.3   |
+|                                                                    | Shanghai University of Finance and Economics            | 2025.3   |
+|                                                                    | Shandong University                                     | 2025.3   |
+|                                                                    | National University of Defense Technology               | 2025.3   |
+|                                                                    | 10th Statistical Forum                                  | 2025.4   |
+|                                                                    | Bear Conference (Goxiong Hui)                           | 2025.6   |
+| Partial Identification with Proxy of Latent Confoundings          | UAI 2024, Barcelona                                     | 2024.6   |
+| Robust Causal Inference for Recommender System                    | SIGIR 2023, Taiwan                                      | 2023.7   |
+| Adjusting Auxiliary Variables Under Approximate Neighborhood Interference | Tsinghua University                              | 2025.4   |
+
+
+
+
+
+
  
