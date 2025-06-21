@@ -158,15 +158,15 @@ Area Chair: AAAI 2025, Artificial Intelligence with Causal Techniques (AICT) tra
 
 ## Teaching
 
-Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2020-2021, Fall  
-Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2021-2022, Fall  
-Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2022-2023, Spring  
-Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2023-2024, Fall  
-Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2023-2024, Spring  
-Advanced Applied Probability (Tsinghua, 40470503-0), Yao Class TA, 2024-2025, Fall  
-Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2024-2025, Spring  
-概率论 （上海财经大学，105494），统计与数据科学学院，本科生课，授课教师，2025-2026, Fall  
-数据分析与统计建模 （上海财经大学，213488），统计与数据科学学院，研究生课，授课教师，2025-2026，Fall  
+1. Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2020-2021, Fall  
+2. Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2021-2022, Fall  
+3. Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2022-2023, Spring  
+4. Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2023-2024, Fall  
+5. Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2023-2024, Spring  
+6. Advanced Applied Probability (Tsinghua, 40470503-0), Yao Class TA, 2024-2025, Fall  
+7. Frontiers of Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2024-2025, Spring  
+8. 概率论 （上海财经大学，105494），统计与数据科学学院，本科生课，授课教师，2025-2026, Fall  
+9. 数据分析与统计建模 （上海财经大学，213488），统计与数据科学学院，研究生课，授课教师，2025-2026，Fall  
 
 
 ## Invited Talks
