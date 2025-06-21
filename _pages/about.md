@@ -171,27 +171,6 @@ Area Chair: AAAI 2025, Artificial Intelligence with Causal Techniques (AICT) tra
 
 ## Invited Talks
 
-| Title                                                             | Venue                                                   | Date     |
-|-------------------------------------------------------------------|----------------------------------------------------------|----------|
-| Conceptual Mathematics, Article VI                                | Tsinghua FODS Seminar                                   | 2022.11  |
-| Tight Partial Identification of Causal Effects                    | AI Time                                                 | 2024.06   |
-|                                                                    | ICML 2024, Vienna                                       | 2024.06   |
-|                                                                    | Tsinghua Yao Class Graduate Forum                       | 2024.12  |
-|                                                                    |Shanghai Jiao Tong University John Hopcroft Center      | 2025.01   |
-|                                                                    | Bear Conference (Goxiong Hui)                           | 2025.06   |
-| A Systematic ML Framework for Causality                           | Peking University Causality Seminar                     | 2024.11  |
-|                                                                    | 13th National Conference on Probability Statistics      | 2024.11  |
-|                                                                    | National University of Defense Technology               | 2025.02   |
-|                                                                    | Xi’an Jiaotong University                               | 2025.03   |
-|                                                                    | Shanghai University of Finance and Economics            | 2025.03   |
-|                                                                    | Shandong University                                     | 2025.03   |
-|                                                                    | National University of Defense Technology               | 2025.03   |
-| Partial Identification with Proxy of Latent Confoundings          | UAI 2024, Barcelona                                     | 2024.06   |
-| Robust Causal Inference for Recommender System                    | SIGIR 2023, Taiwan                                      | 2023.07   |
-| Adjusting Auxiliary Variables Under Approximate Neighborhood Interference | Tsinghua University                              | 2025.04   |
-|                                                                           | Bear Conference (Goxiong Hui)                           | 2025.06   |
-|Online Experiment Design under Interference Estimation-regret Tradeoff |  Shanghai Jiao Tong University John Hopcroft Center      | 2025.01   |
-|                                                                       | 10th Statistical Forum                                  | 2025.04   |
 
 
 
