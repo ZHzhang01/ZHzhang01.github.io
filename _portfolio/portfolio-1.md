@@ -1,7 +1,6 @@
 
 ---
-title: "Supervisor: Zhiheng Zhang"
-collection: portfolio
+Supervisor: Zhiheng Zhang
 ---
 
 
