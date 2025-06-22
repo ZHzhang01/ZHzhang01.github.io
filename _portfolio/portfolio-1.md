@@ -1,9 +1,6 @@
-
 ---
-Supervisor: Zhiheng Zhang
+title: "Supervisor: Zhiheng Zhang"
 ---
-
-
 
 
 
