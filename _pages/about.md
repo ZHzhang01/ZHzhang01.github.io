@@ -26,7 +26,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
     📢 招生信息 / Recruitment
   </h3>
   <p>
-    我正在寻找若干将于 <strong>2025 年入学的硕士生</strong>，以及 <strong>2026 年入学的博士/硕士生</strong>。同时也长期招收科研实习生（支持远程线上实习）。<br><br>
+    我正在寻找若干 <strong>2026 年入学的博士/硕士生</strong>。同时也长期招收科研实习生（支持远程线上实习）。<br><br>
     我对博士生的基本期望是：
     <ul>
       <li>具备良好的品德和强烈的<strong>内驱力</strong>，喜欢科研探索（鼓励自主探索感兴趣的研究方向——我会在能力范围内全力指导；在能力范围外帮助建立合作）；</li>
