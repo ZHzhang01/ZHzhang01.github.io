@@ -26,7 +26,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
     📢 招生信息 / Recruitment
   </h3>
   <p>
-    我正在寻找若干 <strong>2026 年入学的博士/硕士生</strong>。同时也<strong>长期招收科研实习生（支持远程线上实习）</strong>。<br><br>
+    我正在寻找若干 <strong>博士(2026入学)/硕士生（2025、2026入学）</strong>。同时也<strong>长期招收科研实习生（支持远程线上实习）</strong>。<br><br>
     我对博士生的基本期望是：
     <ul>
       <li>具备良好的品德和强烈的<strong>内驱力</strong>，喜欢科研探索（鼓励自主探索感兴趣的研究方向——我会在能力范围内全力指导；在能力范围外帮助建立合作）；</li>
@@ -41,7 +41,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
   
    <ul>
       <li>对于有志于学界的，我会跟博士生共同带领你进行科研；并支持你的继续深造；</li>
-      <li> 对于有志于业界的，我会将你推荐到相关方向的前沿研究部门实习。
+      <li> 对于有志于业界的，我能够将你推荐到相关方向的前沿研究部门（例如滴滴）实习。
       </li>
     </ul>
     如果你对上述研究方向感兴趣，欢迎随时与我联系。
@@ -54,11 +54,11 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 
 He is an interdisciplinary researcher centered on **causal inference**, with research interests spanning **experimental design**, **online learning**, **social networks**, and **partial identification**. His work focuses on understanding and constructing the fundamental components of causal learning systems, aiming to address the following key questions:
 
-1. **In observational studies**, how can we systematically characterize the fundamental relationship among *model assumptions*, *observed data*, and *identification boundaries*?
+1. **In observational studies**, how can we uncover the transmission mechanisms among model assumptions, observed data, and identifiable boundaries?
 
-2. **In offline experimental design**, how can we elucidate the interaction between *model assumptions*, *estimator structure*, and *estimation efficiency*?
+2. **In experimental design**, how can we characterize the performance limits arising from the interaction between scenario-specific features, algorithmic design, and estimator structure?
 
-3. **In online learning and decision-making**, how can we build a unified mathematical framework to connect heterogeneous goals and techniques across *machine learning*, *economics and management*, and *mathematical statistics*—for example, seeking optimal trade-offs between different types of regret and estimation?
+3. **In online learning and decision-making**, how can we elucidate the mathematical foundations underlying the diverse optimization objectives across machine learning, economics, and statistical inference, such as regret and statistical power?
 
 His long-term goal is to promote a **unified integration of causal inference and machine learning systems**, approached from two complementary directions:
 
@@ -76,9 +76,9 @@ Open to discussions and collaborations at any time. You can add his [WeChat](htt
 
 他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
 
-1. **在观测性研究中**，如何系统地刻画 “模型假设 — 观测数据 — 识别边界” 之间的基本关系？
-2. **在离线实验设计中**，如何阐明 “模型假设 — 估计器结构 — 估计效率” 之间的相互作用？
-3. **在在线学习与决策中**，如何构建统一的数学框架，连接 “机器学习 — 经济管理 — 数理统计” 中异构的目标与技术，例如在各类 regret–estimation 之间寻求最优权衡？
+1. **在观测性研究中**，如何揭示“模型假设—观测数据—可识别边界”之间的传导规律？
+2. **在实验设计中**，如何刻画“应用场景特性—算法设计与估计器结构—统计效率”所呈现的性能极限？
+3. **在在线学习与决策中**，如何阐明机器学习、经济管理与统计推断等领域多元优化目标之间的数学本质关联？
 
 他的长期目标是推动 **因果推理与机器学习系统的融合统一**，从两个互补方向展开：
 
