@@ -44,7 +44,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
       <li> 对于有志于业界的，我能够将你推荐到相关方向的前沿研究部门（例如滴滴）实习。
       </li>
     </ul>
-    如果你对上述研究方向感兴趣，欢迎随时与我联系。
+    如果你对上述研究方向感兴趣，欢迎随时与我联系，邮箱studyzzh@163.com。
   </p>
 </div>
 
@@ -71,7 +71,7 @@ His long-term goal is to promote a **unified integration of causal inference and
 
 His [representative research works](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate) aim to establish a closed-loop paradigm of *“identification–estimation–policy optimization”*, seeking a unified modeling pathway for *“assumptions–structures–inference objectives”*, and promoting the integration of causal learning theory and real-world applications.
 
-Open to discussions and collaborations at any time. You can add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png). 
+Open to discussions and collaborations at any time. You can send him an email or add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png). 
 
 
 他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
@@ -90,7 +90,7 @@ Open to discussions and collaborations at any time. You can add his [WeChat](htt
 
 他的[代表性研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)尝试构建了*“识别-估计-策略优化”*的闭环范式，寻求*“假设-结构-推断目标”*的统一建模路径，致力于推动因果学习理论与应用的结合。
 
-他欢迎相关的交流或合作。若感兴趣，可添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
+他欢迎相关的交流或合作。若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
 
 
 
