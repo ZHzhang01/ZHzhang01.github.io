@@ -16,11 +16,11 @@ Welcome to Zhiheng's Lab!
 
 Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/), starting from 2025.08. Previously, he received his Ph.D. from the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/), Tsinghua University. Zhiheng Zhang is the co-Principal Investigator of the 2025 [CCF-DiDi Gaia Collaborative Research Fund project](https://outreach.didichuxing.com/app-outreach/CRFYS) titled "Sequential Decision-Making for Long-Term Causal Effects Based on Reinforcement Learning" and the area chair of AAAI2025 AICT track. He is looking for [PhD/Master/Interns](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ). 
 
-This lab is called **C.A.U.S.A.L** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning).
+This lab is called **CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning), focusing on developing principled methods for causal analysis by uncovering underlying structures and integrating them with modern learning and decision-making systems.
 
 张智恒担任上海财经大学统计与数据科学学院的常任轨助理教授，将于2025年8月正式入职。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。张智恒担任2025年度[CCF-滴滴盖亚联合科研基金项目](https://outreach.didichuxing.com/app-outreach/CRFYS)“基于强化学习的长期因果效应序贯决策问题”的联合负责人, AAAI 2025 人工智能会议 Causal Techniques 方向（AICT track）领域主席等。他正在寻找[博士生/硕士生/实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。
 
-
+本实验室名为**CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning)，致力于发展有理论基础和落地应用的因果推断方法，聚焦于潜在结构的刻画，并将其与现代学习算法和决策系统融合。
 
 
 <div style="border: 1.5px solid #e0d7b1; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #fffbe6; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
