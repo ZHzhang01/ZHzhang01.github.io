@@ -48,7 +48,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
       <li> 对于有志于业界的，我能够将你推荐到相关方向的前沿研究部门（例如滴滴）实习。
       </li>
     </ul>
-    如果你对上述研究方向感兴趣，欢迎随时与我联系，邮箱studyzzh@163.com。
+    如果你对上述研究方向感兴趣，欢迎随时与我联系，邮箱zhangzhiheng@mail.shufe.edu.cn。
   </p>
 </div>
 
