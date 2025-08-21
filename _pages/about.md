@@ -58,11 +58,9 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
     📢 论文讨论会 / Reading Group
   </h3>
   <p>
-    欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过微信公众号CAUSAL-lab-SSDS-SUFE加入。<br><br>
+    欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过微信公众号CAUSAL-lab-SSDS-SUFE加入。
   </p>
 </div>
-
-
 
 
 ## Research Statement
