@@ -53,6 +53,17 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 </div>
 
 
+<div style="border: 1.5px solid #e0d7b1; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #fffbe6; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
+  <h3 style="margin-top: 0; color: #b28800; font-weight: 600; border-left: 4px solid #b28800; padding-left: 10px;">
+    📢 论文讨论会 / Reading Group
+  </h3>
+  <p>
+    欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过微信公众号CAUSAL-lab-SSDS-SUFE加入。<br><br>
+  </p>
+</div>
+
+
+
 
 ## Research Statement
 
