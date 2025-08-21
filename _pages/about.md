@@ -99,7 +99,7 @@ Open to discussions and collaborations at any time. You can send him an email or
   *(i) 更宽松的输入假设；(ii) 更高效的估计结构；(iii) 更具泛化性的输出形式*；
 - 另一方面，探索如何将因果视角反哺其他领域的场景、理论与方法，例如：  
   社交网络分析、博弈论建模、优化算法设计 等，  
-  并进一步支撑 **推荐系统、派单机制、市场干预策略** 等现实应用场景中的决策优化。
+  并进一步支撑 **推荐系统、派单机制、市场干预策略、大模型** 等现实应用场景中的决策优化。
 
 他的[代表性研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)尝试构建了*“识别-估计-策略优化”*的闭环范式，寻求*“假设-结构-推断目标”*的统一建模路径，致力于推动因果学习理论与应用的结合。
 
