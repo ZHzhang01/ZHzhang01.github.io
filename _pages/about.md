@@ -101,9 +101,7 @@ Open to discussions and collaborations at any time. You can send him an email or
   社交网络分析、博弈论建模、优化算法设计 等，  
   并进一步支撑 **推荐系统、派单机制、市场干预策略、大模型** 等现实应用场景中的决策优化。
 
-他的[代表性研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)尝试构建了*“识别-估计-策略优化”*的闭环范式，寻求*“假设-结构-推断目标”*的统一建模路径，致力于推动因果学习理论与应用的结合。
-
-他欢迎相关的交流或合作。若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
+他的[研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)致力于推动因果学习理论与应用的结合。他欢迎相关的交流或合作。若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
 
 
 
