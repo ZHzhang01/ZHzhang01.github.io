@@ -75,7 +75,7 @@ He is an interdisciplinary researcher centered on **causal inference**, with res
 
 His long-term goal is to promote a **unified integration of causal inference and machine learning systems**, approached from two complementary directions:
 
-- On the one hand, to advance causal system design from a machine learning perspective, including:  
+- On the one hand, to advance causal system design from other fields' perspective, including:  
   *(i) relaxed input assumptions; (ii) more efficient estimation structures; (iii) output forms with broader generalization*;
 
 - On the other hand, to explore how causal thinking can contribute back to foundational disciplines such as:  
