@@ -215,6 +215,6 @@ Area Chair: AAAI 2025, Artificial Intelligence with Causal Techniques (AICT) tra
 |                                                                           | Bear Conference (Goxiong Hui)                           | 2025.06   |
 |Online Experiment Design under Interference Estimation-regret Tradeoff |  Shanghai Jiao Tong University John Hopcroft Center      | 2025.01   |
 |                                                                       | 10th Statistical Forum                                  | 2025.04   |
-|                                                                       |      POMSHK2026                                         |2026.01|
-|Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference| POMSHK2026                   |2026.01|
+|Topology-Informed Online Experimental Design under Network Interference | Reading group hosted by Professor Chengchun Shi            |2025.11|
+|                                                                        |     POMSHK2026                                             |2026.01|
 
