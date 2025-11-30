@@ -126,37 +126,37 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 
 **To understand and articulate the core theoretical structure of causal learning systems, the long-term goals of the lab center on the following three foundational questions:**
 
-In observational studies: How can we systematically characterize the transmission mechanism linking model assumptions, observed data, and identification boundaries, thereby revealing how different causal assumptions fundamentally shape identifiability?
+1. In observational studies: How can we systematically characterize the transmission mechanism linking model assumptions, observed data, and identification boundaries, thereby revealing how different causal assumptions fundamentally shape identifiability?
 
-In experimental design and inference: How can we quantitatively describe the performance limits governing the interplay among application-specific characteristics, design and algorithmic structures, and statistical efficiency, and develop design and inference frameworks that achieve optimal (or near-optimal) performance?
+2. In experimental design and inference: How can we quantitatively describe the performance limits governing the interplay among application-specific characteristics, design and algorithmic structures, and statistical efficiency, and develop design and inference frameworks that achieve optimal (or near-optimal) performance?
 
-In online learning and decision-making: How can we mathematically unify the optimization objectives arising in machine learning, economic decision-making, and statistical inference, and reveal their intrinsic compatibilities, tensions, and optimal attainable frontiers?
+3. In online learning and decision-making: How can we mathematically unify the optimization objectives arising in machine learning, economic decision-making, and statistical inference, and reveal their intrinsic compatibilities, tensions, and optimal attainable frontiers?
 
 **To address these questions, the lab follows a research trajectory that proceeds from theory to methodology and from methodology to practice:**
 
-Starting from violations of classical assumptions to construct more general causal inference frameworks, including weakened identification conditions, partial identification boundaries, and optimal-transport-based geometric characterizations;
+1. Starting from violations of classical assumptions to construct more general causal inference frameworks, including weakened identification conditions, partial identification boundaries, and optimal-transport-based geometric characterizations;
 
-Integrating these foundational structures with modern statistical and machine-learning techniques to develop more efficient, stable, and scalable methods for identification and estimation—for example, optimal transport, proxy and negative-control methods, conformal prediction, and minimax optimization;
+2. Integrating these foundational structures with modern statistical and machine-learning techniques to develop more efficient, stable, and scalable methods for identification and estimation—for example, optimal transport, proxy and negative-control methods, conformal prediction, and minimax optimization;
 
-Extending theory and methodology to settings with realistic constraints, such as complex input/output structures, limited sample regimes, and dynamic or partially observed network environments;
+3. Extending theory and methodology to settings with realistic constraints, such as complex input/output structures, limited sample regimes, and dynamic or partially observed network environments;
 
-Ultimately building a causal inference ecosystem capable of effectively transferring to real-world applications, including social network analysis, game-theoretic environments, and optimization-driven decision-making, with deployment in recommendation systems, dispatch mechanisms, market interventions, and large-model behavioral analysis.
+4. Ultimately building a causal inference ecosystem capable of effectively transferring to real-world applications, including social network analysis, game-theoretic environments, and optimization-driven decision-making, with deployment in recommendation systems, dispatch mechanisms, market interventions, and large-model behavioral analysis.
 
 In this progression,
 
-(1) targets more flexible structural assumptions at the input level,
+1 targets more flexible structural assumptions at the input level,
 
-(2) focuses on precise and efficient identification–estimation mechanisms at the algorithmic level, and
+2 focuses on precise and efficient identification–estimation mechanisms at the algorithmic level, and
 
-(3)–(4) address complex, realistic decision and inference tasks at the output level.
+3-4 address complex, realistic decision and inference tasks at the output level.
 
 **To advance this agenda, the lab is currently pursuing three concrete research directions:**
 
-Online experimental design and inference under network interference;
+1. Online experimental design and inference under network interference;
 
-Optimal transport and geometric structures in causal inference;
+2. Optimal transport and geometric structures in causal inference;
 
-Causal inference methodologies tailored to industrial and real-world constraints.
+3. Causal inference methodologies tailored to industrial and real-world constraints.
 
 
 
