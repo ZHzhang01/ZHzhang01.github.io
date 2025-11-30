@@ -45,7 +45,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
   
    <ul>
       <li>对于有志于学界的，我会跟博士生共同带领你进行科研；并支持你的继续深造；</li>
-      <li> 对于有志于业界的，我能够将你推荐到相关方向的前沿研究部门（例如滴滴）实习。
+      <li> 对于有志于业界的，我能够将你推荐到相关方向的前沿研究部门实习。
       </li>
     </ul>
     如果你对上述研究方向感兴趣，欢迎随时与我联系。
@@ -93,7 +93,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 1. 从基础假设的违背出发，构建更具包容性的因果推断框架，例如：探索识别条件的可弱化性、部分识别边界与最优传输几何等；
 
-2. 将这些基础结构与现代统计与机器学习方法融合，发展更高效、更稳定、更具可扩展性的识别与估计技术，例如：最优传输、代理变量与负控方法、共型预测、minimax优化等；
+2. 将这些基础结构与现代统计与机器学习方法融合，发展更高效、更稳定、更具可扩展性的识别与估计技术，例如：最优传输、代理变量与负控方法、共型预测、minimax优化、在线学习等；
 
 3. 进一步将理论与方法扩展至带有现实约束的任务设置，例如：输入/输出结构复杂、小样本学习、动态/缺失网络结构等；
 
@@ -136,7 +136,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 
 1. Starting from violations of classical assumptions to construct more general causal inference frameworks, including weakened identification conditions, partial identification boundaries, and optimal-transport-based geometric characterizations;
 
-2. Integrating these foundational structures with modern statistical and machine-learning techniques to develop more efficient, stable, and scalable methods for identification and estimation—for example, optimal transport, proxy and negative-control methods, conformal prediction, and minimax optimization;
+2. Integrating these foundational structures with modern statistical and machine-learning techniques to develop more efficient, stable, and scalable methods for identification and estimation—for example, optimal transport, proxy and negative-control methods, conformal prediction, minimax optimization and online learning;
 
 3. Extending theory and methodology to settings with realistic constraints, such as complex input/output structures, limited sample regimes, and dynamic or partially observed network environments;
 
