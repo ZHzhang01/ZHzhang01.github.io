@@ -62,6 +62,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
   </p>
 </div>
 
+<!--
 他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
 
 1. **在观测性研究中**，如何揭示“模型假设—观测数据—可识别边界”之间的传导规律？
@@ -75,8 +76,46 @@ This is the front page of a website that is powered by the [Academic Pages templ
 - 另一方面，探索如何将因果视角反哺其他领域的场景、理论与方法，例如：  
   社交网络分析、博弈论建模、优化算法设计 等，  
   并进一步支撑 **推荐系统、派单机制、市场干预策略、大模型** 等现实应用场景中的决策优化。
+-->
 
-他的[研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)致力于推动因果学习理论与应用的结合。他欢迎相关的交流或合作。若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
+
+
+**为理解并构建因果学习系统的核心理论结构，实验室的长期目标可概括为以下三个基础问题：**
+
+1. 观测性研究中：如何系统刻画“模型假设—观测数据—可识别边界”之间的传导机制，从而揭示各种因果假设对可识别性的根本影响？
+
+2. 实验设计与推断中：如何定量描述“应用场景属性—实验设计与算法结构—统计效率”之间的性能极限，并基于此开发具有最优（或近最优）性质的设计与推断框架？
+
+3. 在线学习与决策中：如何从数学结构上统一机器学习、经济管理与统计推断等不同领域的优化目标，揭示它们之间的基本兼容性与最优可达边界？
+   
+
+**为回答上述问题，实验室的总体研究路线遵循由理论到方法、由方法到实践的逐层递进结构：**
+
+1. 从基础假设的违背出发，构建更具包容性的因果推断框架，例如：探索识别条件的可弱化性、部分识别边界与最优传输几何等；
+
+2. 将这些基础结构与现代统计与机器学习方法融合，发展更高效、更稳定、更具可扩展性的识别与估计技术，例如：最优传输、代理变量与负控方法、共型预测、minimax优化等；
+
+3. 进一步将理论与方法扩展至带有现实约束的任务设置，例如：输入/输出结构复杂、小样本学习、动态/缺失网络结构等；
+
+4. 最终形成能向现实场景有效辐射的因果推断体系，服务于社交网络分析、博弈论环境、优化决策，并落地于推荐系统、派单机制、市场干预策略、大模型行为建模等。
+
+其中：
+
+1 关注输入层面更宽松的结构假设，2 聚焦算法层面精准且高效的识别—估计机制，3-4 主要面向输出层面复杂而贴近现实的决策与推断任务。
+
+
+**为逐步实现，目前实验室正主要围绕以下三个具体方向做研究：**
+
+1. 网络结构下的在线实验设计与推断。
+
+2. 因果推断中的最优传输（OT）与几何结构.
+
+3. 面向工业现实约束的因果推断方法论。
+
+
+
+
+他欢迎相关的交流或合作。若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
 
 
 Welcome to Zhiheng's Lab! This lab is called **CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning), focusing on developing principled methods for causal analysis by uncovering underlying structures and integrating them with modern learning and decision-making systems. Please read [the onboarding guide of CAUSAL lab](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/CAUSAL_Lab_Onboarding_Guide(3).pdf).
@@ -85,24 +124,41 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 
 ## Research Statement
 
-He is an interdisciplinary researcher centered on **causal inference**, with research interests spanning **experimental design**, **online learning**, **social networks**, and **partial identification**. His work focuses on understanding and constructing the fundamental components of causal learning systems, aiming to address the following key questions:
+**To understand and articulate the core theoretical structure of causal learning systems, the long-term goals of the lab center on the following three foundational questions:**
 
-1. **In observational studies**, how can we uncover the transmission mechanisms among model assumptions, observed data, and identifiable boundaries?
+In observational studies: How can we systematically characterize the transmission mechanism linking model assumptions, observed data, and identification boundaries, thereby revealing how different causal assumptions fundamentally shape identifiability?
 
-2. **In experimental design**, how can we characterize the performance limits arising from the interaction between scenario-specific features, algorithmic design, and estimator structure?
+In experimental design and inference: How can we quantitatively describe the performance limits governing the interplay among application-specific characteristics, design and algorithmic structures, and statistical efficiency, and develop design and inference frameworks that achieve optimal (or near-optimal) performance?
 
-3. **In online learning and decision-making**, how can we elucidate the mathematical foundations underlying the diverse optimization objectives across machine learning, economics, and statistical inference, such as regret and statistical power?
+In online learning and decision-making: How can we mathematically unify the optimization objectives arising in machine learning, economic decision-making, and statistical inference, and reveal their intrinsic compatibilities, tensions, and optimal attainable frontiers?
 
-His long-term goal is to promote a **unified integration of causal inference and machine learning systems**, approached from two complementary directions:
+**To address these questions, the lab follows a research trajectory that proceeds from theory to methodology and from methodology to practice:**
 
-- On the one hand, to advance causal system design from other fields' perspective, including:  
-  *(i) relaxed input assumptions; (ii) more efficient estimation structures; (iii) output forms with broader generalization*;
+Starting from violations of classical assumptions to construct more general causal inference frameworks, including weakened identification conditions, partial identification boundaries, and optimal-transport-based geometric characterizations;
 
-- On the other hand, to explore how causal thinking can contribute back to foundational disciplines such as:  
-  social network analysis, game-theoretic modeling, and optimization algorithm design,  
-  further supporting decision-making in practical applications like **recommendation systems, dispatching mechanisms, and market intervention strategies**.
+Integrating these foundational structures with modern statistical and machine-learning techniques to develop more efficient, stable, and scalable methods for identification and estimation—for example, optimal transport, proxy and negative-control methods, conformal prediction, and minimax optimization;
 
-His [representative research works](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate) aim to establish a closed-loop paradigm of *“identification–estimation–policy optimization”*, seeking a unified modeling pathway for *“assumptions–structures–inference objectives”*, and promoting the integration of causal learning theory and real-world applications.
+Extending theory and methodology to settings with realistic constraints, such as complex input/output structures, limited sample regimes, and dynamic or partially observed network environments;
+
+Ultimately building a causal inference ecosystem capable of effectively transferring to real-world applications, including social network analysis, game-theoretic environments, and optimization-driven decision-making, with deployment in recommendation systems, dispatch mechanisms, market interventions, and large-model behavioral analysis.
+
+In this progression,
+
+(1) targets more flexible structural assumptions at the input level,
+
+(2) focuses on precise and efficient identification–estimation mechanisms at the algorithmic level, and
+
+(3)–(4) address complex, realistic decision and inference tasks at the output level.
+
+**To advance this agenda, the lab is currently pursuing three concrete research directions:**
+
+Online experimental design and inference under network interference;
+
+Optimal transport and geometric structures in causal inference;
+
+Causal inference methodologies tailored to industrial and real-world constraints.
+
+
 
 Open to discussions and collaborations at any time. You can send him an email or add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png). 
 
