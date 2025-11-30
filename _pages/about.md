@@ -12,13 +12,13 @@ redirect_from:
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 -->
 
-Welcome to Zhiheng's Lab! This lab is called **CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning), focusing on developing principled methods for causal analysis by uncovering underlying structures and integrating them with modern learning and decision-making systems. Please read [the onboarding guide of CAUSAL lab](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/CAUSAL_Lab_Onboarding_Guide(3).pdf).
+
 
 欢迎访问张智恒的主页！本实验室名为**CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning)，致力于发展有理论基础和落地应用的因果推断方法，聚焦于潜在结构的刻画，并将其与现代学习算法和决策系统融合。[请查看实验室因果推断入门指南](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/CAUSAL_Lab_Onboarding_Guide(3).pdf)。
 
 
 
-Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/), starting from 2025.08. Previously, he received his Ph.D. from the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/), Tsinghua University. Zhiheng Zhang is the co-Principal Investigator of the 2025 [CCF-DiDi Gaia Collaborative Research Fund project](https://outreach.didichuxing.com/app-outreach/CRFYS) titled "Sequential Decision-Making for Long-Term Causal Effects Based on Reinforcement Learning" and the area chair of AAAI2025 AICT track. He is looking for [PhD/Master/Interns](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ). His email is zhangzhiheng@mail.shufe.edu.cn.
+
 
 张智恒自2025年8月起担任上海财经大学统计与数据科学学院常任轨助理教授。此前，他于清华大学交叉信息研究院（IIIS）获得博士学位。张智恒担任2025年度[CCF-滴滴盖亚联合科研基金项目](https://outreach.didichuxing.com/app-outreach/CRFYS)“基于强化学习的长期因果效应序贯决策问题”的联合负责人, AAAI 2025 人工智能会议 Causal Techniques 方向（AICT track）领域主席等。他正在寻找[博士生/硕士生/实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。他的邮箱是zhangzhiheng@mail.shufe.edu.cn。
 
@@ -62,6 +62,26 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
   </p>
 </div>
 
+他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
+
+1. **在观测性研究中**，如何揭示“模型假设—观测数据—可识别边界”之间的传导规律？
+2. **在实验设计中**，如何刻画“应用场景特性—算法设计与估计器结构—统计效率”所呈现的性能极限？
+3. **在在线学习与决策中**，如何阐明机器学习、经济管理与统计推断等领域多元优化目标之间的数学本质关联？
+
+他的长期目标是推动 **因果推理与其他领域工具的交叉融合**，从两个互补方向展开：
+
+- 一方面，探索以其他领域理论工具推动因果系统的设计，包括：  
+  *(i) 更宽松的输入假设；(ii) 更高效的估计结构；(iii) 更具泛化性的输出形式*；
+- 另一方面，探索如何将因果视角反哺其他领域的场景、理论与方法，例如：  
+  社交网络分析、博弈论建模、优化算法设计 等，  
+  并进一步支撑 **推荐系统、派单机制、市场干预策略、大模型** 等现实应用场景中的决策优化。
+
+他的[研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)致力于推动因果学习理论与应用的结合。他欢迎相关的交流或合作。若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
+
+
+Welcome to Zhiheng's Lab! This lab is called **CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning), focusing on developing principled methods for causal analysis by uncovering underlying structures and integrating them with modern learning and decision-making systems. Please read [the onboarding guide of CAUSAL lab](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/CAUSAL_Lab_Onboarding_Guide(3).pdf).
+
+Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Professor in the [School of Statistics and Data Science](https://ssm.sufe.edu.cn/) at the [Shanghai University of Finance and Economics](https://www.sufe.edu.cn/), starting from 2025.08. Previously, he received his Ph.D. from the [Institute for Interdisciplinary Information Sciences](https://iiis.tsinghua.edu.cn/), Tsinghua University. Zhiheng Zhang is the co-Principal Investigator of the 2025 [CCF-DiDi Gaia Collaborative Research Fund project](https://outreach.didichuxing.com/app-outreach/CRFYS) titled "Sequential Decision-Making for Long-Term Causal Effects Based on Reinforcement Learning" and the area chair of AAAI2025 AICT track. He is looking for [PhD/Master/Interns](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ). His email is zhangzhiheng@mail.shufe.edu.cn.
 
 ## Research Statement
 
@@ -87,21 +107,7 @@ His [representative research works](https://scholar.google.com/citations?hl=zh-C
 Open to discussions and collaborations at any time. You can send him an email or add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png). 
 
 
-他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
 
-1. **在观测性研究中**，如何揭示“模型假设—观测数据—可识别边界”之间的传导规律？
-2. **在实验设计中**，如何刻画“应用场景特性—算法设计与估计器结构—统计效率”所呈现的性能极限？
-3. **在在线学习与决策中**，如何阐明机器学习、经济管理与统计推断等领域多元优化目标之间的数学本质关联？
-
-他的长期目标是推动 **因果推理与其他领域工具的交叉融合**，从两个互补方向展开：
-
-- 一方面，探索以其他领域理论工具推动因果系统的设计，包括：  
-  *(i) 更宽松的输入假设；(ii) 更高效的估计结构；(iii) 更具泛化性的输出形式*；
-- 另一方面，探索如何将因果视角反哺其他领域的场景、理论与方法，例如：  
-  社交网络分析、博弈论建模、优化算法设计 等，  
-  并进一步支撑 **推荐系统、派单机制、市场干预策略、大模型** 等现实应用场景中的决策优化。
-
-他的[研究成果](https://scholar.google.com/citations?hl=zh-CN&user=YVXrszoAAAAJ&view_op=list_works&sortby=pubdate)致力于推动因果学习理论与应用的结合。他欢迎相关的交流或合作。若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
 
 
 
