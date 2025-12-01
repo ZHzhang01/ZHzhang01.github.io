@@ -91,7 +91,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 **为回答上述问题，实验室的总体研究路线遵循由理论到方法、由方法到实践的逐层递进结构：**
 
-1. 从基础假设的违背出发，构建更具包容性的因果推断框架，例如：探索识别条件的可弱化性、部分识别边界与最优传输几何等；
+1. 从基础假设的违背出发，构建更具包容性的因果推断框架，例如：探索识别条件的可弱化性、部分识别边界等；
 
 2. 将这些基础结构与现代统计与机器学习方法融合，发展更高效、更稳定、更具可扩展性的识别与估计技术，例如：最优传输、代理变量与负控方法、共型预测、minimax优化、在线学习等；
 
@@ -99,9 +99,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 4. 最终形成能向现实场景有效辐射的因果推断体系，服务于社交网络分析、博弈论环境、优化决策，并落地于推荐系统、派单机制、市场干预策略、大模型行为建模等。
 
-其中：
-
-1 关注输入层面更宽松的结构假设，2 聚焦算法层面精准且高效的识别—估计机制，3-4 主要面向输出层面复杂而贴近现实的决策与推断任务。
+其中：1 关注输入层面更宽松的结构假设，2 聚焦算法层面精准且高效的识别—估计机制，3-4 主要面向输出层面复杂而贴近现实的决策与推断任务。
 
 
 **为逐步实现，目前实验室正主要围绕以下三个具体方向做研究：**
@@ -134,7 +132,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 
 **To address these questions, the lab follows a research trajectory that proceeds from theory to methodology and from methodology to practice:**
 
-1. Starting from violations of classical assumptions to construct more general causal inference frameworks, including weakened identification conditions, partial identification boundaries, and optimal-transport-based geometric characterizations;
+1. Starting from violations of classical assumptions to construct more general causal inference frameworks, including weakened identification conditions and partial identification boundaries;
 
 2. Integrating these foundational structures with modern statistical and machine-learning techniques to develop more efficient, stable, and scalable methods for identification and estimation—for example, optimal transport, proxy and negative-control methods, conformal prediction, minimax optimization and online learning;
 
@@ -142,13 +140,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 
 4. Ultimately building a causal inference ecosystem capable of effectively transferring to real-world applications, including social network analysis, game-theoretic environments, and optimization-driven decision-making, with deployment in recommendation systems, dispatch mechanisms, market interventions, and large-model behavioral analysis.
 
-In this progression,
-
-1 targets more flexible structural assumptions at the input level,
-
-2 focuses on precise and efficient identification–estimation mechanisms at the algorithmic level, and
-
-3-4 address complex, realistic decision and inference tasks at the output level.
+In this progression, 1 targets more flexible structural assumptions at the input level, 2 focuses on precise and efficient identification–estimation mechanisms at the algorithmic level, and 3-4 address complex, realistic decision and inference tasks at the output level.
 
 **To advance this agenda, the lab is currently pursuing three concrete research directions:**
 
