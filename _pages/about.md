@@ -91,11 +91,11 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 **为回答上述问题，实验室的总体研究路线遵循由理论到方法、由方法到实践的逐层递进结构：**
 
-1. 从基础假设的违背出发，构建更具包容性的因果推断框架，例如：探索识别条件的可弱化性、部分识别边界等；
+1. 从基础假设的违背出发，构建更具包容性的因果推断框架，例如：探索unconfoundeness, overlap, SUTVA等假设的违背情形；
 
 2. 将这些基础结构与现代统计与机器学习方法融合，发展更高效、更稳定、更具可扩展性的识别与估计技术，例如：最优传输、代理变量与负控方法、共型预测、minimax优化、在线学习等；
 
-3. 进一步将理论与方法扩展至带有现实约束的任务设置，例如：输入/输出结构复杂、小样本学习、动态/缺失网络结构等；
+3. 进一步将理论与方法扩展至带有现实约束的任务设置，例如：输入/输出复杂结构、小样本学习、动态/缺失网络结构等；
 
 4. 最终形成能向现实场景有效辐射的因果推断体系，服务于社交网络分析、博弈论环境、优化决策，并落地于推荐系统、派单机制、市场干预策略、大模型行为建模等。
 
@@ -108,7 +108,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 2. 因果推断中的最优传输（OT）与几何结构.
 
-3. 面向工业现实约束的因果推断方法论。
+3. 面向工业现实约束的因果推断方法论（如RCT&OBS, pre&opt, structural data types）。
 
 
 
@@ -132,7 +132,7 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 
 **To address these questions, the lab follows a research trajectory that proceeds from theory to methodology and from methodology to practice:**
 
-1. Starting from violations of classical assumptions to construct more general causal inference frameworks, including weakened identification conditions and partial identification boundaries;
+1. Starting from violations of classical assumptions to construct more general causal inference frameworks, including violations of unconfoundedness, SUTVA and overlap assumptions;
 
 2. Integrating these foundational structures with modern statistical and machine-learning techniques to develop more efficient, stable, and scalable methods for identification and estimation—for example, optimal transport, proxy and negative-control methods, conformal prediction, minimax optimization and online learning;
 
@@ -148,7 +148,7 @@ In this progression, 1 targets more flexible structural assumptions at the input
 
 2. Optimal transport and geometric structures in causal inference;
 
-3. Causal inference methodologies tailored to industrial and real-world constraints.
+3. Causal inference methodologies tailored to industrial and real-world constraints （e.g., RCT&OBS, pre&opt, structural data types）.
 
 
 
