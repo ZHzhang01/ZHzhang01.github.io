@@ -106,7 +106,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 1. 网络结构下的在线实验设计与推断。
 
-2. 因果推断中的最优传输（OT）与几何结构.
+2. 因果推断中的最优传输（OT）与几何结构。
 
 3. 面向工业现实约束的因果推断方法论（如RCT&OBS, pre&opt, structural data types）。
 
