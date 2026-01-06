@@ -148,7 +148,7 @@ In this progression, 1 targets more flexible structural assumptions at the input
 
 2. Optimal transport and geometric structures in causal inference;
 
-3. Causal inference methodologies tailored to industrial and real-world constraints （e.g., RCT&OBS, pre&opt, structural data types）.
+3. Causal inference methodologies tailored to industrial and real-world constraints （e.g., RCT&OBS, pre&opt, structural data types, LLM）.
 
 
 
