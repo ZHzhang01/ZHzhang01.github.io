@@ -274,7 +274,7 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 |                                                                       |NeuIPS 2025, San Diego                                    |2025.11 |
 |Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference |NeuIPS 2025, San Diego         |2025.11 |
 |Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization |NeuIPS 2025, San Diego         |2025.11 |
-|Active Treatment Effect Estimation via Limited Samples |ICML 2025, Vancouver Convention Center        |2025.7 |
+|Active Treatment Effect Estimation via Limited Samples |ICML 2025, Vancouver Convention Center        |2025.07 |
 |Topology-Informed Online Experimental Design under Network Interference | Reading group hosted by Professor Chengchun Shi            |2025.11|
 |                                                                        |     POMSHK2026                                             |2026.01|
 |                                                                        |     SUSTech                                             |2026.01|
