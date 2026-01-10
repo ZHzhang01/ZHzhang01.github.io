@@ -277,4 +277,4 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 |Active Treatment Effect Estimation via Limited Samples |ICML 2025, Vancouver Convention Center        |2025.7 |
 |Topology-Informed Online Experimental Design under Network Interference | Reading group hosted by Professor Chengchun Shi            |2025.11|
 |                                                                        |     POMSHK2026                                             |2026.01|
-
+|                                                                        |     SUSTech                                             |2026.01|
