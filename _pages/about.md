@@ -269,7 +269,7 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 | Robust Causal Inference for Recommender System                    | SIGIR 2023, Taiwan                                      | 2023.07   |
 | Adjusting Auxiliary Variables Under Approximate Neighborhood Interference | Tsinghua University                              | 2025.04   |
 |                                                                           | Bear Conference (Goxiong Hui)                           | 2025.06   |
-|Online Experiment Design under Interference Estimation-regret Tradeoff |  Shanghai Jiao Tong University John Hopcroft Center      | 2025.01   |
+|Online Experiment Design under Interference Estimation-regret Tradeoff |  Shanghai Jiao Tong University, John Hopcroft Center      | 2025.01   |
 |                                                                       | 10th Statistical Forum                                  | 2025.04   |
 |                                                                       |NeuIPS 2025, San Diego                                    |2025.11 |
 |Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference |NeuIPS 2025, San Diego         |2025.11 |
@@ -278,3 +278,4 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 |Topology-Informed Online Experimental Design under Network Interference | Reading group hosted by Professor Chengchun Shi            |2025.11|
 |                                                                        |     POMSHK2026                                             |2026.01|
 |                                                                        |     SUSTech                                             |2026.01|
+|                                                                        |        Hong Kong University of Science and Technology   |2026.02|
