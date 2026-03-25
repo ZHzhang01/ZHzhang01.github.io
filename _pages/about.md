@@ -30,7 +30,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
     📢 招生信息 / Recruitment
   </h3>
   <p>
-    我正在寻找若干 <strong>博士(2026入学)/硕士生（2025、2026入学）</strong>。同时也<strong>长期招收科研实习生（支持远程线上实习）</strong>。<br><br>
+    我正在寻找若干 <strong>博士生和硕士生</strong>。同时也<strong>长期招收科研实习生（支持远程线上实习）</strong>。<br><br>
     我对博士生的基本期望是：
     <ul>
       <li>具备良好的品德和强烈的<strong>内驱力</strong>，喜欢科研探索（鼓励自主探索感兴趣的研究方向——我会在能力范围内全力指导；在能力范围外帮助建立合作）；</li>
@@ -44,8 +44,9 @@ This is the front page of a website that is powered by the [Academic Pages templ
       我对硕士生的基本期望是：
   
    <ul>
+      <li>具备良好的品德和沟通能力；</li>
       <li>对于有志于学界的，我会跟博士生共同带领你进行科研；并支持你的继续深造；</li>
-      <li> 对于有志于业界的，我能够将你推荐到相关方向的前沿研究部门实习。
+      <li>对于有志于业界的，我希望你主动求职的是<strong>算法科研<strong>岗位，我会根据适配度将你推荐到相关方向的前沿研究部门实习。
       </li>
     </ul>
     如果你对上述研究方向感兴趣，欢迎随时与我联系。
