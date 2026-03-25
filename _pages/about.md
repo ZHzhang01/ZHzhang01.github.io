@@ -24,31 +24,29 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 
 
-
-<div style="border: 1.5px solid #e0d7b1; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #fffbe6; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-  <h3 style="margin-top: 0; color: #b28800; font-weight: 600; border-left: 4px solid #b28800; padding-left: 10px;">
+<div style="border: 1.5px solid #e0d7b1; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #fffbe6; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); line-height: 1.8;">
+  <h3 style="margin-top: 0; margin-bottom: 12px; color: #b28800; font-weight: 600; border-left: 4px solid #b28800; padding-left: 10px;">
     📢 招生信息 / Recruitment
   </h3>
-  <p>
-    我正在寻找若干 <strong>博士生和硕士生</strong>。同时也<strong>长期招收科研实习生（支持远程线上实习）</strong>。<br><br>
-    我对博士生的基本期望是：
-    <ul>
-      <li>具备良好的品德和强烈的<strong>内驱力</strong>，喜欢科研探索（鼓励自主探索感兴趣的研究方向——我会在能力范围内全力指导；在能力范围外帮助建立合作）；</li>
-      <li>满足以下两项中的任意一项：
-        <ul>
-          <li>扎实的数学基础（尤其是概率统计，专业不限）；</li>
-          <li>出色的编程能力。</li>
-        </ul>
-      </li>
-    </ul>
-      我对硕士生的基本期望是：
-  
-   <ul>
-      <li>具备良好的品德和沟通能力；</li>
-      <li>对于有志于学界的，我会跟博士生共同带领你进行科研；并支持你的继续深造；</li>
-      <li>对于有志于业界的，我希望你主动求职的是<strong>算法科研<strong>岗位，我会根据适配度将你推荐到相关方向的前沿研究部门实习。
-      </li>
-    </ul>
+
+  <p style="margin: 10px 0;">
+    我正在寻找若干 <strong>博士生和硕士生</strong>。同时也<strong>长期招收科研实习生（支持远程线上实习）</strong>。
+  </p>
+
+  <p style="margin: 10px 0;"><strong>我对博士生的基本期望是：</strong></p>
+  <ul style="margin: 8px 0 16px 24px; padding-left: 20px;">
+    <li>具备良好的品德和强烈的<strong>内驱力</strong>，喜欢科研探索（鼓励自主探索感兴趣的方向。我会在能力范围内尽力指导；在能力范围外建立合作）；</li>
+    <li>满足以下两项中的任意一项：扎实的数学基础（尤其是概率统计，专业不限）；出色的编程能力。</li>
+  </ul>
+
+  <p style="margin: 10px 0;"><strong>我对硕士生的基本期望是：</strong></p>
+  <ul style="margin: 8px 0 16px 24px; padding-left: 20px;">
+    <li>具备良好的品德和沟通能力；</li>
+    <li>对于有志于学界的，我会跟博士生共同带领你进行科研，并支持你的继续深造；</li>
+    <li>对于有志于业界的，我希望你主动求职的是<strong>算法科研</strong>岗位，我会根据适配度将你推荐到相关方向的前沿研究部门实习。</li>
+  </ul>
+
+  <p style="margin: 10px 0 0 0;">
     如果你对上述研究方向感兴趣，欢迎随时与我联系。
   </p>
 </div>
