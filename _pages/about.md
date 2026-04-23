@@ -2,6 +2,7 @@
 permalink: /
 title: "Zhiheng Zhang（张智恒）@ **CAUSAL** lab @ SUFE"
 author_profile: true
+classes: wide
 redirect_from: 
   - /about/
   - /about.html
@@ -25,7 +26,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 
 <div style="border: 1.5px solid #e5e7eb; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #f9fafb; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); line-height: 1.8;">
-  <h3 style="margin-top: 0; margin-bottom: 12px; color: #8b1e2d; font-weight: 600; border-left: 4px solid #d1d5db; padding-left: 10px;">
+  <h3 style="margin-top: 0; margin-bottom: 12px; color: #cc0000; font-weight: 600; border-left: 4px solid #d1d5db; padding-left: 10px;">
     📢 招生信息 / Recruitment
   </h3>
 
@@ -53,7 +54,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 
 <div style="border: 1.5px solid #e5e7eb; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #f9fafb; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); line-height: 1.8;">
-  <h3 style="margin-top: 0; margin-bottom: 12px; color: #8b1e2d; font-weight: 600; border-left: 4px solid #d1d5db; padding-left: 10px;">
+  <h3 style="margin-top: 0; margin-bottom: 12px; color: #cc0000; font-weight: 600; border-left: 4px solid #d1d5db; padding-left: 10px;">
     📢 论文讨论会 / Reading Group
   </h3>
   <p>
