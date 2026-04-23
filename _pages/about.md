@@ -24,8 +24,8 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 
 
-<div style="border: 1.5px solid #e0d7b1; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #fffbe6; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); line-height: 1.8;">
-  <h3 style="margin-top: 0; margin-bottom: 12px; color: #b28800; font-weight: 600; border-left: 4px solid #b28800; padding-left: 10px;">
+<div style="border: 1.5px solid #e5e7eb; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #f9fafb; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); line-height: 1.8;">
+  <h3 style="margin-top: 0; margin-bottom: 12px; color: #9ca3af; font-weight: 600; border-left: 4px solid #d1d5db; padding-left: 10px;">
     📢 招生信息 / Recruitment
   </h3>
 
@@ -52,8 +52,8 @@ This is the front page of a website that is powered by the [Academic Pages templ
 </div>
 
 
-<div style="border: 1.5px solid #e0d7b1; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #fffbe6; box-shadow: 2px 2px 6px rgba(0,0,0,0.05);">
-  <h3 style="margin-top: 0; color: #b28800; font-weight: 600; border-left: 4px solid #b28800; padding-left: 10px;">
+<div style="border: 1.5px solid #e5e7eb; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #f9fafb; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); line-height: 1.8;">
+  <h3 style="margin-top: 0; margin-bottom: 12px; color: #9ca3af; font-weight: 600; border-left: 4px solid #d1d5db; padding-left: 10px;">
     📢 论文讨论会 / Reading Group
   </h3>
   <p>
@@ -251,30 +251,59 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 
 | Title                                                             | Venue                                                   | Date     |
 |-------------------------------------------------------------------|----------------------------------------------------------|----------|
-| Conceptual Mathematics, Article VI                                | Tsinghua FODS Seminar                                   | 2022.11  |
+| Conceptual Mathematics, Article VI                                | 清华大学 FODS Seminar                                   | 2022.11  |
 | Tight Partial Identification of Causal Effects                    | AI Time                                                 | 2024.06   |
 |                                                                    | ICML 2024, Vienna                                       | 2024.06   |
-|                                                                    | Tsinghua Yao Class Graduate Forum                       | 2024.12  |
-|                                                                    |Shanghai Jiao Tong University John Hopcroft Center      | 2025.01   |
-|                                                                    | Bear Conference (Goxiong Hui)                           | 2025.06   |
-| A Systematic ML Framework for Causality                           | Peking University Causality Seminar                     | 2024.11  |
-|                                                                    | 13th National Conference on Probability Statistics      | 2024.11  |
-|                                                                    | National University of Defense Technology               | 2025.02   |
-|                                                                    | Xi’an Jiaotong University                               | 2025.03   |
-|                                                                    | Shanghai University of Finance and Economics            | 2025.03   |
-|                                                                    | Shandong University                                     | 2025.03   |
-|                                                                    | National University of Defense Technology               | 2025.03   |
+|                                                                    | 清华大学 Yao Class Graduate Forum                       | 2024.12  |
+|                                                                    |上海交通大学 John Hopcroft Center      | 2025.01   |
+|                                                                    | 狗熊会                          | 2025.06   |
+| A Systematic ML Framework for Causality                           | 北京大学 Causality Seminar                     | 2024.11  |
+|                                                                    | 第十三届全国概率统计会议      | 2024.11  |
+|                                                                    | 国防科技大学               | 2025.02   |
+|                                                                    | 西安交通大学                              | 2025.03   |
+|                                                                    | 上海财经大学           | 2025.03   |
+|                                                                    | 山东大学                                    | 2025.03   |
+|                                                                    | 国防科技大学               | 2025.03   |
 | Partial Identification with Proxy of Latent Confoundings          | UAI 2024, Barcelona                                     | 2024.06   |
 | Robust Causal Inference for Recommender System                    | SIGIR 2023, Taiwan                                      | 2023.07   |
-| Adjusting Auxiliary Variables Under Approximate Neighborhood Interference | Tsinghua University                              | 2025.04   |
-|                                                                           | Bear Conference (Goxiong Hui)                           | 2025.06   |
-|Online Experiment Design under Interference Estimation-regret Tradeoff |  Shanghai Jiao Tong University, John Hopcroft Center      | 2025.01   |
-|                                                                       | 10th Statistical Forum                                  | 2025.04   |
+| Adjusting Auxiliary Variables Under Approximate Neighborhood Interference | 清华大学                              | 2025.04   |
+|                                                                           | 狗熊会                           | 2025.06   |
+|Online Experiment Design under Interference Estimation-regret Tradeoff |  上海交通大学 John Hopcroft Center      | 2025.01   |
+|                                                                       | 第十届全国统计论坛                                  | 2025.04   |
 |                                                                       |NeuIPS 2025, San Diego                                    |2025.11 |
 |Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference |NeuIPS 2025, San Diego         |2025.11 |
 |Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization |NeuIPS 2025, San Diego         |2025.11 |
 |Active Treatment Effect Estimation via Limited Samples |ICML 2025, Vancouver Convention Center        |2025.07 |
 |Topology-Informed Online Experimental Design under Network Interference | Reading group hosted by Professor Chengchun Shi            |2025.11|
 |                                                                        |     POMSHK2026                                             |2026.01|
-|                                                                        |     Southern University of Science and Technology          |2026.01|
-|                                                                        |        Hong Kong University of Science and Technology   |2026.02|
+|                                                                        |     南方科技大学          |2026.01|
+|                                                                        |        香港科技大学   |2026.02|
+|Optimal Transport in Partial Identification Under High Dimension        | 中国现场统计研究会高维数据统计分会                              |2026.04 |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
