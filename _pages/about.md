@@ -80,7 +80,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 
 
-**为理解并构建因果学习系统的核心理论结构，实验室的长期目标可概括为以下三个基础问题：** (J：期刊， C：会议， P： 其他预印本)
+**为理解并构建因果学习系统的核心理论结构，实验室的长期目标可概括为以下三个基础问题：** (J：期刊， C：会议， P：其他预印本)
 
 1. 观测性研究中：如何系统刻画“模型假设—观测数据—可识别边界”之间的传导机制，从而揭示各种因果假设对可识别性的根本影响[(J1, J3, C1, C2, C6, C13, C14)](https://zhzhang01.github.io/publications/)？
 
