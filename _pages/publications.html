@@ -38,13 +38,22 @@ author_profile: true
   margin: 0.25rem 0 0.75rem 0;
 }
 .pub-list {
-  list-style-type: decimal;        /* 数字编号 */
-  padding-left: 1.6rem;
+  list-style: none;                /* 改为自定义 [1] [2] 编号 */
+  counter-reset: pub-item;
+  padding-left: 2.2rem;
   margin-left: 0.2rem;
 }
 .pub-list li {
+  counter-increment: pub-item;
+  position: relative;
   margin: 0.45rem 0 0.45rem 0;
   line-height: 1.4;
+}
+.pub-list li::before {
+  content: "[" counter(pub-item) "]";
+  position: absolute;
+  left: -2.2rem;
+  width: 1.8rem;
 }
 .pub-title {
   font-weight: 500;
