@@ -91,7 +91,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 -->
 
 
-![学术体系图](roadmap_0504.png)
+![学术体系图](0512_research_roadmap.pdf)
 
 **为理解并构建因果学习系统的核心理论结构，实验室的长期目标可概括为以下三个基础问题：** 
 
