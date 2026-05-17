@@ -91,7 +91,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 -->
 
 
-![学术体系图](research_roadmap_3_01(1).png)
+![学术体系图](0517_research_roadmap_3_01.png)
 
 
 
