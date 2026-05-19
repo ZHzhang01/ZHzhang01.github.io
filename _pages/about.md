@@ -295,6 +295,9 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 |                                                                        |     南方科技大学          |2026.01|
 |                                                                        |        香港科技大学   |2026.02|
 |Optimal Transport in Partial Identification Under High Dimension        | 中国现场统计研究会高维数据统计分会                              |2026.04 |
+|From Subsampling to Causal Policy Learning                              |北京邮电大学                                                  |2026.05 |
+
+
 
 
 
