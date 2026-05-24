@@ -239,7 +239,7 @@ Example: editing a markdown file for a talk
 ## Academic Service
 
 Reviewer: ICML, NeurIPS, ICLR, AISTATS, UAI, ACM Transactions on Information Systems (TOIS), Transactions of Mobile Computing (TMC), Journal
-of Machine Research (JMLR), Journal of the Royal Statistical Society, Series B (JRSSB), Electronic Journal of Statistics (EJS)
+of Machine Research (JMLR), Journal of the Royal Statistical Society, Series B (JRSSB), Journal of the American Statistical Association (JASA), Electronic Journal of Statistics (EJS)
 
 Area Chair: AAAI 2025, Artificial Intelligence with Causal Techniques (AICT) track
 
