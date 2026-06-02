@@ -247,15 +247,18 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 
 ## Teaching
 
-1. Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2020-2021, Fall  
-2. Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2021-2022, Fall  
-3. Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2022-2023, Spring  
-4. Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA, 2023-2024, Fall  
-5. Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2023-2024, Spring  
-6. Advanced Applied Probability (Tsinghua, 40470503-0), Yao Class TA, 2024-2025, Fall  
-7. Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA for Tsinghua University, 2024-2025, Spring  
-8. 概率论 （上海财经大学，105494），统计与数据科学学院，本科生课，授课教师，2025-2026, Fall  
-9. 数据分析与统计建模 （上海财经大学，213488），统计与数据科学学院，研究生课，授课教师，2025-2026，Fall  
+1. 2020-2021Fall,  Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA
+2. 2021-2022Fall, Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA 
+3. 2022-2023Spring,  Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA
+4. 2023-2024Fall, Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA
+5. 2023-2024Spring,  Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA
+6. 2024-2025Fall, Advanced Applied Probability (Tsinghua, 40470503-0), Yao Class TA
+7. 2024-2025Spring, Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA
+8. 2025-2026Fall, 概率论（上海财经大学，105494），统计与数据科学学院，本科生必修课，授课教师
+9. 2025-2026Fall, 数据分析与统计建模（上海财经大学，213488），统计与数据科学学院，研究生选修课，授课教师
+10. 2026-2027Fall, 试验设计（上海财经大学，103277），统计与数据科学学院，本科生选修课，授课教师
+11. 2026-2027Spring, 数据科学导论（上海财经大学，103275），统计与数据科学学院，本科生必修课，授课教师
+12. 2026-2027Spring, 人工智能导论（上海财经大学，107260），统计与数据科学学院，本科生必修课，授课教师
 
 
 ## Invited Talks
@@ -299,7 +302,11 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 |                                                                        |        香港科技大学   |2026.02|
 |Optimal Transport in Partial Identification Under High Dimension        | 中国现场统计研究会高维数据统计分会                              |2026.04 |
 |From Subsampling to Causal Policy Learning                              |北京邮电大学                                                  |2026.05 |
-
+|                                                                        |  ICSA China Conference                                             |2026.06|
+|                                                                        |  COLT2026, San Diego                                           |2026.06|
+|                                                                        |  JCSDS统计与数据科学联合会议                                           |2026.07|
+|                                                                        |  PCIC泛太平洋因果大会                                          |2026.07|
+|Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers of CAUSAL lab)                             |ICML2026, Seoul                                                 |2026.07 |
 
 
 
