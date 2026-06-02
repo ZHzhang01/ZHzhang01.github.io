@@ -277,7 +277,7 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 | Tight Partial Identification of Causal Effects                    | AI Time                                                 | 2024.06   |
 |                                                                    | ICML 2024, Vienna                                       | 2024.06   |
 |                                                                    | 清华大学 Yao Class Graduate Forum                       | 2024.12  |
-|                                                                    |上海交通大学 John Hopcroft Center      | 2025.01   |
+|                                                                    |上海交通大学      | 2025.01   |
 |                                                                    | 狗熊会                          | 2025.06   |
 | A Systematic ML Framework for Causality                           | 北京大学 Causality Seminar                     | 2024.11  |
 |                                                                    | 第十三届全国概率统计会议      | 2024.11  |
@@ -297,15 +297,15 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 |Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization |NeuIPS 2025, San Diego         |2025.11 |
 |Active Treatment Effect Estimation via Limited Samples |ICML 2025, Vancouver Convention Center        |2025.07 |
 |Topology-Informed Online Experimental Design under Network Interference | Reading group hosted by Professor Chengchun Shi            |2025.11|
-|                                                                        |     POMSHK2026                                             |2026.01|
+|                                                                        |     POMSHK 2026                                             |2026.01|
 |                                                                        |     南方科技大学          |2026.01|
 |                                                                        |        香港科技大学   |2026.02|
 |Optimal Transport in Partial Identification Under High Dimension        | 中国现场统计研究会高维数据统计分会                              |2026.04 |
 |From Subsampling to Causal Policy Learning                              |北京邮电大学                                                  |2026.05 |
 |                                                                        |  ICSA China Conference                                             |2026.06|
-|                                                                        |  COLT2026, San Diego                                           |2026.06|
-|                                                                        |  JCSDS统计与数据科学联合会议                                           |2026.07|
-|                                                                        |  PCIC泛太平洋因果大会                                          |2026.07|
+|                                                                        |  COLT 2026, San Diego                                           |2026.06|
+|                                                                        |  JCSDS 统计与数据科学联合会议                                           |2026.07|
+|                                                                        |  PCIC 泛太平洋因果大会                                          |2026.07|
 |Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers of CAUSAL lab)                             |ICML2026, Seoul                                                 |2026.07 |
 
 
