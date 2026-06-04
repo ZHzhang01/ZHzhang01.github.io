@@ -260,53 +260,214 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 11. 2026-2027春, 人工智能导论（上海财经大学，107260），统计与数据科学学院，本科生必修课，授课教师
 
 
+
+
+
+
+
+
+
 ## Invited Talks
 
-| Date    | Title                                                                                               | Venue                                           |
-| ------- | --------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
-| 2022.11 | Conceptual Mathematics, Article VI                                                                  | 清华大学 FODS Seminar                               |
-| 2023.07 | Robust Causal Inference for Recommender System                                                      | SIGIR 2023, Taiwan                              |
-| 2024.06 | Tight Partial Identification of Causal Effects                                                      | AI Time                                         |
-| 2024.06 | Tight Partial Identification of Causal Effects                                                      | ICML 2024, Vienna                               |
-| 2024.06 | Partial Identification with Proxy of Latent Confoundings                                            | UAI 2024, Barcelona                             |
-| 2024.11 | A Systematic ML Framework for Causality                                                             | 北京大学 Causality Seminar                          |
-| 2024.11 | A Systematic ML Framework for Causality                                                             | 第十三届全国概率统计会议                                    |
-| 2024.12 | Tight Partial Identification of Causal Effects                                                      | 清华大学 Yao Class Graduate Forum                   |
-| 2025.01 | Tight Partial Identification of Causal Effects                                                      | 上海交通大学                                          |
-| 2025.01 | Online Experiment Design under Interference Estimation-Regret Tradeoff                              | 上海交通大学 John Hopcroft Center                     |
-| 2025.02 | A Systematic ML Framework for Causality                                                             | 国防科技大学                                          |
-| 2025.03 | A Systematic ML Framework for Causality                                                             | 西安交通大学                                          |
-| 2025.03 | A Systematic ML Framework for Causality                                                             | 上海财经大学                                          |
-| 2025.03 | A Systematic ML Framework for Causality                                                             | 山东大学                                            |
-| 2025.03 | A Systematic ML Framework for Causality                                                             | 国防科技大学                                          |
-| 2025.04 | Adjusting Auxiliary Variables Under Approximate Neighborhood Interference                           | 清华大学                                            |
-| 2025.04 | Online Experiment Design under Interference Estimation-Regret Tradeoff                              | 第十届全国统计论坛                                       |
-| 2025.06 | Tight Partial Identification of Causal Effects                                                      | 狗熊会                                             |
-| 2025.06 | Adjusting Auxiliary Variables Under Approximate Neighborhood Interference                           | 狗熊会                                             |
-| 2025.07 | Active Treatment Effect Estimation via Limited Samples                                              | ICML 2025, Vancouver Convention Center          |
-| 2025.11 | Online Experiment Design under Interference Estimation-Regret Tradeoff                              | NeurIPS 2025, San Diego                         |
-| 2025.11 | Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference | NeurIPS 2025, San Diego                         |
-| 2025.11 | Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization                   | NeurIPS 2025, San Diego                         |
-| 2025.11 | Topology-Informed Online Experimental Design under Network Interference                             | Reading Group hosted by Professor Chengchun Shi |
-| 2026.01 | Topology-Informed Online Experimental Design under Network Interference                             | POMSHK 2026                                     |
-| 2026.01 | Topology-Informed Online Experimental Design under Network Interference                             | 南方科技大学                                          |
-| 2026.02 | Topology-Informed Online Experimental Design under Network Interference                             | 香港科技大学                                          |
-| 2026.04 | Optimal Transport in Partial Identification Under High Dimension                                    | 中国现场统计研究会高维数据统计分会                               |
-| 2026.05 | From Subsampling to Causal Policy Learning                                                          | 北京邮电大学                                          |
-| 2026.06 | Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers in CAUSAL lab) | AI Time                                |
-| 2026.06 | From Subsampling to Causal Policy Learning                                                          | ICSA China Conference                           |
-| 2026.06 | From Subsampling to Causal Policy Learning                                                          | COLT 2026, San Diego                            |
-| 2026.07 | Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers in CAUSAL lab) | ICML 2026, Seoul                                |
-| 2026.07 | From Subsampling to Causal Policy Learning                                                          | JCSDS 统计与数据科学联合会议                               |
-| 2026.07 | From Subsampling to Causal Policy Learning                                                          | PCIC 泛太平洋因果大会                                   |
-| 2026.08 | From Subsampling to Causal Policy Learning                                                          | Statitical AI workshop, 清华三亚国际数学论坛(TSIMF) |
+View talks by: [Topic](#talks-by-topic) | [Time](#talks-by-time)
 
+---
 
+<a id="talks-by-topic"></a>
 
+### Talks by Topic
 
+- **Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions**  
+  2026.07, Talk at ICML 2026, Seoul  
+  2026.06, Talk at AI Time  
 
+- **From Subsampling to Causal Policy Learning**  
+  2026.08, Talk at Statistical AI Workshop, 清华三亚国际数学论坛 (TSIMF)  
+  2026.07, Talk at PCIC 泛太平洋因果大会  
+  2026.07, Talk at JCSDS 统计与数据科学联合会议  
+  2026.06, Talk at COLT 2026, San Diego  
+  2026.06, Talk at ICSA China Conference  
+  2026.05, Talk at 北京邮电大学  
 
+- **Optimal Transport in Partial Identification Under High Dimension**  
+  2026.04, Talk at 中国现场统计研究会高维数据统计分会  
 
+- **Topology-Informed Online Experimental Design under Network Interference**  
+  2026.02, Talk at 香港科技大学  
+  2026.01, Talk at 南方科技大学  
+  2026.01, Talk at POMSHK 2026  
+  2025.11, Talk at Reading Group hosted by Professor Chengchun Shi  
+
+- **Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization**  
+  2025.11, Talk at NeurIPS 2025, San Diego  
+
+- **Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference**  
+  2025.11, Talk at NeurIPS 2025, San Diego  
+
+- **Online Experiment Design under Interference Estimation-Regret Tradeoff**  
+  2025.11, Talk at NeurIPS 2025, San Diego  
+  2025.04, Talk at 第十届全国统计论坛  
+  2025.01, Talk at 上海交通大学 John Hopcroft Center  
+
+- **Active Treatment Effect Estimation via Limited Samples**  
+  2025.07, Talk at ICML 2025, Vancouver Convention Center  
+
+- **Adjusting Auxiliary Variables Under Approximate Neighborhood Interference**  
+  2025.06, Talk at 狗熊会  
+  2025.04, Talk at 清华大学  
+
+- **A Systematic ML Framework for Causality**  
+  2025.03, Talk at 国防科技大学  
+  2025.03, Talk at 山东大学  
+  2025.03, Talk at 上海财经大学  
+  2025.03, Talk at 西安交通大学  
+  2025.02, Talk at 国防科技大学  
+  2024.11, Talk at 第十三届全国概率统计会议  
+  2024.11, Talk at 北京大学 Causality Seminar  
+
+- **Tight Partial Identification of Causal Effects**  
+  2025.06, Talk at 狗熊会  
+  2025.01, Talk at 上海交通大学  
+  2024.12, Talk at 清华大学 Yao Class Graduate Forum  
+  2024.06, Talk at ICML 2024, Vienna  
+  2024.06, Talk at AI Time  
+
+- **Partial Identification with Proxy of Latent Confoundings**  
+  2024.06, Talk at UAI 2024, Barcelona  
+
+- **Robust Causal Inference for Recommender System**  
+  2023.07, Talk at SIGIR 2023, Taiwan  
+
+- **Conceptual Mathematics, Article VI**  
+  2022.11, Talk at 清华大学 FODS Seminar  
+
+[Back to top](#talks)
+
+---
+
+<a id="talks-by-time"></a>
+
+### Talks by Time
+
+#### 2026
+
+- 2026.08, **From Subsampling to Causal Policy Learning**  
+  Talk at Statistical AI Workshop, 清华三亚国际数学论坛 (TSIMF)
+
+- 2026.07, **From Subsampling to Causal Policy Learning**  
+  Talk at PCIC 泛太平洋因果大会
+
+- 2026.07, **From Subsampling to Causal Policy Learning**  
+  Talk at JCSDS 统计与数据科学联合会议
+  
+- 2026.07, **Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions**  
+  Talk at ICML 2026, Seoul
+  
+- 2026.06, **From Subsampling to Causal Policy Learning**  
+  Talk at COLT 2026, San Diego
+
+- 2026.06, **From Subsampling to Causal Policy Learning**  
+  Talk at ICSA China Conference
+  
+- 2026.06, **Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions**  
+  Talk at AI Time
+  
+- 2026.05, **From Subsampling to Causal Policy Learning**  
+  Talk at 北京邮电大学
+
+- 2026.04, **Optimal Transport in Partial Identification Under High Dimension**  
+  Talk at 中国现场统计研究会高维数据统计分会
+
+- 2026.02, **Topology-Informed Online Experimental Design under Network Interference**  
+  Talk at 香港科技大学
+
+- 2026.01, **Topology-Informed Online Experimental Design under Network Interference**  
+  Talk at 南方科技大学
+
+- 2026.01, **Topology-Informed Online Experimental Design under Network Interference**  
+  Talk at POMSHK 2026
+
+#### 2025
+
+- 2025.11, **Online Experiment Design under Interference Estimation-Regret Tradeoff**  
+  Talk at NeurIPS 2025, San Diego
+
+- 2025.11, **Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference**  
+  Talk at NeurIPS 2025, San Diego
+
+- 2025.11, **Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization**  
+  Talk at NeurIPS 2025, San Diego
+
+- 2025.11, **Topology-Informed Online Experimental Design under Network Interference**  
+  Talk at Reading Group hosted by Professor Chengchun Shi
+
+- 2025.07, **Active Treatment Effect Estimation via Limited Samples**  
+  Talk at ICML 2025, Vancouver Convention Center
+
+- 2025.06, **Tight Partial Identification of Causal Effects**  
+  Talk at 狗熊会
+
+- 2025.06, **Adjusting Auxiliary Variables Under Approximate Neighborhood Interference**  
+  Talk at 狗熊会
+
+- 2025.04, **Adjusting Auxiliary Variables Under Approximate Neighborhood Interference**  
+  Talk at 清华大学
+
+- 2025.04, **Online Experiment Design under Interference Estimation-Regret Tradeoff**  
+  Talk at 第十届全国统计论坛
+
+- 2025.03, **A Systematic ML Framework for Causality**  
+  Talk at 国防科技大学
+
+- 2025.03, **A Systematic ML Framework for Causality**  
+  Talk at 山东大学
+
+- 2025.03, **A Systematic ML Framework for Causality**  
+  Talk at 上海财经大学
+
+- 2025.03, **A Systematic ML Framework for Causality**  
+  Talk at 西安交通大学
+
+- 2025.02, **A Systematic ML Framework for Causality**  
+  Talk at 国防科技大学
+
+- 2025.01, **Tight Partial Identification of Causal Effects**  
+  Talk at 上海交通大学
+
+- 2025.01, **Online Experiment Design under Interference Estimation-Regret Tradeoff**  
+  Talk at 上海交通大学 John Hopcroft Center
+
+#### 2024
+
+- 2024.12, **Tight Partial Identification of Causal Effects**  
+  Talk at 清华大学 Yao Class Graduate Forum
+
+- 2024.11, **A Systematic ML Framework for Causality**  
+  Talk at 北京大学 Causality Seminar
+
+- 2024.11, **A Systematic ML Framework for Causality**  
+  Talk at 第十三届全国概率统计会议
+
+- 2024.06, **Tight Partial Identification of Causal Effects**  
+  Talk at AI Time
+
+- 2024.06, **Tight Partial Identification of Causal Effects**  
+  Talk at ICML 2024, Vienna
+
+- 2024.06, **Partial Identification with Proxy of Latent Confoundings**  
+  Talk at UAI 2024, Barcelona
+
+#### 2023
+
+- 2023.07, **Robust Causal Inference for Recommender System**  
+  Talk at SIGIR 2023, Taiwan
+
+#### 2022
+
+- 2022.11, **Conceptual Mathematics, Article VI**  
+  Talk at 清华大学 FODS Seminar
+
+[Back to top](#talks)
 
 
 
