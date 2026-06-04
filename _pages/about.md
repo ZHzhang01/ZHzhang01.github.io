@@ -293,12 +293,13 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 | 2026.02 | Topology-Informed Online Experimental Design under Network Interference                             | 香港科技大学                                          |
 | 2026.04 | Optimal Transport in Partial Identification Under High Dimension                                    | 中国现场统计研究会高维数据统计分会                               |
 | 2026.05 | From Subsampling to Causal Policy Learning                                                          | 北京邮电大学                                          |
+| 2026.06 | Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers in CAUSAL lab) | AI Time                                |
 | 2026.06 | From Subsampling to Causal Policy Learning                                                          | ICSA China Conference                           |
 | 2026.06 | From Subsampling to Causal Policy Learning                                                          | COLT 2026, San Diego                            |
 | 2026.07 | Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers in CAUSAL lab) | ICML 2026, Seoul                                |
 | 2026.07 | From Subsampling to Causal Policy Learning                                                          | JCSDS 统计与数据科学联合会议                               |
 | 2026.07 | From Subsampling to Causal Policy Learning                                                          | PCIC 泛太平洋因果大会                                   |
-| 2026.08 | From Subsampling to Causal Policy Learning                                                          | Statitical AI workshop,清华三亚国际数学论坛(TSIMF) |
+| 2026.08 | From Subsampling to Causal Policy Learning                                                          | Statitical AI workshop, 清华三亚国际数学论坛(TSIMF) |
 
 
 
