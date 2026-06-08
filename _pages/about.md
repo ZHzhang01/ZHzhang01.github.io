@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "**CAUSAL** lab | Zhiheng Zhang（张智恒）| SSDS, SUFE"
+title: "<span class='homepage-title'><img src='/images/实验室logo.png' class='homepage-title-logo' alt='CAUSAL Lab logo'><span>CAUSAL Lab | Zhiheng Zhang（张智恒）| SSDS, SUFE</span></span>"
 author_profile: true
 classes: wide
 redirect_from: 
@@ -15,6 +15,21 @@ redirect_from:
 .page__content a:hover,
 .page__content a:focus {
   color: #0b3d91;
+}
+
+.homepage-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  white-space: nowrap;
+}
+
+.homepage-title-logo {
+  height: 58px;
+  width: auto;
+  object-fit: contain;
+  flex-shrink: 0;
+  border-radius: 0;
 }
 </style>
 
