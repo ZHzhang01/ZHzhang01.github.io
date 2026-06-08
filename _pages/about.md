@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Zhiheng Zhang（张智恒）@ **CAUSAL** lab @ SUFE"
+title: "**CAUSAL** lab | Zhiheng Zhang（张智恒）| SSDS, SUFE"
 author_profile: true
 classes: wide
 redirect_from: 
