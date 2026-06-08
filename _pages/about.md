@@ -72,7 +72,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
     📢 论文讨论会 / Reading Group
   </h3>
   <p>
-    欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过微信公众号CAUSAL-lab-SSDS-SUFE加入。
+    欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过[微信公众号CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.png)加入。
   </p>
 </div>
 
