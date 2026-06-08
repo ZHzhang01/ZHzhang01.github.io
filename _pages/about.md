@@ -35,7 +35,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 张智恒自2025年8月起担任[上海财经大学](https://www.sufe.edu.cn/)[统计与数据科学学院](https://ssds.sufe.edu.cn/)常任轨助理教授，他同时兼职隶属于[上海财经大学大数据研究院](https://ibdr.sufe.edu.cn/)。此前，他于[清华大学交叉信息研究院](https://iiis.tsinghua.edu.cn/)（IIIS）获得博士学位，博士生导师为[王禹皓](https://yuhaow.github.io/)教授。张智恒担任2025年度[CCF-滴滴盖亚联合科研基金项目](https://outreach.didichuxing.com/app-outreach/CRFYS)“统一的多treatment LTV因果模型”的联合负责人, AAAI 2025 人工智能会议 Causal Techniques 方向（AICT track）领域主席等。
 
-他正在寻找[博士生/硕士生/实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。 对于想申请的同学, [请完成这个问卷](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/_pages/causal_lab_test.pdf)。他的邮箱是zhangzhiheng@mail.shufe.edu.cn。欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过[微信公众号CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.jpg)加入。
+他正在寻找[博士生/硕士生/实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。 对于想申请的同学, [请完成这个问卷](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/_pages/causal_lab_test.pdf)。他的邮箱是zhangzhiheng@mail.shufe.edu.cn。此外，欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过[微信公众号CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.jpg)加入。
 
 
 
