@@ -33,7 +33,9 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 
 
-张智恒自2025年8月起担任[上海财经大学](https://www.sufe.edu.cn/)[统计与数据科学学院](https://ssds.sufe.edu.cn/)常任轨助理教授，他同时兼职隶属于[上海财经大学大数据研究院](https://ibdr.sufe.edu.cn/)。此前，他于[清华大学交叉信息研究院](https://iiis.tsinghua.edu.cn/)（IIIS）获得博士学位，博士生导师为[王禹皓](https://yuhaow.github.io/)教授。张智恒担任2025年度[CCF-滴滴盖亚联合科研基金项目](https://outreach.didichuxing.com/app-outreach/CRFYS)“统一的多treatment LTV因果模型”的联合负责人, AAAI 2025 人工智能会议 Causal Techniques 方向（AICT track）领域主席等。他正在寻找[博士生/硕士生/实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。对于想申请的同学, [请完成这个问卷](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/_pages/causal_lab_test.pdf)。他的邮箱是zhangzhiheng@mail.shufe.edu.cn。
+张智恒自2025年8月起担任[上海财经大学](https://www.sufe.edu.cn/)[统计与数据科学学院](https://ssds.sufe.edu.cn/)常任轨助理教授，他同时兼职隶属于[上海财经大学大数据研究院](https://ibdr.sufe.edu.cn/)。此前，他于[清华大学交叉信息研究院](https://iiis.tsinghua.edu.cn/)（IIIS）获得博士学位，博士生导师为[王禹皓](https://yuhaow.github.io/)教授。张智恒担任2025年度[CCF-滴滴盖亚联合科研基金项目](https://outreach.didichuxing.com/app-outreach/CRFYS)“统一的多treatment LTV因果模型”的联合负责人, AAAI 2025 人工智能会议 Causal Techniques 方向（AICT track）领域主席等。
+
+他正在寻找[博士生/硕士生/实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。 对于想申请的同学, [请完成这个问卷](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/_pages/causal_lab_test.pdf)。他的邮箱是zhangzhiheng@mail.shufe.edu.cn。欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过[微信公众号CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.jpg)加入。
 
 
 
@@ -67,14 +69,14 @@ This is the front page of a website that is powered by the [Academic Pages templ
 </div>
 
 
-<div style="border: 1.5px solid #e5e7eb; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #f9fafb; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); line-height: 1.8;">
+<!-- <div style="border: 1.5px solid #e5e7eb; padding: 20px; margin: 20px 0; border-radius: 10px; background-color: #f9fafb; box-shadow: 2px 2px 6px rgba(0,0,0,0.05); line-height: 1.8;">
   <h3 style="margin-top: 0; margin-bottom: 12px; color: #cc0000; font-weight: 600; border-left: 4px solid #d1d5db; padding-left: 10px;">
     📢 论文讨论会 / Reading 
   </h3>
   <p>
-    欢迎对因果推断感兴趣的老师和同学参加我们的论文讨论会，可通过[微信公众号CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.jpg)加入。
+   
   </p>
-</div>
+</div> -->
 
 <!--
 他是一名以因果推断为核心的交叉学科研究者，研究兴趣涵盖 **实验设计**、**在线学习**、**社交网络** 以及 **部分识别** 等议题。他的研究聚焦于理解和建构因果学习系统中的基本组成要素，并试图回答以下关键问题：
