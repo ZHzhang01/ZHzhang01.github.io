@@ -10,6 +10,9 @@
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
+    <div class="author__lab-logo"> <img src="{{ "/images/causal-lab-logo.png" | prepend: base_path }}"
+       alt="CAUSAL Lab logo">
+    </div>
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
     {% endif %}
   </div>
