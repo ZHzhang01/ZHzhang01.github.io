@@ -148,7 +148,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 
 
-他欢迎相关的交流或合作。若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
+他欢迎相关的交流或合作。 若感兴趣，可邮件联系或添加他的[WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
 
 
 Welcome to Zhiheng's Lab! This lab is called **CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning), focusing on developing principled methods for causal analysis by uncovering underlying structures and integrating them with modern learning and decision-making systems. Please read [the onboarding guide of CAUSAL lab](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/CAUSAL_Lab_Onboarding_Guide(3).pdf).
@@ -256,7 +256,7 @@ Example: editing a markdown file for a talk
 ## Academic Service
 
 Reviewer: ICML, NeurIPS, ICLR, AISTATS, UAI, ACM Transactions on Information Systems (TOIS), Transactions of Mobile Computing (TMC), Journal
-of Machine Research (JMLR), Journal of the Royal Statistical Society, Series B (JRSSB), Journal of the American Statistical Association (JASA), Electronic Journal of Statistics (EJS)
+of Machine Research (JMLR), Journal of the Royal Statistical Society, Series B (JRSSB), Journal of the American Statistical Association (JASA), Electronic Journal of Statistics (EJS), Journal of Computational and Graphical Statistics (JCGS)
 
 Area Chair: AAAI 2025, Artificial Intelligence with Causal Techniques (AICT) track
 
