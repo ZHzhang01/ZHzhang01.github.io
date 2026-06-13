@@ -290,8 +290,9 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
   2026.07, Talk at ICML 2026, Seoul  
   2026.06, Talk at AI Time  
 
-- **From Subsampling to Causal Policy Learning**  
-  2026.08, Talk at Statistical AI Workshop, 清华三亚国际数学论坛 (TSIMF)  
+- **From Subsampling to Causal Policy Learning**
+  2026.08, Talk at Statistical AI Workshop, 清华三亚国际数学论坛 (TSIMF)
+  2026.07, Talk at 中国现场统计研究会因果推断分会第二届会员代表大会暨2026年学术年会会议
   2026.07, Talk at PCIC 泛太平洋因果大会  
   2026.07, Talk at JCSDS 统计与数据科学联合会议  
   2026.06, Talk at COLT 2026, San Diego  
