@@ -288,7 +288,6 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 
 
 - **Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers of CAUSAL Lab)**  
-  2026.07, Talk at ICML 2026, Seoul  
   2026.06, Talk at AI Time  
 
 - **From Subsampling to Causal Policy Learning**  
@@ -296,7 +295,6 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
   2026.07, Talk at 中国现场统计研究会因果推断分会第二届会员代表大会暨2026年学术年会会议  
   2026.07, Talk at PCIC 泛太平洋因果大会  
   2026.07, Talk at JCSDS 统计与数据科学联合会议  
-  2026.06, Talk at COLT 2026, San Diego  
   2026.06, Talk at ICSA China Conference  
   2026.05, Talk at 北京邮电大学  
 
@@ -309,19 +307,10 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
   2026.01, Talk at POMSHK 2026  
   2025.11, Talk at Reading Group hosted by Professor Chengchun Shi  
 
-- **Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization**  
-  2025.11, Talk at NeurIPS 2025, San Diego  
-
-- **Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference**  
-  2025.11, Talk at NeurIPS 2025, San Diego  
 
 - **Online Experiment Design under Interference Estimation-Regret Tradeoff**  
-  2025.11, Talk at NeurIPS 2025, San Diego  
   2025.04, Talk at 第十届全国统计论坛  
   2025.01, Talk at 上海交通大学 John Hopcroft Center  
-
-- **Active Treatment Effect Estimation via Limited Samples**  
-  2025.07, Talk at ICML 2025, Vancouver Convention Center  
 
 - **Adjusting Auxiliary Variables Under Approximate Neighborhood Interference**  
   2025.06, Talk at 狗熊会  
@@ -340,14 +329,8 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
   2025.06, Talk at 狗熊会  
   2025.01, Talk at 上海交通大学  
   2024.12, Talk at 清华大学 Yao Class Graduate Forum  
-  2024.06, Talk at ICML 2024, Vienna  
   2024.06, Talk at AI Time  
 
-- **Partial Identification with Proxy of Latent Confoundings**  
-  2024.06, Talk at UAI 2024, Barcelona  
-
-- **Robust Causal Inference for Recommender System**  
-  2023.07, Talk at SIGIR 2023, Taiwan  
 
 - **Conceptual Mathematics, Article VI**  
   2022.11, Talk at 清华大学 FODS Seminar  
