@@ -289,7 +289,7 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 
 
 - **Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers of CAUSAL Lab)**  
-  2026.06, Talk at AI Time  
+  2026.06, Talk at AI Time (by students)
 
 - **From Subsampling to Causal Policy Learning**  
   2026.08, Talk at Statistical AI Workshop, 清华三亚国际数学论坛 (TSIMF)  
