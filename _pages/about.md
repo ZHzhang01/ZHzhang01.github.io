@@ -254,6 +254,8 @@ Example: editing a markdown file for a talk
 
 2018 Chinese Undergraduate Mathematics Competition Final (CMC), Gold Medal (Top 10 in China)
 
+2026 上财本科优秀毕业论文指导老师
+
 ## Academic Service
 
 Reviewer: ICML, NeurIPS, ICLR, AISTATS, UAI, AAAI, ACM Transactions on Information Systems (TOIS), Transactions of Mobile Computing (TMC), Journal
