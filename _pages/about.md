@@ -267,17 +267,17 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 
 ## Teaching
 
-1. 2020-2021秋,  Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA
-2. 2021-2022秋, Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA 
-3. 2022-2023春,  Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA
-4. 2023-2024秋, Probability and Statistics (Tsinghua, 30470303-0), Yao Class TA
-5. 2023-2024春,  Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA
-6. 2024-2025秋, Advanced Applied Probability (Tsinghua, 40470503-0), Yao Class TA
-7. 2024-2025春, Advanced Topics in Causal Inference (Tsinghua, 80470282-0): Graduate TA
-8. 2025-2026秋, 概率论（上海财经大学，105494），统计与数据科学学院，本科生必修课，授课教师
-9. 2025-2026秋, 数据分析与统计建模（上海财经大学，213488），统计与数据科学学院，研究生选修课，授课教师
-10. 2026-2027秋, 试验设计（上海财经大学，103277），统计与数据科学学院，本科生选修课，授课教师
-11. 2026-2027春, 人工智能导论（上海财经大学，107260），统计与数据科学学院，本科生必修课，授课教师
+1. 2020-2021秋, (Tsinghua, 30470303-0) Probability and Statistics, Yao Class TA
+2. 2021-2022秋, (Tsinghua, 30470303-0) Probability and Statistics, Yao Class TA 
+3. 2022-2023春, (Tsinghua, 80470282-0) Advanced Topics in Causal Inference, Graduate TA
+4. 2023-2024秋, (Tsinghua, 30470303-0) Probability and Statistics , Yao Class TA
+5. 2023-2024春, (Tsinghua, 80470282-0) Advanced Topics in Causal Inference, Graduate TA
+6. 2024-2025秋, (Tsinghua, 40470503-0) Advanced Applied Probability, Yao Class TA
+7. 2024-2025春, (Tsinghua, 80470282-0) Advanced Topics in Causal Inference, Graduate TA
+8. 2025-2026秋,（上海财经大学，105494）概率论，统计与数据科学学院，本科生必修课，授课教师
+9. 2025-2026秋,（上海财经大学，213488）数据分析与统计建模，统计与数据科学学院，研究生选修课，授课教师
+10. 2026-2027秋,（上海财经大学，103277）试验设计，统计与数据科学学院，本科生选修课，授课教师
+11. 2026-2027春,（上海财经大学，107260）人工智能导论，统计与数据科学学院，本科生必修课，授课教师
 
 
 
