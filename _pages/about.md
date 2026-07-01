@@ -254,7 +254,7 @@ Example: editing a markdown file for a talk
 
 2018 Chinese Undergraduate Mathematics Competition Final (CMC), Gold Medal (Top 10 in China)
 
-2026 上财本科优秀毕业论文指导老师
+2026 上财本科优秀毕业论文指导教师
 
 ## Academic Service
 
