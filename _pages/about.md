@@ -139,7 +139,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 **为逐步实现，目前实验室正主要围绕以下具体方向做研究：**
 
-1. 因果推断中的最优传输（OT）与几何结构；
+1. 因果推断中的对偶理论（例如最优传输）；
   
 2. 网络结构下的在线实验设计与推断；
 
