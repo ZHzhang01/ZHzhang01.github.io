@@ -265,19 +265,9 @@ Area Chair: AAAI 2025, Artificial Intelligence with Causal Techniques (AICT) tra
 
 Session Chair: Causality and Machine Learning, Tsinghua Sanya International Mathematics Forum (TSIMF) 2026 
 
-## Teaching
 
-1. 2020-2021秋, (Tsinghua, 30470303-0) Probability and Statistics, Yao Class TA
-2. 2021-2022秋, (Tsinghua, 30470303-0) Probability and Statistics, Yao Class TA 
-3. 2022-2023春, (Tsinghua, 80470282-0) Advanced Topics in Causal Inference, Graduate TA
-4. 2023-2024秋, (Tsinghua, 30470303-0) Probability and Statistics , Yao Class TA
-5. 2023-2024春, (Tsinghua, 80470282-0) Advanced Topics in Causal Inference, Graduate TA
-6. 2024-2025秋, (Tsinghua, 40470503-0) Advanced Applied Probability, Yao Class TA
-7. 2024-2025春, (Tsinghua, 80470282-0) Advanced Topics in Causal Inference, Graduate TA
-8. 2025-2026秋,（上海财经大学，105494）概率论，统计与数据科学学院，本科生必修课，授课教师
-9. 2025-2026秋,（上海财经大学，213488）数据分析与统计建模，统计与数据科学学院，研究生选修课，授课教师
-10. 2026-2027秋,（上海财经大学，103277）试验设计，统计与数据科学学院，本科生选修课，授课教师
-11. 2026-2027春,（上海财经大学，107260）人工智能导论，统计与数据科学学院，本科生必修课，授课教师
+
+ 
 
 
 
@@ -286,58 +276,6 @@ Session Chair: Causality and Machine Learning, Tsinghua Sanya International Math
 
 
 
-
-## Invited Talks
-
-
-- **Causal Learning Beyond Overlap: Complex Treatments, Adaptive Experiments, and Reliable AI Decisions (8 papers of CAUSAL Lab)**  
-  2026.06, Talk at AI Time (by students)
-
-- **From Subsampling to Causal Policy Learning**  
-  2026.08, Talk at Statistical AI Workshop, 清华三亚国际数学论坛 (TSIMF)  
-  2026.07, Talk at 中国现场统计研究会因果推断分会第二届会员代表大会暨2026年学术年会会议  
-  2026.07, Talk at PCIC 泛太平洋因果大会  
-  2026.07, Talk at JCSDS 统计与数据科学联合会议  
-  2026.06, Talk at COLT 2026  
-  2026.06, Talk at ICSA China Conference  
-  2026.05, Talk at 北京邮电大学  
-
-- **Optimal Transport in Partial Identification Under High Dimension**  
-  2026.04, Talk at 中国现场统计研究会高维数据统计分会  
-
-- **Topology-Informed Online Experimental Design under Network Interference**  
-  2026.02, Talk at 香港科技大学  
-  2026.01, Talk at 南方科技大学  
-  2026.01, Talk at POMSHK 2026  
-  2025.11, Talk at Reading Group hosted by Professor Chengchun Shi  
-
-
-- **Online Experiment Design under Interference Estimation-Regret Tradeoff**  
-  2025.04, Talk at 第十届全国统计论坛  
-  2025.01, Talk at 上海交通大学 John Hopcroft Center  
-
-- **Adjusting Auxiliary Variables Under Approximate Neighborhood Interference**  
-  2025.06, Talk at 狗熊会  
-  2025.04, Talk at 清华大学  
-
-- **A Systematic ML Framework for Causality**  
-  2025.03, Talk at 国防科技大学  
-  2025.03, Talk at 山东大学  
-  2025.03, Talk at 上海财经大学  
-  2025.03, Talk at 西安交通大学  
-  2025.02, Talk at 国防科技大学  
-  2024.11, Talk at 第十三届全国概率统计会议  
-  2024.11, Talk at 北京大学 Causality Seminar  
-
-- **Tight Partial Identification of Causal Effects**  
-  2025.06, Talk at 狗熊会  
-  2025.01, Talk at 上海交通大学  
-  2024.12, Talk at 清华大学 Yao Class Graduate Forum  
-  2024.06, Talk at AI Time  
-
-
-- **Conceptual Mathematics, Article VI**  
-  2022.11, Talk at 清华大学 FODS Seminar  
 
 
 
