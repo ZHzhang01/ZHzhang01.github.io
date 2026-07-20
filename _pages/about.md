@@ -263,9 +263,7 @@ Area Chair: AAAI 2025, Artificial Intelligence with Causal Techniques (AICT) tra
 
 Session Chair: Causality and Machine Learning, Tsinghua Sanya International Mathematics Forum (TSIMF) 2026 
 
-
-
- 
+中国现场统计研究会因果推断分会理事
 
 
 
