@@ -77,7 +77,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
   </ul>
 
   <p style="margin: 10px 0 0 0;">
-    如果你有兴趣，欢迎随时与我联系。其中，如果你想读博，请至少提前半年联系我；如果你想读硕，请至少提前两个月联系我。
+    如果你有兴趣，欢迎随时与我联系。其中，如果你想读博，请至少提前半年联系我；如果你想读硕，请至少提前两个月联系我。我们会通过提前合作来判断是否彼此合适。
     
     
   </p>
