@@ -42,7 +42,7 @@ This is the front page of a website that is powered by the [Academic Pages templ
 
 
 
-欢迎访问张智恒的主页！本实验室名为**CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning)，致力于发展有理论基础和落地应用的因果推断方法，聚焦于潜在结构的刻画，并将其与现代学习算法和决策系统融合。[请查看实验室因果推断入门指南](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/CAUSAL_Lab_Onboarding_Guide(3).pdf)。
+欢迎访问张智恒的主页！本实验室名为**CAUSAL** (**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning)，致力于发展弱假设和复杂环境下的高效通用自动化的因果推断方法，聚焦于潜在结构的刻画，并将其与现代学习算法和决策系统融合。[请查看实验室因果推断入门指南](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/CAUSAL_Lab_Onboarding_Guide(3).pdf)。
 
 
 
