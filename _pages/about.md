@@ -159,55 +159,37 @@ Zhiheng Zhang (pronunciation: Zhee-hung Jahng) is a tenure-track Assistant Profe
 
 ## Research Statement
 
-**To understand and articulate the core theoretical structure of causal learning systems, the long-term goals of the lab center on the following three foundational questions:**
+**To understand and develop the core theoretical structure of causal learning systems, the lab's long-term agenda centers on the following three foundational questions:**
 
-1. In observational studies: How can we systematically characterize the transmission mechanism linking model assumptions, observed data, and identification boundaries, thereby revealing how different causal assumptions fundamentally shape identifiability?
+1. In observational studies: How can we systematically characterize the mechanism linking model assumptions, observed data, and identification boundaries, thereby revealing the fundamental effects of different causal assumptions on identifiability?
 
-2. In experimental design and inference: How can we quantitatively describe the performance limits governing the interplay among application-specific characteristics, design and algorithmic structures, and statistical efficiency, and develop design and inference frameworks that achieve optimal (or near-optimal) performance?
+2. In experimental design and inference: How can we quantitatively characterize and evaluate the performance limits arising from the interplay among application-setting attributes, experimental designs and algorithmic structures, and statistical efficiency, and on this basis develop design and inference frameworks with optimal (or near-optimal) properties?
 
-3. In offline/online learning and decision-making: How can we mathematically unify the optimization objectives arising in machine learning, economic decision-making, and statistical inference, and reveal their intrinsic compatibilities, tensions, and optimal attainable frontiers?
+3. In offline and online learning and decision-making: How can we mathematically unify the optimization objectives of machine learning, economics and management, and statistical inference, and reveal their fundamental compatibility and optimal attainable frontiers?
 
-**To address these questions, the lab follows a research trajectory that proceeds from theory to methodology and from methodology to practice:**
+**To answer these questions, the lab follows a layered research trajectory that proceeds from theory to methodology and from methodology to practice:**
 
-1. Starting from violations of classical assumptions to construct more general causal inference frameworks, including violations of unconfoundedness, SUTVA and overlap assumptions;
+1. Begin with violations of foundational assumptions and construct more inclusive causal-inference frameworks—for example, by studying violations of unconfoundedness, overlap, and SUTVA;
 
-2. Integrating these foundational structures with modern statistical and machine-learning techniques to develop more efficient, stable, and scalable methods for identification and estimation—for example, optimal transport, proxy and negative-control methods, conformal prediction, minimax optimization and online learning;
+2. Integrate these foundational structures with modern statistical and machine-learning methods to develop more efficient, stable, and scalable techniques for identification and estimation, including optimal transport, proxy-variable and negative-control methods, conformal prediction, minimax optimization, and online learning;
 
-3. Extending theory and methodology to settings with realistic constraints, such as complex input/output structures, limited sample regimes, and dynamic or partially observed network environments;
+3. Extend the resulting theory and methodology to tasks with realistic constraints, such as complex input or output structures, small-sample learning, and dynamic or partially observed network structures;
 
-4. Ultimately building a causal inference ecosystem capable of effectively transferring to real-world applications, including social network analysis, game-theoretic environments, and optimization-driven decision-making, with deployment in recommendation systems, dispatch mechanisms, market interventions, and large-model behavioral analysis.
+4. Ultimately establish a causal-inference framework that can translate effectively into real-world settings, supporting social-network analysis, game-theoretic environments, and optimization-based decision-making, with applications to recommender systems, dispatch mechanisms, market interventions, and the behavioral modeling of large models.
 
-In this progression, 1 targets more flexible structural assumptions at the input level, 2 focuses on precise and efficient identification–estimation mechanisms at the algorithmic level, and 3-4 address complex, realistic decision and inference tasks at the output level.
+In this progression, Step 1 focuses on more flexible structural assumptions at the input level; Step 2 develops precise and efficient identification-estimation mechanisms at the algorithmic level; and Steps 3-4 address complex, realistic decision and inference tasks at the output level.
 
-**To advance this agenda, the lab is currently pursuing three concrete research directions:**
+**To advance this agenda, the lab is currently pursuing four concrete research directions:**
 
-1. Online experimental design and inference under network interference;
+1. **Theoretical foundations:** Causal identification and evaluation driven by duality theory, including optimal transport;
 
-2. Optimal transport and geometric structures in causal inference;
+2. **Industrial deployment:** Causal-inference methodologies tailored to real-world industrial constraints, including RCT & OBS, pre & opt, structural data types, and online experimental design and inference under network structures;
 
-3. Causal inference methodologies tailored to industrial and real-world constraints （e.g., RCT&OBS, pre&opt, structural data types, LLM）.
+3. **Intelligent extensions:** LLM reward models, causal tabular foundation models, and causality in stochastic algorithms;
 
+4. **Causal integration: From experimental design to scientific discovery—building causality-driven trustworthy AI decision systems.** With high-dimensional treatments, network exposure, combinatorial action spaces, and complex behavioral trajectories, a single experiment can no longer adequately characterize intervention mechanisms in real systems. The central challenge is therefore no longer merely to design more complex experiments, but to organize dispersed experimental entities, results, and contextual conditions into causal structures that are computable, comparable, and bridgeable, thereby supporting AI decision systems that remain interpretable, evaluable, and controllable over the long term. To this end, we will harness the semantic representations and generative capabilities of large models to first construct a causal-atlas layer connecting experimental archives to scientific discovery. This layer will map the treatments, outcomes, contexts, and effects from existing experiments into a unified structured causal space; determine when findings from multiple experiments can be combined, when their conclusions conflict, and where only partial-identification bounds are available; and actively shrink unidentified regions through optimal bridge experiments. Building on this foundation, we will develop causal pseudo-rewards, regret-calibrated allocation, dynamic network control, and strategic causal-AI mechanisms for multi-agent interactions, platform mechanisms, market interventions, and large-model behavioral systems, so that complex systems achieve not only strong short-term performance but also reliability under long-term evolution. We will further construct interpretable causal routers through sparse LLM comparisons, low-rank task-model capability structures, and uncertainty certification, enabling AI systems to determine which models and strategies possess genuinely transferable and deployable causal advantages for a given task and environment. Together, these components form a closed loop—from organizing historical experiments, constructing causal atlases, and detecting identification conflicts, through designing bridge experiments and optimizing online decisions, to feeding new evidence back into the atlas. The goal is to shift the research frontier from “how to design complex experiments” to “how to organize the experimental space, identify mechanism boundaries, and build trustworthy decision mechanisms,” thereby developing a theory of identifiable learning for scientific discovery.
 
-
-Open to discussions and collaborations at any time. You can send him an email or add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png). 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Open to discussions and collaborations at any time. You can send him an email or add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png).
 
 
 <!--
