@@ -189,6 +189,7 @@ In this progression, Step 1 focuses on more flexible structural assumptions at t
 3. **Intelligent estimation and decision-making:** LLM reward models, causal tabular foundation models, and causality in stochastic algorithms;
 
 4. **Industry-facing interdisciplinary applications:** Causal-inference methodologies tailored to real-world industrial constraints, including RCT & OBS, pre & opt, structural data types, and online experimental design and inference under network structures;
+
 Open to discussions and collaborations at any time. You can send him an email or add his [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png).
 
 
