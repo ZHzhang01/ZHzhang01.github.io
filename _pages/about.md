@@ -24,11 +24,18 @@ html[data-theme="dark"] .page__content a:focus {
 }
 
 .homepage-title {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 12px;
+  width: 100%;
+  max-width: 100%;
   line-height: 1.25;
   white-space: normal;
+}
+
+.homepage-title > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 
 .homepage-title-logo {
