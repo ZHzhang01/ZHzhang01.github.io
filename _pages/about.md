@@ -493,7 +493,7 @@ Gold Medal, 2018 Chinese Undergraduate Mathematics Competition Final (CMC; Top 1
       try {
         window.localStorage.setItem("causal-lab-language", nextLanguage);
       } catch (error) {
-        // The switch still works when browser storage is unavailable.
+        /* The switch still works when browser storage is unavailable. */
       }
     }
   }
