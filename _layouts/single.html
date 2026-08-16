@@ -25,8 +25,17 @@ layout: default
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
-        <header>
+        <header{% if page.home_language_switcher %} class="page__header--with-language-switcher"{% endif %}>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+          {% if page.home_language_switcher %}
+            <div class="home-language-switcher">
+              <div class="home-language-switcher__inner" role="group" aria-label="页面语言 / Page language">
+                <span class="home-language-switcher__label">语言 / Language</span>
+                <button type="button" data-set-home-lang="zh" aria-pressed="false">中文</button>
+                <button type="button" data-set-home-lang="en" aria-pressed="false">English</button>
+              </div>
+            </div>
+          {% endif %}
           {% if page.read_time %}
             <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
