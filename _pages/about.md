@@ -3,6 +3,7 @@ permalink: /
 title: "<span class='homepage-title'><img src='/images/实验室logo.png' class='homepage-title-logo' alt='CAUSAL Lab logo'><span>CAUSAL Lab | Zhiheng Zhang（张智恒）| SSDS, SUFE</span></span>"
 author_profile: true
 classes: wide
+home_language_switcher: true
 redirect_from:
   - /about/
   - /about.html
@@ -46,13 +47,24 @@ html[data-theme="dark"] .page__content a:focus {
   object-fit: contain;
 }
 
+.page__header--with-language-switcher {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.page__header--with-language-switcher .page__title {
+  min-width: 0;
+  margin: 0;
+}
+
 .home-language-switcher {
-  position: sticky;
-  top: 78px;
   z-index: 10;
   display: flex;
   justify-content: flex-end;
-  margin: 0 0 1.5rem;
+  margin: 0;
   pointer-events: none;
 }
 
@@ -186,6 +198,23 @@ html[data-theme="dark"] .recruitment-card h3 {
   }
 }
 
+@media (max-width: 1350px) {
+  .home-language-switcher__label {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  .page__header--with-language-switcher {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .home-language-switcher {
+    justify-self: end;
+  }
+}
+
 @media (max-width: 600px) {
   .homepage-title {
     gap: 9px;
@@ -194,21 +223,6 @@ html[data-theme="dark"] .recruitment-card h3 {
 
   .homepage-title-logo {
     height: 46px;
-  }
-
-  .home-language-switcher {
-    top: 72px;
-    margin-bottom: 1.15rem;
-  }
-
-  .home-language-switcher__label {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
   }
 
   .home-language-switcher button {
@@ -239,10 +253,6 @@ html[data-theme="dark"] .recruitment-card h3 {
 }());
 </script>
 
-<div class="home-language-switcher">
-<div class="home-language-switcher__inner" role="group" aria-label="页面语言 / Page language"><span class="home-language-switcher__label">语言 / Language</span><button type="button" data-set-home-lang="zh" aria-pressed="false">中文</button><button type="button" data-set-home-lang="en" aria-pressed="false">English</button></div>
-</div>
-
 <section class="home-language-panel" data-lang="zh" lang="zh-CN" markdown="1">
 
 欢迎访问张智恒的主页！本实验室名为 **CAUSAL**（**C**ausal **A**nalysis for **U**nderlying **S**tructures **A**nd **L**earning），致力于在弱假设和复杂环境下发展高效、通用、自动化的因果推断方法，聚焦潜在结构的刻画，并将其与现代学习算法和决策系统相融合。[请查看 CAUSAL 实验室因果推断入门指南](https://github.com/ZHzhang01/ZHzhang01.github.io/blob/master/CAUSAL_Lab_Onboarding_Guide(3).pdf)。
@@ -272,7 +282,7 @@ html[data-theme="dark"] .recruitment-card h3 {
 
 </div>
 
-![学术体系图](research_roadmap_%203_01.png)
+![学术体系图](/_pages/research_roadmap_%203_01.png)
 
 ## 研究陈述
 
@@ -298,7 +308,7 @@ html[data-theme="dark"] .recruitment-card h3 {
 3. **智能估计与决策：** 大语言模型奖励建模（LLM reward modeling）、因果表格数据基础模型（foundation models for causal tabular data），以及随机算法中的因果性；
 4. **面向产业的交叉应用：** 针对产业现实约束的因果推断方法论，包括 RCT & OBS、pre & opt、结构化数据类型，以及网络结构下的在线实验设计与推断。
 
-![ATLAS 计划](main_direction_Causal_ATLAS_7papers_0625.png)
+![ATLAS 计划](/_pages/main_direction_Causal_ATLAS_7papers_0625.png)
 
 他始终欢迎相关交流与合作。如有兴趣，可发送邮件或添加他的 [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png)。
 
@@ -344,7 +354,7 @@ If you are interested, please feel free to contact me. Prospective PhD applicant
 
 </div>
 
-![Research roadmap](research_roadmap_%203_01.png)
+![Research roadmap](/_pages/research_roadmap_%203_01.png)
 
 ## Research Statement
 
@@ -370,7 +380,7 @@ In this progression, Step 1 focuses on more flexible structural assumptions at t
 3. **Intelligent estimation and decision-making:** LLM reward modeling, foundation models for causal tabular data, and causality in stochastic algorithms;
 4. **Industry-facing interdisciplinary applications:** Causal-inference methodologies tailored to real-world industrial constraints, including RCT & OBS, pre & opt, structural data types, and online experimental design and inference under network structures.
 
-![ATLAS initiative](main_direction_Causal_ATLAS_7papers_0625.png)
+![ATLAS initiative](/_pages/main_direction_Causal_ATLAS_7papers_0625.png)
 
 He always welcomes discussions and collaborations in related areas. If you are interested, please email him or add him on [WeChat](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/wechat_617.png).
 
