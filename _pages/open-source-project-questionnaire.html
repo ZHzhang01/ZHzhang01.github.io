@@ -1,0 +1,363 @@
+---
+layout: archive
+title: "CAUSAL Lab 开源研究项目申请问卷与入组考核"
+permalink: /open-source-project-questionnaire/
+author_profile: true
+classes: wide
+---
+
+<style>
+  .causal-doc {
+    --ink: #172033;
+    --muted: #58657a;
+    --line: #d9e1ea;
+    --paper: #ffffff;
+    --soft: #f4f8fb;
+    --blue: #174b7a;
+    --teal: #087f78;
+    --gold: #a76813;
+    color: var(--ink);
+    font-size: 0.94em;
+    line-height: 1.72;
+  }
+  .causal-doc * { box-sizing: border-box; }
+  .causal-doc a { color: var(--blue); }
+  .causal-doc h2 {
+    margin: 2.6rem 0 1rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 2px solid var(--line);
+    color: var(--blue);
+    font-size: 1.42rem;
+  }
+  .causal-doc h3 { margin: 1.65rem 0 0.55rem; color: var(--ink); font-size: 1.12rem; }
+  .causal-doc h4 { margin: 1.25rem 0 0.35rem; color: var(--teal); font-size: 1rem; }
+  .causal-doc p { margin: 0.55rem 0; }
+  .causal-doc ul, .causal-doc ol { margin: 0.45rem 0 0.8rem; }
+  .causal-doc li { margin: 0.28rem 0; }
+  .doc-hero {
+    margin: 0 0 1.6rem;
+    padding: 1.55rem 1.7rem;
+    border: 1px solid #b8ccdf;
+    border-top: 6px solid var(--blue);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f7fbff 0%, #eef7f6 100%);
+  }
+  .doc-hero__eyebrow {
+    margin: 0 0 0.35rem;
+    color: var(--teal);
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .doc-hero h1 { margin: 0; color: #113656; font-size: clamp(1.75rem, 4vw, 2.55rem); line-height: 1.2; }
+  .doc-hero__lead { max-width: 52rem; margin-top: 0.8rem !important; font-size: 1.03rem; }
+  .doc-meta { display: flex; flex-wrap: wrap; gap: 0.45rem 1rem; margin-top: 1rem; color: var(--muted); font-size: 0.86rem; }
+  .track-grid, .step-grid, .deliverable-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 1rem 0;
+  }
+  .track-card, .step-card, .question-card {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--paper);
+    box-shadow: 0 5px 18px rgba(25, 55, 84, 0.06);
+  }
+  .track-card { padding: 1.15rem 1.25rem; border-top: 4px solid var(--teal); }
+  .track-card--lean { border-top-color: var(--gold); }
+  .track-card h3 { margin-top: 0; }
+  .step-card { padding: 0.9rem 1rem; }
+  .step-card__num {
+    display: inline-grid;
+    width: 1.75rem;
+    height: 1.75rem;
+    place-items: center;
+    margin-right: 0.35rem;
+    border-radius: 50%;
+    color: #fff;
+    background: var(--blue);
+    font-weight: 800;
+  }
+  .question-list { counter-reset: question; display: grid; gap: 0.8rem; margin: 1rem 0; }
+  .question-card { position: relative; padding: 1rem 1.1rem 1rem 3.6rem; }
+  .question-card::before {
+    counter-increment: question;
+    content: "Q" counter(question);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    color: var(--blue);
+    font-weight: 900;
+  }
+  .question-card strong { display: block; margin-bottom: 0.15rem; }
+  .callout {
+    margin: 1rem 0;
+    padding: 0.9rem 1.05rem;
+    border-left: 4px solid var(--teal);
+    border-radius: 4px 8px 8px 4px;
+    background: var(--soft);
+  }
+  .callout--warning { border-left-color: #b56416; background: #fff8ee; }
+  .callout--danger { border-left-color: #a53434; background: #fff3f3; }
+  .tag {
+    display: inline-block;
+    margin: 0.08rem 0.28rem 0.08rem 0;
+    padding: 0.12rem 0.48rem;
+    border: 1px solid #bfd2df;
+    border-radius: 999px;
+    color: #244d68;
+    background: #f5fafc;
+    font-size: 0.78rem;
+    font-weight: 700;
+  }
+  .table-wrap { margin: 0.9rem 0 1.2rem; overflow-x: auto; }
+  .causal-doc table { width: 100%; border-collapse: collapse; font-size: 0.91em; }
+  .causal-doc th, .causal-doc td { padding: 0.72rem 0.78rem; border: 1px solid var(--line); vertical-align: top; }
+  .causal-doc th { color: #173d5b; background: #edf4f8; text-align: left; }
+  .checklist { list-style: none; padding-left: 0; }
+  .checklist li { position: relative; padding-left: 1.55rem; }
+  .checklist li::before { content: "□"; position: absolute; left: 0; color: var(--teal); font-weight: 800; }
+  .code-block {
+    margin: 0.8rem 0;
+    padding: 0.85rem 1rem;
+    overflow-x: auto;
+    border: 1px solid #ccd8e2;
+    border-radius: 8px;
+    background: #f7f9fb;
+    color: #253249;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.83rem;
+    white-space: pre-wrap;
+  }
+  .small-note { color: var(--muted); font-size: 0.86rem; }
+  .doc-footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.84rem; }
+  @media (max-width: 760px) {
+    .track-grid, .step-grid, .deliverable-grid { grid-template-columns: 1fr; }
+    .doc-hero { padding: 1.2rem; }
+    .question-card { padding-left: 3.25rem; }
+  }
+  @media print {
+    .masthead, .sidebar, .page__footer { display: none !important; }
+    .page, .page__inner-wrap, .page__content { width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+    .causal-doc { font-size: 9.6pt; }
+    .doc-hero, .track-card, .step-card, .question-card, .callout { box-shadow: none; break-inside: avoid; }
+    .causal-doc h2, .causal-doc h3 { break-after: avoid; }
+    .causal-doc a { color: inherit; text-decoration: none; }
+  }
+</style>
+
+<article class="causal-doc">
+  <header class="doc-hero">
+    <p class="doc-hero__eyebrow">CAUSAL LAB · OPEN-SOURCE RESEARCH</p>
+    <h1>开源研究项目申请问卷与入组考核</h1>
+    <p class="doc-hero__lead">面向 <strong>Causal Foundation Model / Causal ATLAS</strong> 与 <strong>DesignInfer：design-based inference 的 Lean 形式化</strong> 两个开源研究方向。考核关注的是：能否把研究问题转化为可运行、可复现、可审查的研究对象，而不是堆砌篇幅、模型规模或代码行数。</p>
+    <div class="doc-meta">
+      <span>负责人：张智恒</span>
+      <span>单位：上海财经大学统计与数据科学学院 · CAUSAL Lab</span>
+      <span>版本：2026-08-18</span>
+    </div>
+  </header>
+
+  <div class="callout">
+    <strong>使用方式。</strong>首次联系时完成“第一部分：申请问卷”；通过初筛后，从两个方向中任选一个完成“第二部分：项目考核”。除非邀请邮件另有说明，不需要同时完成两个方向。最终结果只是评价的一部分，更重要的是你是否真正理解问题、假设、实现、验证与失败边界。
+  </div>
+
+  <div class="track-grid">
+    <section class="track-card">
+      <span class="tag">Track A</span><span class="tag">统计 + 机器学习</span><span class="tag">Python / R</span>
+      <h3>Causal Foundation Model</h3>
+      <p>围绕 Causal ATLAS / CTFM，构建从多源实验与观测证据到评估、迁移和下一步实验决策的最小原型。重点不是训练参数量很大的模型，而是给出可信的任务定义、基线、验证和失效分析。</p>
+    </section>
+    <section class="track-card track-card--lean">
+      <span class="tag">Track B</span><span class="tag">形式化数学</span><span class="tag">Lean 4</span>
+      <h3>DesignInfer</h3>
+      <p>将 design-based inference 中的定义、引理或定理转写为稳定的 Lean API，并提交经过内核检查的证明、依赖关系与来源说明。重点不是 tactics 炫技，而是命题忠实度、可复用性和审查质量。</p>
+    </section>
+  </div>
+
+  <h2 id="purpose">一、考核目的与流程</h2>
+  <p>本问卷用于判断申请人与项目的相互匹配程度，也帮助申请人尽早理解研究工作的真实形态。项目具有研究不确定性，完成考核不等于保证入组、署名或发表；考核材料原则上只用于评估和后续讨论，不会未经沟通直接并入项目。</p>
+
+  <div class="step-grid">
+    <div class="step-card"><span class="step-card__num">1</span><strong>书面问卷</strong><br><span class="small-note">背景、兴趣、时间投入、研究理解。</span></div>
+    <div class="step-card"><span class="step-card__num">2</span><strong>方向考核</strong><br><span class="small-note">一个最小但真实的可验证产出。</span></div>
+    <div class="step-card"><span class="step-card__num">3</span><strong>技术讨论</strong><br><span class="small-note">解释设计取舍、失败案例与下一步。</span></div>
+    <div class="step-card"><span class="step-card__num">4</span><strong>试合作</strong><br><span class="small-note">双方确认节奏、规范与长期匹配度。</span></div>
+  </div>
+
+  <h2 id="questionnaire">二、第一部分：申请问卷</h2>
+  <p>请使用中文或英文回答。建议总长度控制在 2-4 页；可以短，但不要用空泛表述替代证据。链接应保证可访问。</p>
+
+  <div class="question-list">
+    <div class="question-card"><strong>基本信息</strong>姓名、学校/单位、院系与专业、年级、所在城市、邮箱、个人主页或 GitHub。申请博士生、硕士生、科研助理还是研究实习？</div>
+    <div class="question-card"><strong>可投入时间</strong>预计开始时间、持续周期、每周稳定投入小时数；未来六个月已知的课程、考试、实习或其他冲突是什么？</div>
+    <div class="question-card"><strong>方向选择</strong>选择 Track A 或 Track B。你为什么对它感兴趣？它与你未来两年的学习或研究目标如何连接？</div>
+    <div class="question-card"><strong>代表性工作</strong>最多列两项最能说明能力的项目。分别写清问题、你本人完成的部分、可核验产出、失败或返工，以及他人/AI 的实质贡献。</div>
+    <div class="question-card"><strong>基础能力</strong>说明你在概率统计、线性代数、优化、因果推断、机器学习、软件工程或形式化证明方面的基础。不要只列课程名；请给出能支持判断的例子。</div>
+    <div class="question-card"><strong>材料阅读</strong>选一篇与你所选方向直接相关的论文、书章或技术文档，用不超过 300 字说明研究问题、核心假设、主要结论，以及一个你认为值得质疑或延伸之处。</div>
+    <div class="question-card"><strong>项目建模</strong>用一张图或一段结构化文字说明项目的输入、输出、关键假设、验证信号和主要失败模式。Track A 应写清 estimand / policy value；Track B 应写清 informal statement / canonical statement / Lean statement 的对应关系。</div>
+    <div class="question-card"><strong>四周计划</strong>如果下周开始，请给出四周的最小里程碑。每周至少有一个可检查的交付物，并说明最可能卡住你的地方。</div>
+    <div class="question-card"><strong>协作方式</strong>你希望独立负责、结对协作还是参与较大模块？遇到连续两天无法解决的问题时，你会如何记录、求助和同步？</div>
+    <div class="question-card"><strong>生成式 AI 使用</strong>你计划在哪些环节使用 AI？如何验证 AI 生成的代码、数学论述或证明？哪些内容你认为不能在未理解时提交？</div>
+    <div class="question-card"><strong>研究诚信</strong>确认你会如实报告引用、数据来源、运行结果、外部合作与 AI 的实质贡献；不会提交无权使用的数据、泄露未公开材料或伪造实验/证明记录。</div>
+    <div class="question-card"><strong>希望我们了解的其他信息</strong>可以是特殊经历、资源限制、无障碍需求，或你希望在讨论中重点了解的问题。没有可写“无”。</div>
+  </div>
+
+  <h2 id="assessment">三、第二部分：方向考核</h2>
+  <div class="callout callout--warning">
+    <strong>共同原则。</strong>选择一个范围小、能真正完成的垂直切片。可以使用生成式 AI、开源库和公开数据，但必须保留关键使用记录、核验输出并能解释每一项核心设计。考核不是让申请人无偿完成一个完整产品或大规模研究工程。
+  </div>
+
+  <section id="track-a">
+    <h3>Track A：Mini Causal Foundation Model / Causal ATLAS</h3>
+    <p><strong>任务：</strong>构建一个最小的 evidence-to-decision 原型。在公开或合成数据上，把多来源/多环境证据组织为统一任务，比较至少三种候选处理、模型、提示词或策略，输出效应或价值的估计、排序、不确定性与下一步实验建议。</p>
+
+    <h4>A1. 最小输入与输出</h4>
+    <ul>
+      <li>至少两个数据来源或环境；允许使用“合成数据 + 公开数据”。至少一个来源应提供已知真值、随机化信息或可控模拟机制，用于检查 solver fidelity。</li>
+      <li>明确数据、treatment、outcome、context、estimand / policy value、识别假设与可能的偏差来源。</li>
+      <li>输出至少包括：候选方案排序、效应/价值估计、不确定性、在何种条件下应 abstain，以及一个具有明确预算的 bridge experiment / next experiment 建议。</li>
+      <li>不要求训练大参数模型。允许采用预训练表格模型、元学习模型、检索/路由模块或简单共享骨干；必须说明为什么它有资格被视为“跨任务/跨环境”的原型，而非单一数据集拟合器。</li>
+    </ul>
+
+    <h4>A2. 必须包含的系统模块</h4>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>模块</th><th>最低要求</th><th>要回答的问题</th></tr></thead>
+        <tbody>
+          <tr><td>Problem / Evidence Card</td><td>统一记录 treatment、outcome、context、source、design、assumption、ground truth 可用性。</td><td>不同实验和观测证据何时可比较？</td></tr>
+          <tr><td>Task Generator</td><td>生成或切分不少于三类任务/环境，并固定训练、验证、测试边界。</td><td>模型是否只记住一个数据集？</td></tr>
+          <tr><td>Baselines</td><td>一个仅预测相关性的 baseline、一个标准因果/统计 baseline、你的方法。</td><td>增益来自哪里？</td></tr>
+          <tr><td>Verifier</td><td>检查 estimand、输入范围、重叠性/支持集、数值稳定性与结果一致性。</td><td>何时不应相信输出？</td></tr>
+          <tr><td>Uncertainty / Abstention</td><td>提供区间、校准、集合预测或可解释的拒答规则。</td><td>错误自信能否被识别？</td></tr>
+          <tr><td>Bridge Planner</td><td>在固定预算下选择下一项最有价值的实验或采样动作。</td><td>少量在线证据应花在哪里？</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h4>A3. 三层评测与失效实验</h4>
+    <ol>
+      <li><strong>Solver fidelity：</strong>在有真值的任务上检查效应、排序或策略价值是否正确。</li>
+      <li><strong>Transfer / open benchmark：</strong>在未见环境、分布漂移或 schema 变化下评估泛化，并与 baseline 比较。</li>
+      <li><strong>Decision quality：</strong>评估 bridge experiment 是否以更少预算降低决策错误、不确定性或 regret。</li>
+    </ol>
+    <p>至少主动构造一种失效情形，例如严重 overlap 破坏、未观测混杂、错误 proxy、干扰、sim-to-real 偏移或 treatment 语义错配。展示系统是否能报警/拒答；若不能，解释原因。</p>
+  </section>
+
+  <section id="track-b">
+    <h3>Track B：DesignInfer 的 Lean 形式化</h3>
+    <p><strong>任务：</strong>从 design-based inference 中选一个定义-引理-定理的最小闭环，给出来源、规范化定义、依赖图、Lean 4 实现与内核检查通过的证明。证明应能在干净环境中通过 <code>lake build</code> 或等价的一条主命令复现。</p>
+
+    <h4>B1. 推荐题目（任选一项）</h4>
+    <ol>
+      <li><strong>完全随机化下差均值估计量的设计无偏性</strong>：有限总体、固定潜在结果和已知处理组规模。</li>
+      <li><strong>不放回抽样的有限总体均值/方差恒等式</strong>：明确抽样空间、对称性与边界条件。</li>
+      <li><strong>置换统计量或随机化检验的基本不变性/有限样本有效性</strong>：难度较高，需提前控制命题范围。</li>
+      <li><strong>自选题</strong>：必须给出可核验来源，并说明它如何进入 DesignInfer 的复用依赖链。</li>
+    </ol>
+
+    <h4>B2. 必须包含的研究对象</h4>
+    <ul>
+      <li><strong>Definition RFC：</strong>解释对象、索引、有限性、随机机制、估计量与符号约定；比较至少两个可能定义，并说明最终选择。</li>
+      <li><strong>Statement fidelity：</strong>并列给出原始自然语言/数学命题、规范化命题和 Lean statement；逐项映射假设，不得偷换量词、增加隐含条件或弱化结论。</li>
+      <li><strong>Dependency DAG：</strong>列出所需的 Mathlib/Statlib 结果、项目内定义、辅助引理和最终定理。</li>
+      <li><strong>Kernel-checked proof：</strong>不得使用 <code>sorry</code>、<code>admit</code>、<code>by_contra!</code> 等本身并非问题但被用来掩盖命题变化的技巧；不得新增未经证明的公理。</li>
+      <li><strong>边界测试：</strong>提供至少一个小规模可计算实例，以及一个说明某项假设不可删除的反例或失败尝试。</li>
+      <li><strong>Problem Card：</strong>记录来源、假设、已知情形、形式化状态、尝试记录、阻塞点和可继续的开放问题。</li>
+    </ul>
+
+    <div class="callout callout--danger">
+      <strong>硬性门槛：</strong>若 Lean 代码不能在锁定版本的环境中编译，或证明依赖占位符/新增公理，视为未完成。若发现原命题有误，可以提交经验证的反例和修订建议，但必须清楚区分“原命题”“修订命题”和“已证明内容”。
+    </div>
+  </section>
+
+  <h2 id="requirements">四、统一功能与研究要求</h2>
+  <ol>
+    <li><strong>任务规划：</strong>提交开始前的工作分解，以及完成后对原计划的复盘。</li>
+    <li><strong>真实执行：</strong>实验、数据处理、编译与测试必须真实运行；只在文字中模拟“已经运行”不算完成。</li>
+    <li><strong>状态记录：</strong>保留关键输入、版本、命令、输出、错误、修复和决策理由，使过程可追溯。</li>
+    <li><strong>独立验证：</strong>不能把“程序没有报错”当作正确性证明；应有基线、单元测试、真值检查、反例、审查或等价的独立信号。</li>
+    <li><strong>失败与恢复：</strong>至少展示一次真实失败、诊断和修复；不要为了显得顺利而删除失败记录。</li>
+    <li><strong>终止条件：</strong>明确时间/算力预算、成功条件、未解决项和停止原因。</li>
+    <li><strong>可复现性：</strong>锁定依赖和随机种子（如适用），提供从安装到生成主要结果的一条主命令。</li>
+    <li><strong>最小化：</strong>只提交支持研究结论的必要组件。界面美化、复杂框架和无关功能不会自动加分。</li>
+  </ol>
+
+  <h2 id="deliverables">五、提交材料</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th style="width:22%">材料</th><th>具体要求</th></tr></thead>
+      <tbody>
+        <tr><td>申请问卷</td><td><code>questionnaire.pdf</code> 或 <code>questionnaire.md</code>；回答第二部分之前先提交第一部分。</td></tr>
+        <tr><td>完整代码</td><td>Git 仓库或压缩包；包含源代码、配置、依赖锁定、测试和必要的最小数据。不要提交密钥或受限数据。</td></tr>
+        <tr><td>README</td><td>环境、安装、目录结构、输入输出、主命令、预计运行时间、硬件需求、许可证与已知限制。</td></tr>
+        <tr><td>技术报告</td><td>不超过 6 页。包括问题、假设、方法、基线、结果、失败案例、限制与下一步；正文不要复制运行日志。</td></tr>
+        <tr><td>运行记录</td><td>至少一次从干净环境开始的完整记录。Track A 包括实验指标和生成物；Track B 包括 Lean/Lake 版本与完整构建结果。</td></tr>
+        <tr><td>AI 使用说明</td><td><code>AI_USE.md</code>：列出使用的模型/工具、日期、用途、关键 prompt 或 agent 任务、采纳内容、人工核验和被否决的建议。普通补全无需逐字记录。</td></tr>
+        <tr><td>来源与许可</td><td><code>SOURCES.md</code> 或报告附录：数据、论文、代码与图片来源；注明许可证、改动和直接复用范围。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="small-note">建议压缩包命名：<code>Name_University_CTFM.zip</code> 或 <code>Name_University_DesignInfer.zip</code>。如使用 Git 仓库，请提交固定 commit 链接，而不只是可变化的默认分支。</p>
+
+  <h2 id="rubric">六、评价标准</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>维度</th><th style="width:13%">权重</th><th>观察重点</th></tr></thead>
+      <tbody>
+        <tr><td>正确性与命题/任务忠实度</td><td>30%</td><td>estimand、假设、数据边界、Lean statement、结果与结论是否一致。</td></tr>
+        <tr><td>研究理解与问题选择</td><td>20%</td><td>问题是否重要且范围合适，是否理解相关工作与真正难点。</td></tr>
+        <tr><td>实现质量与可复现性</td><td>20%</td><td>结构、配置、测试、依赖、日志和一条主命令。</td></tr>
+        <tr><td>验证、失败与限制分析</td><td>20%</td><td>基线、反例、压力测试、失效诊断和不过度声称。</td></tr>
+        <tr><td>沟通、引用与 AI 披露</td><td>10%</td><td>表达简洁，贡献边界明确，材料可审查。</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>以下情况不进入评分：伪造结果或日志；抄袭/洗稿；直接复制完整项目只改名称或少量提示词；提交自己无法解释的主要代码或数学论述；隐瞒他人/AI 的实质贡献；泄露密钥、个人数据或未授权材料；Lean 证明使用占位符或通过改变命题规避任务。</p>
+
+  <h2 id="allowed">七、允许与禁止事项</h2>
+  <div class="track-grid">
+    <section class="track-card">
+      <h3>允许并鼓励</h3>
+      <ul class="checklist">
+        <li>使用公开数据、合成数据、开源库、预训练模型和形式化证明工具。</li>
+        <li>使用生成式 AI 辅助阅读、编码、调试、证明搜索和写作。</li>
+        <li>缩小题目、报告失败、提交负结果或经验证的反例。</li>
+        <li>在 README 中说明资源限制并给出轻量复现路径。</li>
+        <li>在遇到命题或数据问题时尽早提出，而不是悄悄改写目标。</li>
+      </ul>
+    </section>
+    <section class="track-card track-card--lean">
+      <h3>禁止</h3>
+      <ul class="checklist">
+        <li>伪造实验、编译、工具调用、引用或人工审查记录。</li>
+        <li>提交未理解、不能担保正确性的 AI 生成内容。</li>
+        <li>未经许可公开内部材料、未发布想法或合作方数据。</li>
+        <li>把 API Key、密码、Cookie 或个人敏感信息提交到仓库。</li>
+        <li>用过度包装替代问题定义、验证和可复现证据。</li>
+      </ul>
+    </section>
+  </div>
+
+  <h2 id="submission">八、提交方式</h2>
+  <p>请发送至 <a href="mailto:zhangzhiheng@mail.shufe.edu.cn">zhangzhiheng@mail.shufe.edu.cn</a>。邮件标题建议为：</p>
+  <div class="code-block">[CAUSAL Open-source Project Application] 姓名 - CTFM / DesignInfer - 学校</div>
+  <p>正文请包含：申请身份、选择方向、问卷链接、固定 commit/压缩包链接、可复现主命令和你希望优先讨论的一个问题。完成期限以邀请邮件为准；如遇不可控延迟，请在截止前说明当前状态、已完成产出和新的预计时间。</p>
+
+  <h2 id="faq">九、常见问题</h2>
+  <h3>一定要有因果推断或 Lean 经验吗？</h3>
+  <p>不一定。数学/统计基础扎实、编程能力强且能快速学习者也可申请。但考核材料必须证明你已经跨过最基础的入门阶段。</p>
+  <h3>必须用深度模型或 Agent 框架吗？</h3>
+  <p>不需要。Track A 的重点是跨任务证据结构、因果正确性与决策验证；一个透明、强基线充分的轻量原型通常比难以解释的大模型更有价值。</p>
+  <h3>Lean 题太难，能只写数学证明吗？</h3>
+  <p>不能作为完成 Track B 的替代。可以先提交数学证明和形式化计划请求讨论，但正式考核必须包含内核检查通过的 Lean 代码，或经核验的反例与问题报告。</p>
+  <h3>可以和别人合作完成吗？</h3>
+  <p>可以讨论或使用公开社区资源，但考核默认评估个人能力。必须逐项说明他人贡献；技术讨论中需要独立解释自己提交的部分。</p>
+
+  <footer class="doc-footer">
+    <p>项目背景可参阅 <a href="https://zhzhang01.github.io/">CAUSAL Lab 主页与研究陈述</a>。本考核的组织方式参考了 <a href="https://www.tengjiaye.com/book/Test_Agent.html">本科生/硕士生 Agent 入组考核题</a> 的“最小可运行系统、真实工具调用、可复现记录与失败恢复”结构，并结合 CAUSAL Lab 的研究方向重新设计。</p>
+  </footer>
+</article>
