@@ -259,7 +259,7 @@ html[data-theme="dark"] .recruitment-card h3 {
 
 张智恒（英文姓名读音近似 “Zhee-hung Jahng”）自 2025 年 8 月起任[上海财经大学](https://www.sufe.edu.cn/)[统计与数据科学学院](https://ssds.sufe.edu.cn/)常任轨助理教授，同时兼职隶属于[上海财经大学大数据研究院](https://ibdr.sufe.edu.cn/)。此前，他于[清华大学交叉信息研究院](https://iiis.tsinghua.edu.cn/)（IIIS）获得博士学位，博士生导师为[王禹皓](https://yuhaow.github.io/)教授。他担任 2025 年度 [CCF—滴滴盖亚联合科研基金项目](https://outreach.didichuxing.com/app-outreach/CRFYS)“统一的多处理长期价值（LTV）因果模型”联合负责人，并担任 AAAI 2025 人工智能与因果技术方向（AICT track）领域主席。
 
-他正在招收[博士生、硕士生和科研实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。有意参与 Causal Foundation Model 或 DesignInfer 开源项目的申请者，请完成[开源研究项目申请问卷与入组考核](/open-source-project-questionnaire/)；入组成员请阅读[实验室规范与培养要求](/lab-guidelines/)。也可发送邮件至 zhangzhiheng@mail.shufe.edu.cn。此外，欢迎对因果推断感兴趣的老师和同学参加实验室的论文讨论会；可通过[微信公众号 CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.jpg)加入。
+他正在招收[博士生、硕士生和科研实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。请申请者完成[Causal Foundation Model 或 DesignInfer 开源项目研究申请问卷与入组考核](/open-source-project-questionnaire/)；入组成员请阅读[实验室规范与培养要求](/lab-guidelines/)。也可发送邮件至 zhangzhiheng@mail.shufe.edu.cn。此外，欢迎对因果推断感兴趣的老师和同学参加实验室的论文讨论会；可通过[微信公众号 CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.jpg)加入。
 
 <div class="recruitment-card" markdown="1">
 
