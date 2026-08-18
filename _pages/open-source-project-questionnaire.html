@@ -133,11 +133,52 @@ classes: wide
     white-space: pre-wrap;
   }
   .small-note { color: var(--muted); font-size: 0.86rem; }
+  .reference-section {
+    margin-top: 2.8rem;
+    padding: 1.2rem 1.3rem 1.35rem;
+    border: 1px solid #c9d8e5;
+    border-top: 6px solid var(--blue);
+    border-radius: 12px;
+    background: #fbfdff;
+  }
+  .reference-section > h2 { margin-top: 0; }
+  .reference-group {
+    margin-top: 1.25rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--paper);
+  }
+  .reference-group--lean { border-top: 4px solid var(--gold); }
+  .reference-group--causal { border-top: 4px solid var(--teal); }
+  .reference-group h3 { margin-top: 0; }
+  .reference-list { margin: 0.65rem 0 0; padding-left: 1.45rem; }
+  .reference-list > li { margin: 0 0 1rem; padding-left: 0.25rem; }
+  .reference-list > li:last-child { margin-bottom: 0; }
+  .reference-title { color: #173d5b; font-weight: 800; }
+  .reference-meta { color: var(--muted); font-size: 0.88rem; }
+  .reference-links { display: inline-flex; flex-wrap: wrap; gap: 0.2rem 0.65rem; margin-top: 0.18rem; font-size: 0.88rem; }
+  .workshop-list { columns: 2; column-gap: 2rem; margin-top: 0.75rem; }
+  .workshop-list li { break-inside: avoid; margin-bottom: 0.8rem; }
+  .resource-type {
+    display: inline-block;
+    margin-right: 0.35rem;
+    padding: 0.05rem 0.38rem;
+    border-radius: 4px;
+    color: #36536a;
+    background: #eaf2f7;
+    font-size: 0.72rem;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    vertical-align: 0.08em;
+  }
   .doc-footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.84rem; }
   @media (max-width: 760px) {
     .track-grid, .step-grid, .deliverable-grid { grid-template-columns: 1fr; }
     .doc-hero { padding: 1.2rem; }
     .question-card { padding-left: 3.25rem; }
+    .reference-section { padding: 1rem; }
+    .workshop-list { columns: 1; }
   }
   @media print {
     .masthead, .sidebar, .page__footer { display: none !important; }
@@ -208,7 +249,7 @@ classes: wide
 
   <section id="track-a">
     <h3>Track A：Mini Causal Foundation Model / Causal ATLAS</h3>
-    <p><strong>任务：</strong>构建一个最小的 evidence-to-estimation&decision 原型。在公开或合成数据上，把多来源/多环境证据组织为统一任务，比较至少三种候选处理、模型、提示词或策略，输出效应或价值的估计、排序、不确定性与下一步实验建议。</p>
+    <p><strong>任务：</strong>构建一个最小的 evidence-to-estimation &amp; decision 原型。在公开或合成数据上，把多来源/多环境证据组织为统一任务，比较至少三种候选处理、模型、提示词或策略，输出效应或价值的估计、排序、不确定性与下一步实验建议。</p>
 
     <h4>A1. 最小输入与输出</h4>
     <ul>
@@ -352,6 +393,115 @@ classes: wide
   <p>不能作为完成 Track B 的替代。可以先提交数学证明和形式化计划请求讨论，但正式考核必须包含内核检查通过的 Lean 代码，或经核验的反例与问题报告。</p>
   <h3>可以和别人合作完成吗？</h3>
   <p>可以讨论或使用公开社区资源，但考核默认评估个人能力。必须逐项说明他人贡献；技术讨论中需要独立解释自己提交的部分。</p>
+
+  <section id="references" class="reference-section">
+    <h2>十、参考文献与项目资源</h2>
+    <p>以下材料按 Track 分组。论文条目给出完整作者、发表信息、版本与永久链接；软件仓库、开放实验室和社区频道则明确标注为项目资源，不将其误列为同行评议论文。建议申请人优先阅读本方向的核心论文，再结合项目资源理解可复现工作流与形式化协作规范。</p>
+
+    <section class="reference-group reference-group--causal" aria-labelledby="references-track-a">
+      <h3 id="references-track-a">Track A：Causal Foundation Model / Causal ATLAS</h3>
+
+      <h4>核心论文</h4>
+      <ol class="reference-list">
+        <li>
+          <span class="resource-type">期刊论文</span>
+          Noah Hollmann, Samuel Müller, Lennart Purucker, Arjun Krishnakumar, Max Körfer, Shi Bin Hoo, Robin Tibor Schirrmeister, and Frank Hutter. (2025).
+          <span class="reference-title">Accurate predictions on small data with a tabular foundation model.</span>
+          <em>Nature</em>, 637, 319–326. DOI: 10.1038/s41586-024-08328-6.
+          <div class="reference-meta">TabPFN 的正式期刊论文；重点关注跨数据集预训练、表格 in-context learning、合成结构因果模型先验与不确定性输出。</div>
+          <div class="reference-links"><a href="https://doi.org/10.1038/s41586-024-08328-6">DOI / 论文</a></div>
+        </li>
+        <li>
+          <span class="resource-type">预印本</span>
+          Vahid Balazadeh, Hamidreza Kamkari, Valentin Thomas, Benson Li, Junwei Ma, Jesse C. Cresswell, and Rahul G. Krishnan. (2025).
+          <span class="reference-title">CausalPFN: Amortized Causal Effect Estimation via In-Context Learning.</span>
+          arXiv:2506.07918 [cs.LG], version 2, revised 27 October 2025. DOI: 10.48550/arXiv.2506.07918.
+          <div class="reference-meta">直接对应 Track A：以 prior-data fitted network 将观测数据映射到处理效应，并输出贝叶斯校准的不确定性；阅读时同时核查其 ignorability 与模拟数据生成假设。</div>
+          <div class="reference-links"><a href="https://arxiv.org/abs/2506.07918">arXiv</a><a href="https://doi.org/10.48550/arXiv.2506.07918">DOI</a><a href="https://github.com/vdblm/CausalPFN">代码</a></div>
+        </li>
+        <li>
+          <span class="resource-type">预印本</span>
+          Jiaqi Zhang, Joel Jennings, Agrin Hilmkil, Nick Pawlowski, Cheng Zhang, and Chao Ma. (2023).
+          <span class="reference-title">Towards Causal Foundation Model: on Duality between Causal Inference and Attention.</span>
+          arXiv:2310.00809 [cs.LG], version 3, revised 3 June 2024. DOI: 10.48550/arXiv.2310.00809.
+          <div class="reference-meta">提出 Causal Inference with Attention（CInA），从最优协变量平衡的原始—对偶联系解释 self-attention，并研究未见任务上的 zero-shot treatment-effect estimation。</div>
+          <div class="reference-links"><a href="https://arxiv.org/abs/2310.00809">arXiv</a><a href="https://doi.org/10.48550/arXiv.2310.00809">DOI</a></div>
+        </li>
+      </ol>
+
+      <h4>ICML 2026 Workshop：Foundation Models for Structured Data 中的因果相关工作</h4>
+      <p class="small-note">下列条目来自 ICML 2026 官方 workshop 日程（2026 年 7 月 10 日）。它们属于 workshop paper / presentation；引用时应使用各条目的官方页面，不应写成 ICML 主会论文。</p>
+      <ol class="reference-list workshop-list">
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71464">CausalTab: Pretraining Across Causal Environments for Tabular Causal Discovery</a>.</span><br><span class="reference-meta">Zi-Rong Li, Si-Yang Liu, Tian-Zuo Wang, and Han-Jia Ye.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71471">Synthetic Causal Priors for In-Context Time-Series Classification</a>.</span><br><span class="reference-meta">Hao-Run Cai and Han-Jia Ye.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71477">Foundation Models for Partial Causal Identification</a>.</span><br><span class="reference-meta">Alexis Bellot and Anish Dhir.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71478">Towards Continuous-time Causal Foundation Models</a>.</span><br><span class="reference-meta">Dennis Thumm, Ruben Wiedemann, and Ying Chen.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71511">Causal Foundation Models Perform Better without Post-treatment Variables</a>.</span><br><span class="reference-meta">Junha Ham, Deokgyu Kim, Doeun Kim, Serjin Kim, and Sanghack Lee.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71513">Inducing Causal Order through Tabular In-Context Learning</a>.</span><br><span class="reference-meta">Sascha Xu, Sarah Mameche, and Jilles Vreeken.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71538">FairOpt-PFN: Amortized Counterfactual Fairness with Optimal Fair Targets</a>.</span><br><span class="reference-meta">Enes Hasani, Jake Robertson, and Frank Hutter.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71542">Where Computation Lives Inside TabPFN: Causal Localisation of Attention Head Function</a>.</span><br><span class="reference-meta">Atharva Gupta, Dhruv Kumar, Murari Mandal, and Saurabh Deshpande.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71551">A Causal Foundation Model for Structure and Outcome Prediction</a>.</span><br><span class="reference-meta">Max Zhu, Martino Mansoldo, Chinghao Wang, and Stefan Groha.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71559">Causal Foundation Models with Continuous Treatments</a>.</span><br><span class="reference-meta">Christopher Stith, Medha Barath, Vahid Balazadeh, Jesse Cresswell, and Rahul G. Krishnan.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71561">Causal Foundation Models for Time Series based on Prior-Data fitted Networks</a>.</span><br><span class="reference-meta">Dennis Thumm, Arik Reuter, Jake Robertson, Shi Bin Hoo, Adrian Weller, Frank Hutter, Ying Chen, and Bernhard Schölkopf.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71563">Implicit Reward Alignment For Training Causally-Coherent Tabular Data Generators</a>.</span><br><span class="reference-meta">Matea Gjika, Giuseppe Iannone, Luca Sfragara, Pavithra Harsha, and Georgia Perakis.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71565">A Causal DAG Prior for Synthetic Time-Series Classification Datasets</a>.</span><br><span class="reference-meta">Franco Martino ORourke, Ana Trisovic, and Dimitris Bertsimas.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71567">SCBench: A Testbed for Causal Inference with Time Series Panel Data</a>.</span><br><span class="reference-meta">Megan Richards, Saeyoung Rho, and Kyunghyun Cho.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71587">DataSynK: Causal-Symbolic EHR Synthesis for Tabular Foundation Models in Low-Resource Settings</a>.</span><br><span class="reference-meta">Eduarda Chagas, Roberta Viola, Juarez Monteiro, Francisco Galuppo Azevedo, Saulo F. Saturnino, and Adriano Veloso.</span></li>
+        <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71590">Bayesian Tabular Few-shot Learning with Causal Information</a>.</span><br><span class="reference-meta">Ole Ossen, Jake Robertson, Arik Reuter, Magnus Bühler, Lennart Purucker, and Frank Hutter.</span></li>
+      </ol>
+      <p class="reference-links"><a href="https://icml.cc/virtual/2026/workshop/54066">ICML 2026 官方 workshop 页面与完整日程</a></p>
+    </section>
+
+    <section class="reference-group reference-group--lean" aria-labelledby="references-track-b">
+      <h3 id="references-track-b">Track B：DesignInfer / Lean 形式化验证</h3>
+      <ol class="reference-list">
+        <li>
+          <span class="resource-type">Lean 软件库</span>
+          Shuangping Li and Peng Zhang (maintainers).
+          <span class="reference-title">Language Generation in the Limit: A Lean Library and Paper Map.</span>
+          Lean 4 software repository, continuous development; accessed 18 August 2026. Apache-2.0 license.
+          <div class="reference-meta">示范如何把论文清单、跨论文定义对齐、依赖图、内核检查和 paper-to-Lean 审计记录组织为可持续维护的开源形式化项目。</div>
+          <div class="reference-links"><a href="https://github.com/pengzhang91/generation-in-the-limit-lib">GitHub 仓库</a></div>
+        </li>
+        <li>
+          <span class="resource-type">开放实验室</span>
+          Marin Contributors.
+          <span class="reference-title">Marin: Developing Models Together, Openly.</span>
+          Open-source foundation-model laboratory and experiment platform; accessed 18 August 2026.
+          <div class="reference-meta">工作流参考：以 issue 预注册实验假设与目标，以 pull request 提供可复现代码，并通过 provenance graph 和实验报告记录执行结果与失败。</div>
+          <div class="reference-links"><a href="https://marin.community/">项目主页</a><a href="https://github.com/marin-community/marin">GitHub 仓库</a></div>
+        </li>
+        <li>
+          <span class="resource-type">Lean 项目模板</span>
+          Self-Evolving.
+          <span class="reference-title">Lean Workspace: A Shared Workspace Where Human Teams and AI Agents Collaborate to Write Proofs Together.</span>
+          Lean 4 project template, continuous development; accessed 18 August 2026.
+          <div class="reference-meta">用于组织 blueprint、Lean 源码、issue / pull-request 协作、分支预览和人机共同形式化；适合作为提交结构参考，不替代对证明正确性与命题忠实度的人工审查。</div>
+          <div class="reference-links"><a href="https://github.com/self-evolving/lean-workspace-template">GitHub 模板</a><a href="https://lean-workspace.sepo.site/">文档</a></div>
+        </li>
+        <li>
+          <span class="resource-type">讲义 / 预印本</span>
+          Fang Han. (2024).
+          <span class="reference-title">An Introduction to Permutation Processes (version 0.5).</span>
+          arXiv:2407.09664 [math.ST], 193 pages. DOI: 10.48550/arXiv.2407.09664.
+          <div class="reference-meta">为置换过程、随机排列以及随机化/置换推断的概率工具提供系统背景；形式化时仍需为选定命题指出具体章节、定义和定理来源。</div>
+          <div class="reference-links"><a href="https://arxiv.org/abs/2407.09664">arXiv 摘要</a><a href="https://arxiv.org/pdf/2407.09664">PDF</a><a href="https://doi.org/10.48550/arXiv.2407.09664">DOI</a></div>
+        </li>
+        <li>
+          <span class="resource-type">社区与统计库</span>
+          Lean Prover Community / Statlib Contributors.
+          <span class="reference-title">Statlib community channel and library resources.</span>
+          Community discussion and Lean 4 library resources; accessed 18 August 2026.
+          <div class="reference-meta">Statlib 面向数学统计的机器检查基础设施；Zulip 频道用于讨论 API、设计选择、实现阻塞和协作事项。社区消息不是论文证据，正式提交仍须引用原始统计学来源并锁定所用 commit。</div>
+          <div class="reference-links"><a href="https://leanprover.zulipchat.com/#narrow/channel/611809-Statlib">Statlib Zulip 频道</a><a href="https://stat-lib.github.io/">Statlib 项目主页</a><a href="https://github.com/stat-lib/statlib">Statlib GitHub</a></div>
+        </li>
+      </ol>
+    </section>
+
+    <div class="callout">
+      <strong>引用要求。</strong>技术报告中的观点、命题、代码与数据应在首次出现处就近引用；预印本须注明 arXiv 编号和版本，软件须注明仓库与固定 commit，workshop 条目须写明 workshop 名称，社区讨论须记录可访问的主题链接与日期。任何二手总结都不能替代对原论文、原定理或原仓库的核查。
+    </div>
+  </section>
 
   <footer class="doc-footer">
     <p>项目背景可参阅 <a href="https://zhzhang01.github.io/">CAUSAL Lab 主页与研究陈述</a>。</p>
