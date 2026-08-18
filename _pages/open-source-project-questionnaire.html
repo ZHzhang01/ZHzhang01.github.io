@@ -215,19 +215,13 @@ classes: wide
     <section class="track-card track-card--lean">
       <span class="tag">Track B</span><span class="tag">形式化数学</span><span class="tag">Lean 4</span>
       <h3>DesignInfer</h3>
-      <p>将 design-based inference 中的定义、引理或定理转写为稳定的 Lean API，并提交经过内核检查的证明、依赖关系与来源说明。重点不是 tactics 炫技，而是命题忠实度、可复用性和审查质量。</p>
+      <p>将 design-based inference 中的定义、引理或定理转写为稳定的 Lean API，并提交经过内核检查的证明、依赖关系与来源说明。</p>
     </section>
   </div>
 
   <h2 id="purpose">一、考核目的与流程</h2>
   <p>本问卷用于判断申请人与项目的相互匹配程度，也帮助申请人尽早理解研究工作的真实形态。问卷材料原则上只用于评估和后续讨论，不会未经沟通直接并入项目。</p>
 
-  <div class="step-grid">
-    <div class="step-card"><span class="step-card__num">1</span><strong>书面问卷</strong><br><span class="small-note">背景、兴趣、时间投入、研究理解。</span></div>
-    <div class="step-card"><span class="step-card__num">2</span><strong>方向考核</strong><br><span class="small-note">一个最小但真实的可验证产出。</span></div>
-    <div class="step-card"><span class="step-card__num">3</span><strong>技术讨论</strong><br><span class="small-note">解释设计取舍、失败案例与下一步。</span></div>
-    <div class="step-card"><span class="step-card__num">4</span><strong>试合作</strong><br><span class="small-note">双方确认节奏、规范与长期匹配度。</span></div>
-  </div>
 
   <h2 id="questionnaire">二、第一部分：开源项目申请问卷</h2>
   <p>请使用中文或英文，对如下问题进行简要沟通：</p>
@@ -300,7 +294,6 @@ classes: wide
       <li><strong>Definition RFC：</strong>解释对象、索引、有限性、随机机制、估计量与符号约定；比较至少两个可能定义，并说明最终选择。</li>
       <li><strong>Statement fidelity：</strong>并列给出原始自然语言/数学命题、规范化命题和 Lean statement；逐项映射假设，不得偷换量词、增加隐含条件或弱化结论。</li>
       <li><strong>Dependency DAG：</strong>列出所需的 Mathlib/Statlib 结果、项目内定义、辅助引理和最终定理。</li>
-      <li><strong>Kernel-checked proof：</strong>不得使用 <code>sorry</code>、<code>admit</code>、<code>by_contra!</code> 等本身并非问题但被用来掩盖命题变化的技巧；不得新增未经证明的公理。</li>
       <li><strong>边界测试：</strong>提供至少一个小规模可计算实例，以及一个说明某项假设不可删除的反例或失败尝试。</li>
       <li><strong>Problem Card：</strong>记录来源、假设、已知情形、形式化状态、尝试记录、阻塞点和可继续的开放问题。</li>
     </ul>
@@ -316,7 +309,6 @@ classes: wide
     <li><strong>真实执行：</strong>实验、数据处理、编译与测试必须真实运行；只在文字中模拟“已经运行”不算完成。</li>
     <li><strong>状态记录：</strong>保留关键输入、版本、命令、输出、错误、修复和决策理由，使过程可追溯。</li>
     <li><strong>独立验证：</strong>不能把“程序没有报错”当作正确性证明；应有基线、单元测试、真值检查、反例、审查或等价的独立信号。</li>
-    <li><strong>失败与恢复：</strong>至少展示一次真实失败、诊断和修复；不要为了显得顺利而删除失败记录。</li>
     <li><strong>终止条件：</strong>明确时间/算力预算、成功条件、未解决项和停止原因。</li>
     <li><strong>可复现性：</strong>锁定依赖和随机种子（如适用），提供从安装到生成主要结果的一条主命令。</li>
     <li><strong>最小化：</strong>只提交支持研究结论的必要组件。界面美化、复杂框架和无关功能不会自动加分。</li>
@@ -327,7 +319,7 @@ classes: wide
     <table>
       <thead><tr><th style="width:22%">材料</th><th>具体要求</th></tr></thead>
       <tbody>
-        <tr><td>申请问卷</td><td><code>questionnaire.pdf</code> 或 <code>questionnaire.md</code>；回答第二部分之前先提交第一部分。</td></tr>
+        <tr><td>申请问卷</td><td>回答第二部分之前先提交第一部分。</td></tr>
         <tr><td>完整代码</td><td>Git 仓库或压缩包；包含源代码、配置、依赖锁定、测试和必要的最小数据。不要提交密钥或受限数据。</td></tr>
         <tr><td>README</td><td>环境、安装、目录结构、输入输出、主命令、预计运行时间、硬件需求、许可证与已知限制。</td></tr>
         <tr><td>技术报告</td><td>不超过 6 页。包括问题、假设、方法、基线、结果、失败案例、限制与下一步；正文不要复制运行日志。</td></tr>
@@ -341,18 +333,7 @@ classes: wide
   <p class="small-note">建议压缩包命名：<code>Name_University_CTFM.zip</code> 或 <code>Name_University_DesignInfer.zip</code>。如使用 Git 仓库，请提交固定 commit 链接，而不只是可变化的默认分支。</p>
 
   <h2 id="rubric">六、评价标准</h2>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th>维度</th><th style="width:13%">权重</th><th>观察重点</th></tr></thead>
-      <tbody>
-        <tr><td>正确性与命题/任务契合度</td><td>30%</td><td>estimand、假设、数据边界、Lean statement、结果与结论是否一致。</td></tr>
-        <tr><td>研究理解与问题选择</td><td>20%</td><td>问题是否重要且范围合适，是否理解相关工作与真正难点。</td></tr>
-        <tr><td>实现质量与可复现性</td><td>20%</td><td>结构、配置、测试、依赖、日志和一条主命令。</td></tr>
-        <tr><td>验证、失败与限制分析</td><td>20%</td><td>基线、反例、压力测试、失效诊断。</td></tr>
-        <tr><td>沟通、引用与 AI 披露</td><td>10%</td><td>表达简洁，贡献边界明确，材料可审查。</td></tr>
-      </tbody>
-    </table>
-  </div>
+
   <p>以下情况不进入评分：伪造结果或日志；抄袭/洗稿；直接复制完整项目只改名称或少量提示词；提交自己无法解释的主要代码或数学论述；隐瞒他人/AI 的实质贡献；泄露密钥、个人数据或未授权材料；Lean 证明使用占位符或通过改变命题规避任务。</p>
 
   <h2 id="allowed">七、允许与禁止事项</h2>
@@ -364,7 +345,7 @@ classes: wide
         <li>使用生成式 AI 辅助阅读、编码、调试、证明搜索和写作。</li>
         <li>缩小题目、报告失败、提交负结果或经验证的反例。</li>
         <li>在 README 中说明资源限制并给出轻量复现路径。</li>
-        <li>在遇到命题或数据问题时尽早提出，而不是悄悄改写目标。</li>
+        <li>在遇到命题或数据问题时尽早提出。</li>
       </ul>
     </section>
     <section class="track-card track-card--lean">
