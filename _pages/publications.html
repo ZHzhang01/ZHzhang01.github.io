@@ -38,9 +38,9 @@ author_profile: true
   margin: 0.25rem 0 0.75rem 0;
 }
 .pub-list {
-  list-style: none;                /* 改为自定义 [1] [2] 编号 */
+  list-style: none;                /* 改为自定义分类编号 */
   counter-reset: pub-item;
-  padding-left: 2.2rem;
+  padding-left: 3.4rem;
   margin-left: 0.2rem;
 }
 .pub-list li {
@@ -52,8 +52,22 @@ author_profile: true
 .pub-list li::before {
   content: "[" counter(pub-item) "]";
   position: absolute;
-  left: -2.2rem;
-  width: 1.8rem;
+  left: -3.4rem;
+  width: 3rem;
+  color: #8b0000;
+  font-weight: 700;
+}
+.pub-list--journal li::before {
+  content: "[J," counter(pub-item) "]";
+}
+.pub-list--conference li::before {
+  content: "[C," counter(pub-item) "]";
+}
+.pub-list--preprint li::before {
+  content: "[P," counter(pub-item) "]";
+}
+.pub-list li[id] {
+  scroll-margin-top: 5rem;
 }
 .pub-title {
   font-weight: 500;
@@ -86,8 +100,8 @@ author_profile: true
 <div class="pub-section-title" style="margin-top:1.2rem;">Journal Papers</div>
 <hr class="pub-hr"/>
 
-<ol class="pub-list">
-  <li>
+<ol class="pub-list pub-list--journal">
+  <li id="j-1">
   <span class="pub-title">Partial Identification with Proxy of Latent Confoundings via Sum-of-ratios Fractional Programming: Extended</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>
@@ -96,7 +110,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">Informs Journal on Optimization (IJOO)</span>, 2026.</span>
 </li>
 
-<li>
+<li id="j-2">
   <span class="pub-title">Adjusting Auxiliary Variables Under Approximate Neighborhood Interference</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Xin Lu,
@@ -106,7 +120,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">Journal of the American Statistical Association (JASA)</span>, 2026.</span>
 </li>
 
-  <li>
+  <li id="j-3">
   <span class="pub-title">A Minimax Learning Approach for Causal Inference Under Unmeasured Confounding with Negative Controls</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Nathan Kallus, 
@@ -125,14 +139,14 @@ author_profile: true
 <div class="pub-section-title">Conference Papers</div>
 <hr class="pub-hr"/>
 
-<ol class="pub-list">
+<ol class="pub-list pub-list--conference">
 
 
 
 
 
 
-<li>
+<li id="c-1">
   <span class="pub-title">Wasserstein Policy Learning for Distributional Outcomes</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Yiyan Huang, 
@@ -146,7 +160,7 @@ author_profile: true
 
   
 
-<li>
+<li id="c-2">
   <span class="pub-title">Causal Representation Learning with Optimal Compression and Complex Treatments</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Wanting Liang,
@@ -157,7 +171,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span>
 </li>
 
-<li>
+<li id="c-3">
   <span class="pub-title">Causal Matrix Completion under Multiple Treatments via Mixed Synthetic Nearest Neighbors</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Minrui Luo,
@@ -167,7 +181,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span>
 </li>
 
-<li>
+<li id="c-4">
   <span class="pub-title">Feasible Fusion: Constrained Joint Estimation under Structural Non-Overlap</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Yuxi Du,
@@ -182,7 +196,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span>
 </li>
 
-<li>
+<li id="c-5">
   <span class="pub-title">Budgeted Active Experimentation for Treatment Effect Estimation from Observational and Randomized Data</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Jiacan Gao,
@@ -200,7 +214,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span>
 </li>
 
-<li>
+<li id="c-6">
   <span class="pub-title">Partial Identification of Policy Values under Network Interference</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Ziyan Wang,
@@ -211,7 +225,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span>
 </li>
 
-<li>
+<li id="c-7">
   <span class="pub-title">Partial Identification under High-Dimensional Potential Outcomes and Confounders via Optimal Transport</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Yunfeng Wang,
@@ -223,7 +237,7 @@ author_profile: true
 </li>
 
 
-  <li>
+  <li id="c-8">
   <span class="pub-title">MLUBench: A Benchmark for Lifelong Unlearning Evaluation in MLLMs</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     He Li,
@@ -239,7 +253,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span>
 </li>
 
-<li>
+<li id="c-9">
   <span class="pub-title">Treatment Responder Classification with Abstention</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Haoxiang Wang,
@@ -255,7 +269,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026</span> <span style="color:red;">(<strong>Spotlight</strong>, &lt;2%)</span>.
 </li>
 
-<li>
+<li id="c-10">
   <span class="pub-title">SpaCellAgent: A Self-evolving LLM-Based Multi-Agent Framework for Trajectory Analysis</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Songhan Wang,
@@ -271,7 +285,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">KDD</span>, 2026.</span>
 </li>
   
-<li>
+<li id="c-11">
   <span class="pub-title">Online Experimental Design With Estimation–Regret Trade-off Under Network Interference</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>
@@ -286,7 +300,7 @@ author_profile: true
   Invited talk at POMSHK2026.
 </li>
 
-<li>
+<li id="c-12">
   <span class="pub-title">Design-Based Bandits Under Network Interference: Trade-Off Between Regret and Statistical Inference</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Zichen Wang
@@ -305,7 +319,7 @@ author_profile: true
   Invited talk at POMSHK2026.
 </li>
 
-<li>
+<li id="c-13">
   <span class="pub-title">Unveiling Environmental Sensitivity of Individual Gains in Influence Maximization</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Xinyan Su,
@@ -318,7 +332,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">NeurIPS</span>, 2025.</span>
 </li>
 
-<li>
+<li id="c-14">
   <span class="pub-title">Active Treatment Effect Estimation via Limited Samples</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>,
@@ -329,7 +343,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2025.</span>
 </li>
 
-<li>
+<li id="c-15">
   <span class="pub-title">Tight Partial Identification of Causal Effects with Marginal Distribution of Unmeasured Confounders</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>
@@ -339,7 +353,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">ICML</span>, 2024</span> <span style="color:red;">(<strong>Spotlight</strong>, &lt;2%)</span>.
 </li>
 
-<li>
+<li id="c-16">
   <span class="pub-title">Partial Identification with Proxy of Latent Confoundings via Sum-of-ratios Fractional Programming</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>
@@ -349,7 +363,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">UAI</span>, 2024.</span>
 </li>
 
-<li>
+<li id="c-17">
   <span class="pub-title">Robust Causal Inference for Recommender System to Overcome Noisy Confounders</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>,
@@ -368,9 +382,9 @@ author_profile: true
 <div class="pub-section-title" style="margin-top:1.2rem;">Preprints &amp; Working Papers</div>
 <hr class="pub-hr"/>
 
-<ol class="pub-list">
+<ol class="pub-list pub-list--preprint">
 
-<li>
+<li id="p-1">
   <span class="pub-title">
     Rubrics on Trial: Evolving Rubrics from a Single Query via Synthetic Pairwise Evidence
   </span><br/>
@@ -388,7 +402,7 @@ author_profile: true
     <span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/pdf/2607.15092">Preprint</a></span>, 2026.</span>
 </li>
   
-<li>
+<li id="p-2">
   <span class="pub-title">Denoised Conformal Alignment for Reliable Selection of Conditional Average Treatment Effect Predictions</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Xinyun Lu,
@@ -400,7 +414,7 @@ author_profile: true
 </li>
 
   
-<li>
+<li id="p-3">
   <span class="pub-title">Group Permutation Testing for Linear Models: Sharp Validity, Power Improvement, and Extension Beyond Exchangeability</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Zonghan Li
@@ -415,7 +429,7 @@ author_profile: true
 </li>
 
 
-<li>
+<li id="p-4">
   <span class="pub-title">Orthogonal Uplift Learning with Permutation-Invariant Representations for Combinatorial Treatments</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Xinyan Su
@@ -434,7 +448,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue"><a href="http://arxiv.org/abs/2602.19851">Preprint</a></span>, 2026.</span>
 </li>
 
-<li>
+<li id="p-5">
   <span class="pub-title">Individualized Causal Effects under Network Interference with Combinatorial Treatments</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Yunping Lu,
@@ -450,7 +464,7 @@ author_profile: true
 
 
   
-<li>
+<li id="p-6">
   <span class="pub-title">Bounding the Largest Intersection Number of Regular Simplicial Partitions</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>
@@ -459,7 +473,7 @@ author_profile: true
   <span class="pub-meta"><span class="pub-venue">Working paper</span>, 2025.</span>
 </li>
 
-<li>
+<li id="p-7">
   <span class="pub-title">Dynamic Window-level Granger Causality of Multi-channel Time Series</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>, 
@@ -475,8 +489,8 @@ author_profile: true
 <div class="pub-section-title" style="margin-top:1.2rem;">PhD Thesis</div>
 <hr class="pub-hr"/>
 
-<ol class="pub-list">
-<li>
+<ol class="pub-list pub-list--thesis">
+<li id="thesis-1">
   <span class="pub-title">Causal Inference under Real-world Constraints: Privacy, Robustness, and Pareto Balance</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>, 2025.

@@ -171,6 +171,30 @@ html[data-theme="dark"] .recruitment-card h3 {
   color: #ff9b96;
 }
 
+.previous-research-overview {
+  line-height: 1.75;
+  text-align: justify;
+}
+
+.page__content a.publication-citation,
+.page__content a.publication-citation:visited,
+.page__content a.publication-citation:hover,
+.page__content a.publication-citation:focus,
+html[data-theme="dark"] .page__content a.publication-citation,
+html[data-theme="dark"] .page__content a.publication-citation:visited,
+html[data-theme="dark"] .page__content a.publication-citation:hover,
+html[data-theme="dark"] .page__content a.publication-citation:focus {
+  color: #8b0000;
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.page__content a.publication-citation:hover,
+.page__content a.publication-citation:focus {
+  text-decoration: underline;
+}
+
 .home-language-panel h2 {
   margin-top: 2.15rem;
 }
@@ -284,7 +308,15 @@ html[data-theme="dark"] .recruitment-card h3 {
 
 ![学术体系图](/_pages/research_roadmap_%203_01.png)
 
-## 研究陈述
+## 先前研究综述
+
+<div class="previous-research-overview" markdown="1">
+
+我的研究以现实约束下可信、可执行的因果推断为主线，关注当未观测混杂、网络干扰、样本与实验预算有限、处理分配不重叠，以及处置或结果高度复杂时，如何仍然获得可验证的因果结论并将其转化为可靠决策。围绕未观测混杂，我从推荐系统中的含噪混杂鲁棒性出发 <a class="publication-citation" href="/publications/#c-17">[C,17]</a>，进一步研究仅掌握混杂变量边缘分布时的紧致部分识别 <a class="publication-citation" href="/publications/#c-15">[C,15]</a>，利用代理变量与和分式规划在较弱假设下构造有效因果界及其期刊扩展 <a class="publication-citation" href="/publications/#c-16">[C,16]</a>,<a class="publication-citation" href="/publications/#j-1">[J,1]</a>，并借助最优传输将部分识别推广到高维潜在结果与高维混杂变量 <a class="publication-citation" href="/publications/#c-7">[C,7]</a>；围绕干扰与动态决策，我发展近邻干扰下的辅助变量调整方法 <a class="publication-citation" href="/publications/#j-2">[J,2]</a>、网络干扰与策略非重叠并存时的策略价值部分识别方法 <a class="publication-citation" href="/publications/#c-6">[C,6]</a>，在在线实验和设计式网络 bandit 中刻画估计精度与累积遗憾之间的 Pareto 权衡 <a class="publication-citation" href="/publications/#c-11">[C,11]</a>,<a class="publication-citation" href="/publications/#c-12">[C,12]</a>，并将因果视角应用于具有环境敏感个体收益的影响力最大化 <a class="publication-citation" href="/publications/#c-13">[C,13]</a>；围绕资源受限与复杂决策，我研究具有有限样本保证的主动处理效应估计 <a class="publication-citation" href="/publications/#c-14">[C,14]</a>、融合观察数据与随机试验的预算化主动实验 <a class="publication-citation" href="/publications/#c-5">[C,5]</a>、面向分布型结果的 Wasserstein 策略学习 <a class="publication-citation" href="/publications/#c-1">[C,1]</a>，以及多元或复杂处置下的因果表示学习、矩阵补全、结构性非重叠数据融合和允许拒识的处理响应者分类 <a class="publication-citation" href="/publications/#c-2">[C,2]</a>,<a class="publication-citation" href="/publications/#c-3">[C,3]</a>,<a class="publication-citation" href="/publications/#c-4">[C,4]</a>,<a class="publication-citation" href="/publications/#c-9">[C,9]</a>；此外，我也将可靠学习拓展至多模态大模型的终身遗忘评测 <a class="publication-citation" href="/publications/#c-8">[C,8]</a>，以及空间和单细胞转录组轨迹分析的自进化多智能体系统 <a class="publication-citation" href="/publications/#c-10">[C,10]</a>。总体而言，这些工作形成了一条从“信息缺失时能够识别什么”，到“有限资源和相互干扰下如何开展实验”，再到“复杂处置、非重叠与高维结果下如何作出可信决策”的连续研究路线。
+
+</div>
+
+## 当前研究路线
 
 **为理解并构建因果学习系统的核心理论结构，实验室的长期目标可概括为以下三个基础问题：**
 
@@ -357,7 +389,15 @@ If you are interested, please feel free to contact me. Prospective PhD applicant
 
 ![Research roadmap](/_pages/research_roadmap_%203_01.png)
 
-## Research Statement
+## Previous Research Overview
+
+<div class="previous-research-overview" markdown="1">
+
+My research centers on trustworthy and actionable causal inference under real-world constraints, asking how verifiable causal conclusions can still be obtained and translated into reliable decisions when unmeasured confounding, network interference, limited samples and experimental budgets, lack of treatment overlap, and complex treatments or outcomes invalidate idealized assumptions. For unmeasured confounding, I began by studying robustness to noisy confounders in recommender systems <a class="publication-citation" href="/publications/#c-17">[C,17]</a>, and then developed tight partial-identification results using only the marginal distribution of latent confounders <a class="publication-citation" href="/publications/#c-15">[C,15]</a>, valid causal bounds based on proxy variables and sum-of-ratios fractional programming under weaker assumptions, together with their journal extension <a class="publication-citation" href="/publications/#c-16">[C,16]</a>,<a class="publication-citation" href="/publications/#j-1">[J,1]</a>, and an optimal-transport approach for high-dimensional potential outcomes and confounders <a class="publication-citation" href="/publications/#c-7">[C,7]</a>. For interference and dynamic decision-making, I developed auxiliary-variable adjustment under approximate neighborhood interference <a class="publication-citation" href="/publications/#j-2">[J,2]</a>, partial identification of policy values under both network interference and policy non-overlap <a class="publication-citation" href="/publications/#c-6">[C,6]</a>, and Pareto frontiers between estimation accuracy and cumulative regret in online experiments and design-based network bandits <a class="publication-citation" href="/publications/#c-11">[C,11]</a>,<a class="publication-citation" href="/publications/#c-12">[C,12]</a>; I also brought a causal perspective to influence maximization with environmentally sensitive individual gains <a class="publication-citation" href="/publications/#c-13">[C,13]</a>. For resource-constrained and structurally complex decisions, I studied active treatment-effect estimation with finite-sample guarantees <a class="publication-citation" href="/publications/#c-14">[C,14]</a>, budgeted active experimentation that combines observational and randomized data <a class="publication-citation" href="/publications/#c-5">[C,5]</a>, Wasserstein policy learning for distribution-valued outcomes <a class="publication-citation" href="/publications/#c-1">[C,1]</a>, and causal representation learning, matrix completion, constrained data fusion under structural non-overlap, and treatment-responder classification with abstention for multiple or complex treatments <a class="publication-citation" href="/publications/#c-2">[C,2]</a>,<a class="publication-citation" href="/publications/#c-3">[C,3]</a>,<a class="publication-citation" href="/publications/#c-4">[C,4]</a>,<a class="publication-citation" href="/publications/#c-9">[C,9]</a>. Beyond causal methodology, I extended reliable learning to lifelong-unlearning evaluation for multimodal large language models <a class="publication-citation" href="/publications/#c-8">[C,8]</a> and to self-evolving multi-agent systems for spatial and single-cell transcriptomic trajectory analysis <a class="publication-citation" href="/publications/#c-10">[C,10]</a>. Together, these works form a continuous research trajectory from determining what can be identified with incomplete information, through designing experiments under limited resources and interference, to making trustworthy decisions with complex treatments, non-overlap, and high-dimensional outcomes.
+
+</div>
+
+## Current Research Roadmap
 
 **To understand and develop the core theoretical structure of causal learning systems, the lab's long-term agenda centers on the following three foundational questions:**
 
