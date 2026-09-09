@@ -93,12 +93,22 @@ author_profile: true
 .pub-meta {
   color: #444;
 }
+.pub-info-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) max-content;
+  align-items: baseline;
+  column-gap: 1.25em;
+  width: 100%;
+}
+.pub-info-text {
+  min-width: 0;
+}
 .pub-insight-toggle {
   display: inline-flex;
   align-items: center;
   gap: 0.35em;
   max-width: 100%;
-  margin-left: 0.45em;
+  margin-left: 0;
   padding: 0.16em 0.52em;
   border: 1px solid #000;
   border-radius: 4px;
@@ -113,6 +123,7 @@ author_profile: true
   vertical-align: baseline;
   white-space: nowrap;
   transition: background-color 0.15s ease;
+  justify-self: end;
 }
 .pub-insight-toggle::before {
   content: "▸";
@@ -144,6 +155,14 @@ author_profile: true
 .pub-tldr[hidden] {
   display: none;
 }
+@media (max-width: 600px) {
+  .pub-info-row {
+    column-gap: 0.65em;
+  }
+  .pub-insight-toggle {
+    padding-inline: 0.42em;
+  }
+}
 .wordwrap { word-wrap: break-word; }
 </style>
 
@@ -158,7 +177,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">Informs Journal on Optimization (IJOO)</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-j-1">Open Problem &amp; Our Answer</button><div id="insight-j-1" class="pub-tldr" hidden>TL;DR: Proxy-based negative-control methods often require hard-to-verify invertibility or completeness; PI-SFP instead uses partial knowledge of P(W|U) to compute valid causal bounds with a globally convergent branch-and-bound algorithm.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">Informs Journal on Optimization (IJOO)</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-j-1">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-j-1" class="pub-tldr" hidden>TL;DR: Proxy-based negative-control methods often require hard-to-verify invertibility or completeness; PI-SFP instead uses partial knowledge of P(W|U) to compute valid causal bounds with a globally convergent branch-and-bound algorithm.</div>
 </li>
 
 <li id="j-2">
@@ -168,7 +191,11 @@ author_profile: true
     Yuhao Wang,
     <span class="me">Zhiheng Zhang</span> (&alpha;-&beta; order).
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">Journal of the American Statistical Association (JASA)</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-j-2">Open Problem &amp; Our Answer</button><div id="insight-j-2" class="pub-tldr" hidden>TL;DR: Network-interference analyses often rely on restrictive outcome models; this paper provides a design-based adjustment that balances network covariates and improves precision under approximate neighborhood interference without requiring a correct outcome model.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">Journal of the American Statistical Association (JASA)</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-j-2">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-j-2" class="pub-tldr" hidden>TL;DR: Network-interference analyses often rely on restrictive outcome models; this paper provides a design-based adjustment that balances network covariates and improves precision under approximate neighborhood interference without requiring a correct outcome model.</div>
 </li>
 
   <li id="j-3">
@@ -179,7 +206,11 @@ author_profile: true
     Masatoshi Uehara, 
     <span class="me">Zhiheng Zhang</span> (&alpha;-&beta; order).
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">Journal of Machine Learning Research (JMLR)</span>, 2026 (Reject with encouragement to resubmit).</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-j-3">Open Problem &amp; Our Answer</button><div id="insight-j-3" class="pub-tldr" hidden>TL;DR: Earlier negative-control methods relied on completeness, unique bridge functions, or parametric models; this paper removes the completeness requirement, largely relaxes uniqueness, and learns flexible bridges through minimax objectives with finite-sample guarantees.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">Journal of Machine Learning Research (JMLR)</span>, 2026 (Reject with encouragement to resubmit).</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-j-3">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-j-3" class="pub-tldr" hidden>TL;DR: Earlier negative-control methods relied on completeness, unique bridge functions, or parametric models; this paper removes the completeness requirement, largely relaxes uniqueness, and learns flexible bridges through minimax objectives with finite-sample guarantees.</div>
 </li>
 
   
@@ -205,7 +236,11 @@ author_profile: true
     Qi Wu, 
       <span class="me">Zhiheng Zhang</span> (&alpha;-&beta; order).
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">COLT</span>, 2026</span>  <span style="color:red;">(<strong>Top conference in learning theory</strong>)</span>. <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-1">Open Problem &amp; Our Answer</button><div id="insight-c-1" class="pub-tldr" hidden>TL;DR: Conventional offline policy learning reduces welfare to a scalar mean; this paper optimizes utilities of Wasserstein barycenters for distribution-valued outcomes and derives sharp regret bounds tied to policy-class complexity.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">COLT</span>, 2026</span>  <span style="color:red;">(<strong>Top conference in learning theory</strong>)</span>.</span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-1">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-1" class="pub-tldr" hidden>TL;DR: Conventional offline policy learning reduces welfare to a scalar mean; this paper optimizes utilities of Wasserstein barycenters for distribution-valued outcomes and derives sharp regret bounds tied to policy-class complexity.</div>
 </li>
 
 
@@ -219,7 +254,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-2">Open Problem &amp; Our Answer</button><div id="insight-c-2" class="pub-tldr" hidden>TL;DR: Multi-treatment ITE methods require heuristic tuning and scale poorly as treatments multiply; this paper derives an optimal balancing weight, introduces O(1)-scalable treatment aggregation, and adds a generative extension that preserves the treatment manifold's Wasserstein geometry.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-2">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-2" class="pub-tldr" hidden>TL;DR: Multi-treatment ITE methods require heuristic tuning and scale poorly as treatments multiply; this paper derives an optimal balancing weight, introduces O(1)-scalable treatment aggregation, and adds a generative extension that preserves the treatment manifold's Wasserstein geometry.</div>
 </li>
 
 <li id="c-3">
@@ -229,7 +268,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-3">Open Problem &amp; Our Answer</button><div id="insight-c-3" class="pub-tldr" hidden>TL;DR: Synthetic Nearest Neighbors struggles when each treatment lacks enough fully observed anchors; MSNN borrows information across treatments to increase the effective sample size while retaining finite-sample error bounds and asymptotic normality.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-3">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-3" class="pub-tldr" hidden>TL;DR: Synthetic Nearest Neighbors struggles when each treatment lacks enough fully observed anchors; MSNN borrows information across treatments to increase the effective sample size while retaining finite-sample error bounds and asymptotic normality.</div>
 </li>
 
 <li id="c-4">
@@ -244,7 +287,11 @@ author_profile: true
     Peng Zhen,
     Jiecheng Guo.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-4">Open Problem &amp; Our Answer</button><div id="insight-c-4" class="pub-tldr" hidden>TL;DR: Weighted fusion of observational and randomized data can violate randomized identifying restrictions under structural non-overlap; this paper jointly learns representations and predictors under orthogonal RCT moment constraints to preserve those restrictions.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-4">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-4" class="pub-tldr" hidden>TL;DR: Weighted fusion of observational and randomized data can violate randomized identifying restrictions under structural non-overlap; this paper jointly learns representations and predictors under orthogonal RCT moment constraints to preserve those restrictions.</div>
 </li>
 
 <li id="c-5">
@@ -262,7 +309,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-5">Open Problem &amp; Our Answer</button><div id="insight-c-5" class="pub-tldr" hidden>TL;DR: Observational estimates can fail under policy-induced imbalance and limited overlap, while randomized trials are costly; this paper uses observational priors to allocate scarce randomization, with finite-sample, asymptotic, and minimax guarantees.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-5">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-5" class="pub-tldr" hidden>TL;DR: Observational estimates can fail under policy-induced imbalance and limited overlap, while randomized trials are costly; this paper uses observational priors to allocate scarce randomization, with finite-sample, asymptotic, and minimax guarantees.</div>
 </li>
 
 <li id="c-6">
@@ -273,7 +324,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-6">Open Problem &amp; Our Answer</button><div id="insight-c-6" class="pub-tldr" hidden>TL;DR: Standard offline policy evaluation loses point identification under network interference and limited logging-policy overlap; this paper combines higher-order exposure mappings and smoothness assumptions to compute valid policy-value bounds by linear programming.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-6">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-6" class="pub-tldr" hidden>TL;DR: Standard offline policy evaluation loses point identification under network interference and limited logging-policy overlap; this paper combines higher-order exposure mappings and smoothness assumptions to compute valid policy-value bounds by linear programming.</div>
 </li>
 
 <li id="c-7">
@@ -284,7 +339,11 @@ author_profile: true
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>,
     Zijun Gao.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-7">Open Problem &amp; Our Answer</button><div id="insight-c-7" class="pub-tldr" hidden>TL;DR: Optimal-transport causal bounds suffer in high dimensions, while projection remedies discard residual information; this paper combines low-dimensional signal transport with sliced-Wasserstein residual recovery to obtain tractable, more informative bounds.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-7">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-7" class="pub-tldr" hidden>TL;DR: Optimal-transport causal bounds suffer in high dimensions, while projection remedies discard residual information; this paper combines low-dimensional signal transport with sliced-Wasserstein residual recovery to obtain tractable, more informative bounds.</div>
 </li>
 
 
@@ -301,7 +360,11 @@ author_profile: true
     Wenjing Yang,
     Bo Han.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-8">Open Problem &amp; Our Answer</button><div id="insight-c-8" class="pub-tldr" hidden>TL;DR: Existing unlearning benchmarks do not capture sequential multimodal forgetting; MLUBench covers 127 entities, reveals cumulative degradation and alignment failures, and introduces LUMoE to mitigate the resulting degradation.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">ICML</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-8">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-8" class="pub-tldr" hidden>TL;DR: Existing unlearning benchmarks do not capture sequential multimodal forgetting; MLUBench covers 127 entities, reveals cumulative degradation and alignment failures, and introduces LUMoE to mitigate the resulting degradation.</div>
 </li>
 
 <li id="c-9">
@@ -316,8 +379,12 @@ author_profile: true
     Kun Zhang,
     Mingming Gong.
   </span><br/>
-  <!-- <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026</span> <span style="color:red;">(Spotlight, &lt;2%)</span>. -->
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026</span> <span style="color:red;">(<strong>Spotlight</strong>, &lt;2%)</span>. <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-9">Open Problem &amp; Our Answer</button><div id="insight-c-9" class="pub-tldr" hidden>TL;DR: Causal decision methods generally lack abstention, while reject-option classifiers lack causal guarantees; TRECA links causal misclassification risk to CVaR for doubly robust responder classification and adds partial-identification and sensitivity analyses.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><!-- <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026</span> <span style="color:red;">(Spotlight, &lt;2%)</span>. -->
+  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2026</span> <span style="color:red;">(<strong>Spotlight</strong>, &lt;2%)</span>.</span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-9">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-9" class="pub-tldr" hidden>TL;DR: Causal decision methods generally lack abstention, while reject-option classifiers lack causal guarantees; TRECA links causal misclassification risk to CVaR for doubly robust responder classification and adds partial-identification and sensitivity analyses.</div>
 </li>
 
 <li id="c-10">
@@ -333,7 +400,11 @@ author_profile: true
     Xinwang Liu,
     Wenjing Yang.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">KDD</span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-10">Open Problem &amp; Our Answer</button><div id="insight-c-10" class="pub-tldr" hidden>TL;DR: Existing trajectory-analysis pipelines often require manual intervention and expertise across heterogeneous tools; SpaCellAgent automates end-to-end spatial and single-cell analysis through multi-agent planning, adaptive tool orchestration, and feedback-driven self-evolution.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">KDD</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-10">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-10" class="pub-tldr" hidden>TL;DR: Existing trajectory-analysis pipelines often require manual intervention and expertise across heterogeneous tools; SpaCellAgent automates end-to-end spatial and single-cell analysis through multi-agent planning, adaptive tool orchestration, and feedback-driven self-evolution.</div>
 </li>
   
 <li id="c-11">
@@ -345,10 +416,14 @@ author_profile: true
     Zichen Wang
     <sup class="supmark co" title="Equal contribution">‡</sup>.
   </span><br/>
-    <span class="pub-meta"><span class="pub-venue">NeurIPS</span>, 2025.</span>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">NeurIPS</span>, 2025.</span>
   <span class="pub-meta" style="display:inline-block; margin-left:1.2em;">
   </span>
-  Invited talk at POMSHK2026. <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-11">Open Problem &amp; Our Answer</button><div id="insight-c-11" class="pub-tldr" hidden>TL;DR: Offline randomized designs can control estimation error but incur persistent regret in sequential network experiments; this work uses exposure mappings to unify causal estimation with reward learning and proves a Pareto-optimal estimation-regret frontier.</div>
+  Invited talk at POMSHK2026.</span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-11">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-11" class="pub-tldr" hidden>TL;DR: Offline randomized designs can control estimation error but incur persistent regret in sequential network experiments; this work uses exposure mappings to unify causal estimation with reward learning and proves a Pareto-optimal estimation-regret frontier.</div>
 </li>
 
 <li id="c-12">
@@ -364,10 +439,14 @@ author_profile: true
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>,
     Huazheng Wang.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">NeurIPS</span>, 2025.</span>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">NeurIPS</span>, 2025.</span>
    <span class="pub-meta" style="display:inline-block; margin-left:1.2em;">
    </span>
-  Invited talk at POMSHK2026. <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-12">Open Problem &amp; Our Answer</button><div id="insight-c-12" class="pub-tldr" hidden>TL;DR: The earlier MAB-N framework assumed stochastic rewards and did not provide continual inference; this work extends its estimation-regret frontier to the adversarial, design-based setting and adds anytime-valid inference through EXP3-N-CS.</div>
+  Invited talk at POMSHK2026.</span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-12">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-12" class="pub-tldr" hidden>TL;DR: The earlier MAB-N framework assumed stochastic rewards and did not provide continual inference; this work extends its estimation-regret frontier to the adversarial, design-based setting and adds anytime-valid inference through EXP3-N-CS.</div>
 </li>
 
 <li id="c-13">
@@ -380,7 +459,11 @@ author_profile: true
     Zhaojuan Yue,
     Jun Li.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">NeurIPS</span>, 2025.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-13">Open Problem &amp; Our Answer</button><div id="insight-c-13" class="pub-tldr" hidden>TL;DR: Influence-maximization models usually treat node gains as fixed; CauIM models their counterfactual dependence on neighboring activations and supplies accelerated algorithms, a generalized spread lower bound, and robustness analysis.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">NeurIPS</span>, 2025.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-13">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-13" class="pub-tldr" hidden>TL;DR: Influence-maximization models usually treat node gains as fixed; CauIM models their counterfactual dependence on neighboring activations and supplies accelerated algorithms, a generalized spread lower bound, and robustness analysis.</div>
 </li>
 
 <li id="c-14">
@@ -391,7 +474,11 @@ author_profile: true
     Haoxuan Li,
     Zhouchen Lin.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2025.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-14">Open Problem &amp; Our Answer</button><div id="insight-c-14" class="pub-tldr" hidden>TL;DR: Existing active treatment-effect estimators often lack finite-sample guarantees or optimal dependence on dimension under tight budgets; RWAS achieves near-optimal sample complexity with nonasymptotic error control and extends to network interference.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">ICML</span>, 2025.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-14">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-14" class="pub-tldr" hidden>TL;DR: Existing active treatment-effect estimators often lack finite-sample guarantees or optimal dependence on dimension under tight budgets; RWAS achieves near-optimal sample complexity with nonasymptotic error control and extends to network interference.</div>
 </li>
 
 <li id="c-15">
@@ -400,8 +487,12 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <!-- <span class="pub-meta"><span class="pub-venue">ICML</span>, 2024</span> <span style="color:red;">(Spotlight, &lt;2%)</span>. -->
-  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2024</span> <span style="color:red;">(<strong>Spotlight</strong>, &lt;2%)</span>. <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-15">Open Problem &amp; Our Answer</button><div id="insight-c-15" class="pub-tldr" hidden>TL;DR: Proxy methods require auxiliary variables, while prior marginal-information bounds cover only extreme confounder regimes; this work derives tight closed-form bounds for any discrete confounder marginal and characterizes exactly when that information tightens identification.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><!-- <span class="pub-meta"><span class="pub-venue">ICML</span>, 2024</span> <span style="color:red;">(Spotlight, &lt;2%)</span>. -->
+  <span class="pub-meta"><span class="pub-venue">ICML</span>, 2024</span> <span style="color:red;">(<strong>Spotlight</strong>, &lt;2%)</span>.</span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-15">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-15" class="pub-tldr" hidden>TL;DR: Proxy methods require auxiliary variables, while prior marginal-information bounds cover only extreme confounder regimes; this work derives tight closed-form bounds for any discrete confounder marginal and characterizes exactly when that information tightens identification.</div>
 </li>
 
 <li id="c-16">
@@ -411,7 +502,11 @@ author_profile: true
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>,
     Xinyan Su.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">UAI</span>, 2024.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-16">Open Problem &amp; Our Answer</button><div id="insight-c-16" class="pub-tldr" hidden>TL;DR: Proximal causal methods rely on hard-to-verify invertibility or completeness; PI-SFP instead uses partial knowledge of the proxy-confounder transition and computes valid causal bounds through globally convergent sum-of-ratios optimization.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">UAI</span>, 2024.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-16">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-16" class="pub-tldr" hidden>TL;DR: Proximal causal methods rely on hard-to-verify invertibility or completeness; PI-SFP instead uses partial knowledge of the proxy-confounder transition and computes valid causal bounds through globally convergent sum-of-ratios optimization.</div>
 </li>
 
 <li id="c-17">
@@ -423,7 +518,11 @@ author_profile: true
     Zhenhua Dong,
     Ruiming Tang.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">SIGIR</span>, 2023.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-17">Open Problem &amp; Our Answer</button><div id="insight-c-17" class="pub-tldr" hidden>TL;DR: IPS and doubly robust recommenders assume confounders are observed without error; AT-IPS models a feasible region of confounder noise and trains propensity and prediction models against the worst case, characterizing the accuracy-robustness trade-off.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">SIGIR</span>, 2023.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-17">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-c-17" class="pub-tldr" hidden>TL;DR: IPS and doubly robust recommenders assume confounders are observed without error; AT-IPS models a feasible region of confounder noise and trains propensity and prediction models against the worst case, characterizing the accuracy-robustness trade-off.</div>
 </li>
 
 </ol>
@@ -449,7 +548,11 @@ author_profile: true
     Haoxuan Li,
     Hao Wang.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/pdf/2607.15092">Preprint</a></span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-1">Open Problem &amp; Our Answer</button><div id="insight-p-1" class="pub-tldr" hidden>TL;DR: Existing rubric generators require external supervision or can accept plausible but untested criteria; Rubrics on Trial evolves and validates query-specific rubrics using only synthetic response pairs, without annotations or model training.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/pdf/2607.15092">Preprint</a></span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-1">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-p-1" class="pub-tldr" hidden>TL;DR: Existing rubric generators require external supervision or can accept plausible but untested criteria; Rubrics on Trial evolves and validates query-specific rubrics using only synthetic response pairs, without annotations or model training.</div>
 </li>
   
 <li id="p-2">
@@ -460,7 +563,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span> 
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/abs/2607.03161">Preprint</a></span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-2">Open Problem &amp; Our Answer</button><div id="insight-p-2" class="pub-tldr" hidden>TL;DR: Marginal conformal guarantees may fail on model-selected subsets, and naive CATE-error proxies lose power under heteroskedasticity; Denoised Conformal Alignment subtracts estimated conditional variance before conformal-BH calibration, yielding asymptotic FDR control with greater power.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/abs/2607.03161">Preprint</a></span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-2">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-p-2" class="pub-tldr" hidden>TL;DR: Marginal conformal guarantees may fail on model-selected subsets, and naive CATE-error proxies lose power under heteroskedasticity; Denoised Conformal Alignment subtracts estimated conditional variance before conformal-BH calibration, yielding asymptotic FDR control with greater power.</div>
 </li>
 
   
@@ -475,7 +582,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span> 
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/pdf/2601.17734">Preprint</a></span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-3">Open Problem &amp; Our Answer</button><div id="insight-p-3" class="pub-tldr" hidden>TL;DR: Prior work left PALMRT's factor-two Type I bound, design-adaptive power, and validity beyond exchangeability unresolved; this group-permutation framework proves sharpness, selects design-informed groups, and derives finite-sample robustness bounds.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/pdf/2601.17734">Preprint</a></span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-3">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-p-3" class="pub-tldr" hidden>TL;DR: Prior work left PALMRT's factor-two Type I bound, design-adaptive power, and validity beyond exchangeability unresolved; this group-permutation framework proves sharpness, selects design-informed groups, and derives finite-sample robustness bounds.</div>
 </li>
 
 
@@ -495,7 +606,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue"><a href="http://arxiv.org/abs/2602.19851">Preprint</a></span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-4">Open Problem &amp; Our Answer</button><div id="insight-p-4" class="pub-tldr" hidden>TL;DR: Categorical policy encodings ignore equivalent treatment combinations and destabilize long-tail estimates; POUL uses a permutation-invariant policy-mixture representation and an orthogonalized uplift objective to improve stability and generalization for rare or perturbed policies.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue"><a href="http://arxiv.org/abs/2602.19851">Preprint</a></span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-4">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-p-4" class="pub-tldr" hidden>TL;DR: Categorical policy encodings ignore equivalent treatment combinations and destabilize long-tail estimates; POUL uses a permutation-invariant policy-mixture representation and an orthogonalized uplift objective to improve stability and generalization for rare or perturbed policies.</div>
 </li>
 
 <li id="p-5">
@@ -507,7 +622,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/abs/2602.19738">Preprint</a></span>, 2026.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-5">Open Problem &amp; Our Answer</button><div id="insight-p-5" class="pub-tldr" hidden>TL;DR: Prior research treats network interference, heterogeneity, and multidimensional treatments separately, creating an exponentially large joint counterfactual space; this framework combines rooted network configurations, doubly robust orthogonalization, and sparse spectral learning to estimate individualized effects.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue"><a href="https://arxiv.org/abs/2602.19738">Preprint</a></span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-5">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-p-5" class="pub-tldr" hidden>TL;DR: Prior research treats network interference, heterogeneity, and multidimensional treatments separately, creating an exponentially large joint counterfactual space; this framework combines rooted network configurations, doubly robust orthogonalization, and sparse spectral learning to estimate individualized effects.</div>
 </li>
 
   
@@ -520,7 +639,11 @@ author_profile: true
     <span class="me">Zhiheng Zhang</span>
     <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">Working paper</span>, 2025.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-6">Open Problem &amp; Our Answer</button><div id="insight-p-6" class="pub-tldr" hidden>TL;DR: Although regularity prevents degenerate simplices, the maximum number meeting at one point remained unknown; this note gives an explicit upper bound in terms of dimension and the regularity constant.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">Working paper</span>, 2025.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-6">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-p-6" class="pub-tldr" hidden>TL;DR: Although regularity prevents degenerate simplices, the maximum number meeting at one point remained unknown; this note gives an explicit upper bound in terms of dimension and the regularity constant.</div>
 </li>
 
 <li id="p-7">
@@ -531,7 +654,11 @@ author_profile: true
     Tian Tian, 
     Jun Zhu.
   </span><br/>
-  <span class="pub-meta"><span class="pub-venue">Working paper</span>, 2025.</span> <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-7">Open Problem &amp; Our Answer</button><div id="insight-p-7" class="pub-tldr" hidden>TL;DR: Traditional Granger causality assumes channel relationships remain constant over time; DWGC detects dynamic cross-channel causality by testing windowed forecast errors and reweighting channels to suppress autocorrelation.</div>
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">Working paper</span>, 2025.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-p-7">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-p-7" class="pub-tldr" hidden>TL;DR: Traditional Granger causality assumes channel relationships remain constant over time; DWGC detects dynamic cross-channel causality by testing windowed forecast errors and reweighting channels to suppress autocorrelation.</div>
 </li>
 </ol>
 
@@ -542,10 +669,13 @@ author_profile: true
 <ol class="pub-list pub-list--thesis">
 <li id="thesis-1">
   <span class="pub-title">Causal Inference under Real-world Constraints: Privacy, Robustness, and Pareto Balance</span><br/>
-  <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
+  <div class="pub-info-row">
+    <span class="pub-info-text"><span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     <span class="me">Zhiheng Zhang</span>, 2025.
-  </span>
-  <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-thesis-1">Open Problem &amp; Our Answer</button><div id="insight-thesis-1" class="pub-tldr" hidden>TL;DR: Idealized causal methods can fail under privacy, robustness, and competing-objective constraints; this thesis develops a framework for such real-world constraints and uses Pareto analysis to characterize attainable trade-offs.</div>
+  </span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-thesis-1">Open Problem &amp; Our Answer</button>
+  </div>
+  <div id="insight-thesis-1" class="pub-tldr" hidden>TL;DR: Idealized causal methods can fail under privacy, robustness, and competing-objective constraints; this thesis develops a framework for such real-world constraints and uses Pareto analysis to characterize attainable trade-offs.</div>
 </li>
 </ol>
 
