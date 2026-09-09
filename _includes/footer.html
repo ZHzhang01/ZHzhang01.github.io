@@ -24,9 +24,97 @@
   Site last updated {{ "now" | date: '%Y-%m-%d' %}}
 </div>
 
-<!-- <div style="width:100%; text-align:center; margin-top:30px;">
- <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=seLVPvm-rVVXfM6BNCE8wr_ouXXbsJmlEIulz5J1QIw&cl=ffffff&w=a"></script>
-</div> -->
+<style>
+  .page__footer-views {
+    margin-top: 1.25rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--global-border-color);
+    text-align: center;
+    color: var(--global-text-color);
+    font-size: 0.8rem;
+  }
+  .page__footer-views-since,
+  .page__footer-views-label { display: block; }
+  .page__footer-views-since {
+    margin-bottom: 0.2rem;
+    color: var(--global-text-color-light);
+  }
+  .page__footer-views-label { margin-bottom: 0.35rem; }
+  .page__footer-views-value {
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    background: var(--global-bg-color);
+    color: #0b3d91;
+    font: 600 1.35rem/1.4 ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.08em;
+    overflow-wrap: anywhere;
+    max-width: 100%;
+  }
+  html[data-theme="dark"] .page__footer-views-value { color: #79b8ff; }
+  .page__footer-views [lang="zh"] { display: none; }
+  html[data-home-lang="zh"] .page__footer-views [lang="en"] { display: none; }
+  html[data-home-lang="zh"] .page__footer-views [lang="zh"] { display: inline; }
+  .page__footer-views-status { display: inline-block; padding: 0.5rem; }
+</style>
 
+<div class="page__footer-views" aria-live="polite" aria-atomic="true">
+  <span class="page__footer-views-since">
+    <span lang="en">Homepage online since June 17, 2025</span><span lang="zh">主页自 2025 年 6 月 17 日上线</span>
+  </span>
+  <span class="page__footer-views-label">
+    <span lang="en">Page views recorded since September 9, 2026</span><span lang="zh">浏览次数统计自 2026 年 9 月 9 日</span>
+  </span>
+  <span id="busuanzi_container_site_pv" style="display: none;">
+    <span id="busuanzi_value_site_pv" class="page__footer-views-value"></span>
+  </span>
+  <span id="site-views-status" class="page__footer-views-status">
+    <span lang="en">Loading count…</span><span lang="zh">正在加载统计…</span>
+  </span>
+  <noscript>
+    <style>#site-views-status { display: none; }</style>
+    <span lang="en">Enable JavaScript to view the count.</span><span lang="zh">请启用 JavaScript 查看浏览次数。</span>
+  </noscript>
+</div>
 
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=200&t=tt&d=seLVPvm-rVVXfM6BNCE8wr_ouXXbsJmlEIulz5J1QIw'></script>
+<script>
+(function () {
+  var status = document.getElementById("site-views-status");
+  var value = document.getElementById("busuanzi_value_site_pv");
+  var counter = document.getElementById("busuanzi_container_site_pv");
+  function showStatus(english, chinese) {
+    status.querySelector('[lang="en"]').textContent = english;
+    status.querySelector('[lang="zh"]').textContent = chinese;
+  }
+
+  /* Count only the live site, never localhost previews or copies of this repository. */
+  if (window.location.hostname !== "zhzhang01.github.io") {
+    showStatus("Not counted in preview", "本地预览不计数");
+    return;
+  }
+
+  var timeout;
+  var observer = new MutationObserver(function () {
+    if (!/^\d+$/.test(value.textContent.trim())) return;
+    window.clearTimeout(timeout);
+    status.style.display = "none";
+    counter.style.display = "inline";
+    observer.disconnect();
+    window.dispatchEvent(new Event("resize"));
+  });
+  observer.observe(value, { childList: true, characterData: true, subtree: true });
+
+  function unavailable() {
+    showStatus("Count temporarily unavailable", "统计暂时不可用");
+  }
+  timeout = window.setTimeout(unavailable, 10000);
+  var script = document.createElement("script");
+  script.id = "site-views-script";
+  script.async = true;
+  script.src = "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js";
+  script.onerror = function () { window.clearTimeout(timeout); unavailable(); };
+  document.head.appendChild(script);
+}());
+</script>
