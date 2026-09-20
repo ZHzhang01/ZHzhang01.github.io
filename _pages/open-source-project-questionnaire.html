@@ -194,37 +194,37 @@ classes: wide
   <header class="doc-hero">
     <p class="doc-hero__eyebrow">CAUSAL LAB · OPEN-SOURCE RESEARCH</p>
     <h1>开源研究项目申请问卷与入组考核</h1>
-    <p class="doc-hero__lead">面向 <strong>Causal Foundation Model / Causal ATLAS</strong> 与 <strong>DesignInfer：design-based inference 的 Lean 形式化</strong> 两个开源研究方向。考核关注能否把研究问题转化为可运行、可复现、可审查的研究对象，无需堆砌篇幅、模型规模或代码行数。</p>
+    <p class="doc-hero__lead">本页介绍 <strong>Causal Foundation Model / Causal ATLAS</strong> 和 <strong>DesignInfer：design-based inference 的 Lean 形式化</strong> 两个开源研究方向。考核重点是能否把一个研究问题做成可运行、可复现、可检查的小型项目；篇幅、模型规模和代码量本身不是评价标准。</p>
     <div class="doc-meta">
       <span>负责人：张智恒</span>
       <span>单位：上海财经大学统计与数据科学学院 · CAUSAL Lab</span>
-      <span>版本：2026-08-18</span>
+      <span>版本：2026-09-20</span>
     </div>
   </header>
 
   <div class="callout">
-    <strong>使用方式：</strong>请提交<a href="https://causal-lab-application.pelusojoule28475.chatgpt.site/open-source-project">本申请考核问卷</a>。
+    <strong>使用方式：</strong>请填写并提交<a href="https://causal-lab-application.pelusojoule28475.chatgpt.site/open-source-project">申请考核问卷</a>。
   </div>
 
   <div class="track-grid">
     <section class="track-card">
       <span class="tag">Track A</span><span class="tag">统计 + 机器学习</span><span class="tag">Python / R</span>
       <h3>Causal Foundation Model</h3>
-      <p>围绕因果表格模型，构建从多源实验与观测证据到评估、迁移和下一步实验决策的最小原型。给出可信的任务定义、基线、验证和失效分析。</p>
+      <p>围绕因果表格模型，完成一个处理多来源实验与观测数据的小型原型，并用它进行效果评估、跨环境迁移和后续实验选择。需要说明任务定义、比较基线、验证方法和失效情形。</p>
     </section>
     <section class="track-card track-card--lean">
       <span class="tag">Track B</span><span class="tag">形式化数学</span><span class="tag">Lean 4</span>
       <h3>DesignInfer</h3>
-      <p>将 design-based inference 中的定义、引理或定理转写为稳定的 Lean API，并提交经过内核检查的证明、依赖关系与来源说明。</p>
+      <p>选择 design-based inference 中的一项定义、引理或定理，将其形式化为可复用的 Lean API，并提交通过内核检查的证明，同时说明依赖关系和资料来源。</p>
     </section>
   </div>
 
   <h2 id="purpose">一、考核目的与流程</h2>
-  <p>本问卷用于判断申请人与项目的相互匹配程度，也帮助申请人尽早理解研究工作的真实形态。问卷材料原则上只用于评估和后续讨论，不会未经沟通直接并入项目。</p>
+  <p>本问卷用于了解申请人与项目是否合适，也让申请人提前了解实际工作内容。提交的材料只用于评估和后续讨论；未经沟通，不会直接并入项目。</p>
 
 
   <h2 id="questionnaire">二、第一部分：开源项目申请问卷</h2>
-  <p>请使用中文或英文，对如下问题进行简要沟通：</p>
+  <p>请用中文或英文简要回答以下问题：</p>
 
   <div class="question-list">
     <div class="question-card"><strong>基本信息</strong>姓名、学校/单位、院系与专业、年级、所在城市、邮箱、个人主页或 GitHub。申请博士生、硕士生、科研助理还是研究实习？</div>
@@ -238,7 +238,7 @@ classes: wide
 
   <h2 id="assessment">三、第二部分：方向考核</h2>
   <div class="callout callout--warning">
-    <strong>共同原则。</strong>选择一个范围小、能真正完成的个人project。可以使用生成式 AI、开源库和公开数据，但保留关键使用记录、核验输出并能解释每一项核心设计。考核关注申请人自身的兴趣和能力，并非帮忙无偿完成一个完整产品或大规模研究工程，这是不现实的。
+    <strong>共同原则。</strong>请选择一个范围较小、能够独立完成的个人 project。可以使用生成式 AI、开源库和公开数据，但需要保留关键使用记录、核验输出，并能解释每一项核心设计。本考核评估的是申请人本人的兴趣、判断和能力，不要求申请人无偿完成一个完整产品或大规模研究工程。
   </div>
 
   <section id="track-a">
@@ -250,7 +250,7 @@ classes: wide
       <li>至少两个数据来源或环境；允许使用“合成数据 + 公开数据”。</li>
       <li>明确数据、treatment、outcome、context、estimand / policy value、识别假设与可能的偏差来源。</li>
       <li>输出可以包括：候选方案排序、效应/价值估计、不确定性、在何种条件下应 abstain，以及一个具有明确预算的 bridge experiment / next experiment 建议。</li>
-      <li>不要求训练大参数模型。允许采用预训练表格模型、元学习模型、检索/路由模块或简单共享骨干；说明为什么它有资格被视为“跨任务/跨环境”的原型，而非单一数据集拟合器。</li>
+      <li>不要求训练大参数模型。可以采用预训练表格模型、元学习模型、检索/路由模块或简单共享骨干；需要说明它为何可以作为“跨任务/跨环境”原型，而不是单一数据集拟合器。</li>
     </ul>
 
     <h4>A2. 必须包含的系统模块</h4>
@@ -260,10 +260,10 @@ classes: wide
         <tbody>
           <tr><td>Problem / Evidence Card</td><td>统一记录 treatment、outcome、context、source、design、assumption、ground truth 可用性。</td><td>不同实验和观测证据何时可比较？</td></tr>
           <tr><td>Task Generator</td><td>生成或切分不少于三类任务/环境，并固定训练、验证、测试边界。</td><td>模型是否只记住一个数据集？</td></tr>
-          <tr><td>Baselines</td><td>一个仅预测相关性的 baseline、一个标准因果/统计 baseline、你的方法。</td><td>增益来自哪里？</td></tr>
+          <tr><td>Baselines</td><td>一个仅预测相关性的 baseline、一个标准因果/统计 baseline、你的方法。</td><td>方法相对基线的改进来自什么？</td></tr>
           <tr><td>Verifier</td><td>检查 estimand、输入范围、重叠性/支持集、数值稳定性与结果一致性。</td><td>何时不应相信输出？</td></tr>
-          <tr><td>Uncertainty / Abstention</td><td>提供区间、校准、集合预测或可解释的拒答规则。</td><td>错误自信能否被识别？</td></tr>
-          <tr><td>Bridge Planner</td><td>在固定预算下选择下一项最有价值的实验或采样动作。</td><td>少量在线证据应花在哪里？</td></tr>
+          <tr><td>Uncertainty / Abstention</td><td>提供区间、校准、集合预测或可解释的拒答规则。</td><td>系统能否识别自己不可靠的判断？</td></tr>
+          <tr><td>Bridge Planner</td><td>在固定预算下选择下一项最有价值的实验或采样动作。</td><td>有限的在线数据预算应如何分配？</td></tr>
         </tbody>
       </table>
     </div>
@@ -274,17 +274,17 @@ classes: wide
       <li><strong>Transfer / open benchmark：</strong>在未见环境、分布漂移或 schema 变化下评估泛化，并与 baseline 比较。</li>
       <li><strong>Decision quality：</strong>评估 bridge experiment 是否以更少预算降低决策错误、不确定性或 regret。</li>
     </ol>
-    <p>至少主动构造一种失效情形，例如严重 overlap 破坏、未观测混杂、错误 proxy、干扰、sim-to-real 偏移或 treatment 语义错配。展示系统是否能报警/拒答；若不能，解释原因。</p>
+    <p>至少构造一种失效情形，例如严重 overlap 破坏、未观测混杂、错误 proxy、干扰、sim-to-real 偏移或 treatment 语义错配。检查系统能否报警或拒答；如果不能，需要解释原因。</p>
   </section>
 
   <section id="track-b">
     <h3>Track B：DesignInfer 的 Lean 形式化</h3>
-    <p><strong>任务：</strong>从 design-based inference 中选一个定义-引理-定理的最小闭环，给出来源、规范化定义、依赖图、Lean 4 实现与内核检查通过的证明。</p>
+    <p><strong>任务：</strong>从 design-based inference 中选择一组相互关联的定义、引理和定理，完成规范化定义、依赖图和 Lean 4 实现，并给出资料来源及通过内核检查的证明。</p>
 
     <h4>B1. 推荐题目（任选一项）</h4>
     <ol>
       <li><strong>完全随机化下差均值估计量的设计无偏性</strong>：有限总体、固定潜在结果和已知处理组规模。</li>
-      <li><strong>概率空间的构建以及经验过程</strong>：明确抽样空间、对称性与边界条件。</li>
+      <li><strong>概率空间的构造与经验过程</strong>：明确抽样空间、对称性与边界条件。</li>
       <li><strong>置换统计量或随机化检验的基本不变性/有限样本有效性</strong>：拓展到因果推断与实验设计。</li>
       <li><strong>其他题目可以自选。</strong></li>
     </ol>
@@ -299,18 +299,18 @@ classes: wide
     </ul>
 
     <div class="callout callout--danger">
-     若 Lean 代码不能在锁定版本的环境中编译，或证明依赖占位符/新增公理，视为未完成。若发现原命题有误，可以提交经验证的反例和修订建议，但必须清楚区分“原命题”“修订命题”和“已证明内容”。
+     如果 Lean 代码无法在锁定版本的环境中编译，或证明依赖占位符或新增公理，则视为未完成。如果发现原命题有误，可以提交经过验证的反例和修改建议，但必须清楚区分“原命题”“修订命题”和“已证明内容”。
     </div>
   </section>
 
   <h2 id="requirements">四、统一功能与研究要求</h2>
   <ol>
-    <li><strong>任务规划：</strong>提交开始前的工作分解，以及完成后对原计划的复盘。</li>
-    <li><strong>真实执行：</strong>实验、数据处理、编译与测试必须真实运行；只在文字中模拟“已经运行”不算完成。</li>
+    <li><strong>任务规划：</strong>开始前提交工作分解，完成后对照原计划复盘。</li>
+    <li><strong>真实执行：</strong>实验、数据处理、编译与测试必须实际运行；仅在文字中声称“已经运行”不算完成。</li>
     <li><strong>状态记录：</strong>保留关键输入、版本、命令、输出、错误、修复和决策理由，使过程可追溯。</li>
-    <li><strong>独立验证：</strong>不能把“程序没有报错”当作正确性证明；应有基线、单元测试、真值检查、反例、审查或等价的独立信号。</li>
-    <li><strong>终止条件：</strong>明确时间/算力预算、成功条件、未解决项和停止原因。</li>
-    <li><strong>可复现性：</strong>锁定依赖和随机种子（如适用），提供从安装到生成主要结果的一条主命令。</li>
+    <li><strong>独立验证：</strong>不能把“程序没有报错”当作正确性证明；应提供基线、单元测试、真值检查、反例、审查或其他独立验证依据。</li>
+    <li><strong>停止条件：</strong>明确时间和算力预算、成功条件、未解决项及停止原因。</li>
+    <li><strong>可复现性：</strong>锁定依赖和随机种子（如适用），提供一个从安装到生成主要结果的主命令。</li>
     <li><strong>最小化：</strong>只提交支持研究结论的必要组件。界面美化、复杂框架和无关功能不会自动加分。</li>
   </ol>
 
@@ -344,7 +344,7 @@ classes: wide
         <li>使用公开数据、合成数据、开源库、预训练模型和形式化证明工具。</li>
         <li>使用生成式 AI 辅助阅读、编码、调试、证明搜索和写作。</li>
         <li>缩小题目、报告失败、提交负结果或经验证的反例。</li>
-        <li>在 README 中说明资源限制并给出轻量复现路径。</li>
+        <li>在 README 中说明资源限制，并提供资源要求较低的复现方法。</li>
         <li>在遇到命题或数据问题时尽早提出。</li>
       </ul>
     </section>
@@ -355,7 +355,7 @@ classes: wide
         <li>提交未理解、不能担保正确性的 AI 生成内容。</li>
         <li>未经许可公开内部材料、未发布想法或合作方数据。</li>
         <li>把 API Key、密码、Cookie 或个人敏感信息提交到仓库。</li>
-        <li>用过度包装替代问题定义、验证和可复现证据。</li>
+        <li>用界面或宣传包装代替问题定义、验证和可复现证据。</li>
       </ul>
     </section>
   </div>
@@ -367,9 +367,9 @@ classes: wide
 
   <h2 id="faq">九、常见问题</h2>
   <h3>一定要有因果推断或 Lean 经验吗？</h3>
-  <p>不一定。数学/统计基础扎实、编程能力强且能快速学习者也欢迎申请。渡过最基础的入门阶段后，其他背景鼓励利用大模型加速学习和上手。</p>
+  <p>不一定。数学或统计基础扎实、编程能力较强且愿意快速学习的同学也可以申请。没有相关经验的申请人，可以在完成基础入门后使用大模型辅助学习。</p>
   <h3>必须用深度模型或 Agent 框架吗？</h3>
-  <p>不需要。对于新手，一个透明、强基线充分的轻量原型可能比难以解释的大模型更有价值。</p>
+  <p>不需要。对新手而言，一个过程透明、基线充分的轻量原型，往往比难以解释的大模型更有价值。</p>
   <h3>Lean 题太难，能只写数学证明吗？</h3>
   <p>不能作为完成 Track B 的替代。可以先提交数学证明和形式化计划请求讨论，但正式考核必须包含内核检查通过的 Lean 代码，或经核验的反例与问题报告。</p>
   <h3>可以和别人合作完成吗？</h3>
@@ -409,7 +409,7 @@ classes: wide
         </li>
       </ol>
 
-      <h4>参考相关Workshop：Foundation Models for Structured Data 中的因果相关工作</h4>
+      <h4>相关 Workshop：Foundation Models for Structured Data 中的因果研究</h4>
       
       <ol class="reference-list workshop-list">
         <li><span class="reference-title"><a href="https://icml.cc/virtual/2026/71464">CausalTab: Pretraining Across Causal Environments for Tabular Causal Discovery</a>.</span><br><span class="reference-meta">Zi-Rong Li, Si-Yang Liu, Tian-Zuo Wang, and Han-Jia Ye.</span></li>
