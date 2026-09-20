@@ -1,0 +1,333 @@
+---
+layout: archive
+title: "CAUSAL Lab 实验室规范与培养要求"
+permalink: /lab-guidelines/
+author_profile: true
+classes: wide
+---
+
+<style>
+  .archive > .page__title { display: none; }
+  .lab-doc {
+    --ink: #182234;
+    --muted: #5b6779;
+    --line: #d9e2e9;
+    --blue: #174b7a;
+    --teal: #087f78;
+    --amber: #a46512;
+    --red: #9c3131;
+    color: var(--ink);
+    font-size: 0.95em;
+    line-height: 1.74;
+  }
+  .lab-doc * { box-sizing: border-box; }
+  .lab-doc a { color: var(--blue); }
+  .lab-doc h2 {
+    margin: 2.65rem 0 1rem;
+    padding-bottom: 0.45rem;
+    border-bottom: 2px solid var(--line);
+    color: var(--blue);
+    font-size: 1.42rem;
+  }
+  .lab-doc h3 { margin: 1.6rem 0 0.55rem; font-size: 1.12rem; }
+  .lab-doc h4 { margin: 1.2rem 0 0.35rem; color: var(--teal); font-size: 1rem; }
+  .lab-doc p { margin: 0.55rem 0; }
+  .lab-doc ul, .lab-doc ol { margin: 0.45rem 0 0.85rem; }
+  .lab-doc li { margin: 0.28rem 0; }
+  .lab-hero {
+    margin: 0 0 1.6rem;
+    padding: 1.55rem 1.7rem;
+    border: 1px solid #b9ccdc;
+    border-top: 6px solid var(--blue);
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f7fbff 0%, #eef8f6 100%);
+  }
+  .lab-hero__eyebrow { margin: 0 0 0.35rem; color: var(--teal); font-size: 0.78rem; font-weight: 800; letter-spacing: 0.1em; }
+  .lab-hero h1 { margin: 0; color: #113656; font-size: clamp(1.75rem, 4vw, 2.55rem); line-height: 1.2; }
+  .lab-hero__lead { max-width: 54rem; margin-top: 0.8rem !important; font-size: 1.02rem; }
+  .lab-meta { display: flex; flex-wrap: wrap; gap: 0.45rem 1rem; margin-top: 1rem; color: var(--muted); font-size: 0.86rem; }
+  .principles {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.9rem;
+    margin: 1rem 0;
+  }
+  .principle, .policy-card, .faq-card {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 5px 18px rgba(25, 55, 84, 0.06);
+  }
+  .principle { padding: 1rem; border-top: 4px solid var(--teal); }
+  .principle strong { display: block; margin-bottom: 0.2rem; color: #174766; }
+  .policy-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0; }
+  .policy-card { padding: 1.05rem 1.15rem; }
+  .policy-card h3 { margin-top: 0; color: #173f5e; }
+  .callout {
+    margin: 1rem 0;
+    padding: 0.92rem 1.08rem;
+    border-left: 4px solid var(--teal);
+    border-radius: 4px 8px 8px 4px;
+    background: #f3f8fa;
+  }
+  .callout--deadline { border-left-color: var(--amber); background: #fff8ec; }
+  .callout--red { border-left-color: var(--red); background: #fff2f2; }
+  .quick-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    margin: 1rem 0 1.4rem;
+  }
+  .quick-nav a {
+    display: inline-block;
+    padding: 0.35rem 0.72rem;
+    border: 1px solid #bfd0dc;
+    border-radius: 999px;
+    background: #f7fafc;
+    font-size: 0.84rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .table-wrap { margin: 0.9rem 0 1.25rem; overflow-x: auto; }
+  .lab-doc table { width: 100%; border-collapse: collapse; font-size: 0.91em; }
+  .lab-doc th, .lab-doc td { padding: 0.72rem 0.78rem; border: 1px solid var(--line); vertical-align: top; }
+  .lab-doc th { color: #173d5b; background: #edf4f8; text-align: left; }
+  .report-template {
+    margin: 0.9rem 0;
+    padding: 1rem 1.1rem;
+    border: 1px solid #cbd8e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    color: #263449;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.84rem;
+    line-height: 1.65;
+    white-space: pre-wrap;
+  }
+  .do-dont { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+  .do-dont section { padding: 0.95rem 1.05rem; border-radius: 8px; }
+  .do { border: 1px solid #bad9d3; background: #f1faf7; }
+  .dont { border: 1px solid #e2c4c4; background: #fff5f5; }
+  .redline-list { counter-reset: redline; list-style: none; padding-left: 0; }
+  .redline-list li { position: relative; margin: 0.7rem 0; padding: 0.85rem 1rem 0.85rem 3.3rem; border: 1px solid #e5c4c4; border-radius: 8px; background: #fff7f7; }
+  .redline-list li::before {
+    counter-increment: redline;
+    content: counter(redline);
+    position: absolute;
+    top: 0.78rem;
+    left: 0.9rem;
+    display: grid;
+    width: 1.65rem;
+    height: 1.65rem;
+    place-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background: var(--red);
+    font-weight: 800;
+  }
+  .faq-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.9rem; }
+  .faq-card { padding: 1rem 1.1rem; }
+  .faq-card h3 { margin-top: 0; color: #173f5e; }
+  .small-note { color: var(--muted); font-size: 0.86rem; }
+  .lab-footer { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); color: var(--muted); font-size: 0.84rem; }
+  @media (max-width: 780px) {
+    .principles, .policy-grid, .do-dont, .faq-grid { grid-template-columns: 1fr; }
+    .lab-hero { padding: 1.2rem; }
+  }
+  @media print {
+    .masthead, .sidebar, .page__footer, .quick-nav { display: none !important; }
+    .page, .page__inner-wrap, .page__content { width: 100% !important; max-width: none !important; margin: 0 !important; padding: 0 !important; }
+    .lab-doc { font-size: 9.6pt; }
+    .lab-hero, .principle, .policy-card, .faq-card, .callout, .redline-list li { box-shadow: none; break-inside: avoid; }
+    .lab-doc h2, .lab-doc h3 { break-after: avoid; }
+    .lab-doc a { color: inherit; text-decoration: none; }
+  }
+</style>
+
+<article class="lab-doc">
+  <header class="lab-hero">
+    <p class="lab-hero__eyebrow">CAUSAL LAB · WORKING AGREEMENT</p>
+    <h1>实验室规范与培养要求</h1>
+    <p class="lab-hero__lead">这份文档说明实验室对汇报、毕业、日常协作等事项的基本要求。希望大家在相互尊重的前提下如实沟通、认真做事，顺利完成研究和培养任务。</p>
+    <div class="lab-meta">
+      <span>负责人：张智恒</span>
+      <span>适用范围：CAUSAL Lab 正式学生及参与实验室项目的成员</span>
+      <span>执行起始日：2025-10-31</span>
+      <span>页面版本：2026-09-20</span>
+    </div>
+  </header>
+
+
+  <nav class="quick-nav" aria-label="本页目录">
+    <a href="#reporting">月报</a>
+    <a href="#graduation">毕业要求</a>
+    <a href="#daily">日常要求</a>
+    <a href="#internship">实习与访问</a>
+    <a href="#communication">沟通</a>
+    <a href="#recommendation">推荐信</a>
+    <a href="#ai">AI 使用</a>
+    <a href="#redlines">红线</a>
+  </nav>
+
+  <div class="principles">
+    <div class="principle"><strong>不打卡</strong>不以坐班时长衡量科研进展，但应按要求沟通、汇报并参加集体活动。</div>
+    <div class="principle"><strong>如实沟通</strong>暂时没有结果没有关系，但不能隐瞒困难、虚报进展或长期失联。</div>
+    <div class="principle"><strong>按贡献署名</strong>开展合作前应充分沟通，并尽早明确分工和署名；署名应与实际贡献相符。</div>
+  </div>
+
+  <h2 id="reporting">一、月报要求</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th style="width:29%">对象</th><th style="width:22%">频率与截止点</th><th>提交方式</th></tr></thead>
+      <tbody>
+        <tr><td>2025 届正式硕士生 / 硕博生</td><td>每半个月留言一次：每月 15 日和月末</td><td>以“飞书云文档”提交，分享给导师并授予编辑权限。</td></tr>
+        <tr><td>其他非 2025 届正式硕士生 / 硕博生</td><td>每月一次：每月最后一天前</td><td>要求同上。</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+
+  <h3>1.1 篇幅与写法</h3>
+  <ul>
+    <li><strong>控制在一段话以内。</strong>月报用于同步进展、明确接下来要讨论的问题。请简明扼要，避免冗长。</li>
+    <li><strong>没有进展也要写。</strong>请说明做过哪些尝试、依据是什么、卡在哪里、目前如何判断，以及希望我提供什么帮助。</li>
+    <li><strong>避免重复搬运。</strong>论文文字、完整推导、代码与实验细节应留在 Overleaf / 项目仓库。</li>
+  </ul>
+
+  <h3>1.2 一段式建议模板</h3>
+  <p>下面是便于执行的最小模板；请按项目需要修改。</p>
+  <div class="report-template">【本期研究问题 / 目标】
+一句话写清当前要回答的问题，以及相较上期是否变化。
+
+【本期最小可验证产出】
+- 论文/定理/实验/代码/数据：链接到 Overleaf、仓库、结果页或运行记录。
+- 关键证据：最多列 1-3 项结果；区分事实、推断和猜想。
+
+【结论与未解决问题】
+- 目前能确认什么？不能确认什么？
+- 最大卡点是什么，已经排除了哪些可能原因？
+
+【下一步与时间点】
+- 下一项可执行动作、成功/停止条件、预计完成时间。
+
+【需要导师决策或帮助】
+- 尽量写成可以直接回答的具体问题。</div>
+
+  <h3>1.3 飞书与 Overleaf 的分工</h3>
+  <div class="policy-grid">
+    <section class="policy-card">
+      <h3>飞书云文档</h3>
+      <p>记录本期目标、已有证据、遇到的困难、下一步计划，以及需要导师决定或协助的事项。内容控制在一段话内，便于持续跟进。</p>
+    </section>
+    <section class="policy-card">
+      <h3>Overleaf / 项目仓库</h3>
+      <p>保存定义、推导、文献、论文文字、代码、实验配置和结果。具体的研究内容在这里展开，并在一对一讨论中继续推进。</p>
+    </section>
+  </div>
+
+  <h2 id="graduation">二、毕业要求</h2>
+  <div class="policy-grid">
+    <section class="policy-card">
+      <h3>博士研究生</h3>
+      <p>以学校和学院公布的毕业标准为准。项目安排、资格考试和论文计划应符合学院的培养要求，并根据进展及时调整。</p>
+    </section>
+    <section class="policy-card">
+      <h3>专业硕士研究生</h3>
+      <p>基本目标是顺利通过硕士论文答辩。在读期间，需与导师共同完成至少一个已经写成论文、具备发表潜力的项目；毕业时可以尚未发表。</p>
+    </section>
+  </div>
+
+
+  <h2 id="daily">三、日常科研与协作要求</h2>
+
+  <h3>3.1 是否打卡？</h3>
+  <p><strong>实验室不实行打卡制度，主要看实际进展。</strong>但自由安排时间不意味着可以长期不回复、不汇报，或无故缺席必须参加的活动。</p>
+
+  <h3>3.2 是否可以对外合作？</h3>
+  <p>允许并鼓励开展论文合作，但在开始前应与导师沟通并征得同意。署名以实际贡献为准：</p>
+  <ul>
+    <li>导师对研究问题、方法、实验、写作或项目推进有实质贡献时，应按学术规范署名；否则不必署名；</li>
+    <li>与组外合作者应尽早讨论分工、数据和想法的归属、署名顺序及投稿计划；</li>
+    <li>涉及未公开项目、他人想法或受限数据时，未经授权不得对外披露。</li>
+  </ul>
+
+  <h3>3.3 是否有组会？</h3>
+  <p>科研项目以一对一指导为主，讨论内容根据每个人的实际进度安排。大型组会 / Reading Group 不设固定时间，会根据研究进展和专题需要不定期举行，主要用于：</p>
+  <ul>
+    <li>统一科研方向与项目规划；</li>
+    <li>拓宽学术视野，分享最新研究进展；</li>
+    <li>促进组内学术交流与合作。</li>
+  </ul>
+  <p><strong>所有实验室成员均需参加大型组会或 Reading Group。</strong>Reading Group 是了解相关领域最新工作的主要渠道，活动信息见<a href="https://zhzhang01.github.io/">个人主页所列微信公众号</a>。如因特殊原因无法参加，须提前请假并说明情况。</p>
+
+  <h3>3.4 是否会催促进度？</h3>
+  <p>如果课题由你自己提出，我不会催促进度，但欢迎你随时与我讨论。如果课题来自其他实验室成员，我会根据项目安排了解进度并及时提醒。</p>
+
+  
+  <h2 id="internship">四、实习、访问、会议与外出</h2>
+  <div class="policy-grid">
+    <section class="policy-card">
+      <h3>专业硕士</h3>
+      <ul>
+        <li>可以实习，但必须符合学院规定并提前向导师报备。</li>
+        <li>实习期间仍应保证毕业论文或科研项目按计划推进；如与校内任务发生明确冲突，以校内任务为主。</li>
+        <li>建议选择与毕业研究方向相关的岗位。在不影响校内项目的前提下，导师可根据个人能力和研究方向推荐合适的实习机会。</li>
+      </ul>
+    </section>
+    <section class="policy-card">
+      <h3>硕博生 / 博士生</h3>
+      <ul>
+        <li>考虑学位要求与资格考试准备，不建议低年级（第一、第二学年）实习。</li>
+        <li>不反对高年级在科研相关岗位实习，但必须提前沟通确认，不得影响论文与毕业进度。</li>
+        <li>鼓励访问、参会与交换；申请前需与导师协商，统筹项目、课程、经费与校内流程。</li>
+      </ul>
+    </section>
+  </div>
+  <p>如需在工作日的工作时间内离开上海市，应提前向导师说明原因和时间安排，并遵守学院、学校关于请假、出差、实习和外出的规定。</p>
+
+  <h2 id="communication">五、沟通要求</h2>
+  <ul>
+    <li>为尊重个人时间，除紧急事项外，我原则上不会主动打电话。</li>
+    <li>请在工作日 <strong>9:00-17:00</strong> 留意手机和常用的工作沟通渠道，看到消息后尽快回复。暂时不能处理时，也请先确认收到，并说明预计回复时间。</li>
+    <li>研究出现阻塞、计划明显延期、外部合作变化、数据/合规风险或个人情况影响项目时，应尽早沟通。</li>
+  </ul>
+
+  <h2 id="recommendation">六、推荐信</h2>
+  <p>出于公平，也为了对推荐内容负责，我只为已经与我有过有效合作的同学写推荐信。推荐信将以实际相处和合作中的表现为依据。对于表现优秀的同学，我会尽力推荐；如果我认为自己无法提供有力的推荐，也会坦诚说明，并建议你请更合适的老师帮忙，这通常对申请更有利。</p>
+
+  <h2 id="ai">七、生成式 AI 的使用</h2>
+  <p>可以使用 GPT 等语言模型梳理思路、辅助编程和检查论证，但不能把责任交给 AI。每个人都必须理解并核验自己提交的内容，并为其负责。</p>
+  <h3>允许</h3>
+  <ul>
+    <li>用于检索线索、头脑风暴、代码草拟、调试、语言润色、证明搜索和结构检查；</li>
+    <li>在理解输出后重写、验证并纳入自己的研究流程；</li>
+    <li>对重要工作保留关键 prompt / agent 任务、版本和核验记录，以便事后检查。</li>
+  </ul>
+  <h3>禁止</h3>
+  <ul>
+    <li>在没有看懂 AI 输出的情况下直接写进正文、代码、证明或报告；</li>
+    <li>留下明显的 AI 生成痕迹，例如虚构引用、空泛套话、风格突变、未替换占位符和无法解释的结论；</li>
+    <li>把 AI 生成的学术论述直接作为自己的结论提交，却无法说明证据、推导过程和适用范围；</li>
+    <li>向外部模型上传未公开论文、受限数据、个人信息、密钥或未经授权的合作材料。</li>
+  </ul>
+
+
+  <h2 id="redlines">八、不可接受的红线行为</h2>
+  <div class="callout callout--red">
+    <strong>以下行为不属于普通的进度问题。</strong>违反者将被要求退出实验室；如拒绝退出，导师不会在毕业申请上签字。具体处理遵循学校和学院的相关制度与程序。
+  </div>
+  <ol class="redline-list">
+    <li><strong>持续不履行上述基本要求。</strong>包括无正当理由长期不提交报告、不参加必须活动、不回应工作沟通，或在提醒后仍拒绝改正。</li>
+    <li><strong>在各种场合以个人或实验室名义发表不当政治言论。</strong>不得以实验室名义对外表达未经授权的立场，也不得让个人行为损害实验室及成员安全与声誉。</li>
+    <li><strong>任何形式的学术不端。</strong>包括洗稿、造假、抄袭、篡改/选择性隐瞒结果、窃取想法后私自投稿、伪造署名贡献、直接复制他人文字做不规范引用等。</li>
+    <li><strong>对 AI 输出不理解却直接担保。</strong>将 AI 生成的学术论述、代码或证明直接写入正式材料，而本人无法解释、验证和负责，按严重学术规范问题处理。</li>
+    <li><strong>拒绝与导师保持正常沟通。</strong>请及时联系，不必顾虑自己进展缓慢或遇到困难。</li>
+    <li><strong>影响实验室成员正常学习、工作或合作。</strong>包括骚扰、歧视、恶意攻击、散布未经证实的指控、泄露他人隐私或研究信息，以及持续制造敌对的合作环境。</li>
+  </ol>
+
+ 
+
+  <footer class="lab-footer">
+    <p>本页为可持续更新的实验室工作约定。引用或执行时请以网页最新版本为准。</p>
+  </footer>
+</article>
