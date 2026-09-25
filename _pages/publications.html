@@ -69,9 +69,17 @@ author_profile: true
 .pub-list li[id] {
   scroll-margin-top: 5rem;
 }
+.pub-list > li {
+  position: relative;
+}
 .pub-title {
+  display: block;
+  padding-right: 14.5em;
   font-weight: 500;
   color: #0b3d91;
+}
+.pub-title + br {
+  display: none;
 }
 .pub-authors .me {
   font-weight: 700;                 /* 自己加粗 */
@@ -94,10 +102,7 @@ author_profile: true
   color: #444;
 }
 .pub-info-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) max-content;
-  align-items: baseline;
-  column-gap: 1.25em;
+  display: block;
   width: 100%;
 }
 .pub-info-text {
@@ -105,6 +110,9 @@ author_profile: true
 }
 .pub-insight-toggle {
   display: inline-flex;
+  position: absolute;
+  top: 0;
+  right: 0;
   align-items: center;
   gap: 0.35em;
   max-width: 100%;
@@ -156,10 +164,12 @@ author_profile: true
   display: none;
 }
 @media (max-width: 600px) {
-  .pub-info-row {
-    column-gap: 0.65em;
+  .pub-title {
+    padding-right: 0;
   }
   .pub-insight-toggle {
+    position: static;
+    margin-top: 0.35em;
     padding-inline: 0.42em;
   }
 }
@@ -251,11 +261,14 @@ author_profile: true
   <span class="pub-title">Online Causal Configuration for Networked Systems via Doubly Robust Steady-State Learning</span><br/>
   <span class="pub-authors" style="display:inline-block; margin-left:1.2em;">
     Yuli Liu,
-    <span class="me">Zhiheng Zhang</span>.
+    <span class="me">Zhiheng Zhang</span>
+    <sup class="supmark corr" title="Corresponding author">✉︎</sup>.
   </span><br/>
   <div class="pub-info-row">
     <span class="pub-info-text"><span class="pub-meta"><span class="pub-venue">NeurIPS</span>, 2026.</span></span>
+    <button type="button" class="pub-insight-toggle" aria-expanded="false" aria-controls="insight-c-neurips-occ">Open Problem &amp; Our Answer</button>
   </div>
+  <div id="insight-c-neurips-occ" class="pub-tldr" hidden>TL;DR: Online configuration is difficult in networked systems because interventions affect interacting units and long-run outcomes must be learned from evolving data; this paper combines doubly robust causal estimation with steady-state learning to optimize configurations online while remaining robust to model misspecification.</div>
 </li>
 
 
