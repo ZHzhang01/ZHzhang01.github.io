@@ -346,7 +346,7 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 
 <ul class="news-list">
   <li><time datetime="2026-09">2026.09</time><span>恭喜研究生王子妍与杜玉玺获得研究生国家奖学金！</span></li>
-  <li><time datetime="2026-08">2026.08</time><span>在上财的第一年，我们实验室中稿 COLT × 1、JASA × 1、ICML × 9、NeurIPS × 5、KDD × 1、IJOO × 1。</span></li>
+  <li><time datetime="2026-09">2026.09</time><span>在上财的第一年，我们实验室中稿 COLT × 1、JASA × 1、ICML × 9、NeurIPS × 5、KDD × 1、IJOO × 1。</span></li>
 </ul>
 
 </div>
@@ -437,7 +437,7 @@ He is recruiting [PhD students, master’s students, and research interns](https
 
 <ul class="news-list">
   <li><time datetime="2026-09">2026.09</time><span>Congratulations to graduate students Ziyan Wang and Yuxi Du on receiving the National Scholarship for Graduate Students!</span></li>
-  <li><time datetime="2026-08">2026.08</time><span>In our first year at SUFE, our lab had papers accepted at COLT × 1, JASA × 1, ICML × 9, NeurIPS × 5, KDD × 1, and IJOO × 1.</span></li>
+  <li><time datetime="2026-09">2026.09</time><span>In our first year at SUFE, our lab had papers accepted at COLT × 1, JASA × 1, ICML × 9, NeurIPS × 5, KDD × 1, and IJOO × 1.</span></li>
 </ul>
 
 </div>
