@@ -143,6 +143,47 @@ html[data-home-lang="en"] .home-language-panel[data-lang="en"] {
   margin-top: 0;
 }
 
+.news-card {
+  margin: 1.4rem 0 1.75rem;
+  padding: 1.15rem 1.25rem;
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid #0b3d91;
+  border-radius: 10px;
+  background: #f7faff;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+}
+
+.news-card h3 {
+  margin: 0 0 0.8rem;
+  color: #0b3d91;
+  font-weight: 700;
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-list li {
+  display: grid;
+  grid-template-columns: 5.2rem minmax(0, 1fr);
+  gap: 0.75rem;
+  align-items: start;
+}
+
+.news-list li + li {
+  margin-top: 0.7rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.news-list time {
+  color: var(--global-text-color-light);
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
 .recruitment-card {
   margin: 1.4rem 0 1.75rem;
   padding: 1.15rem 1.25rem;
@@ -165,6 +206,14 @@ html[data-home-lang="en"] .home-language-panel[data-lang="en"] {
 
 html[data-theme="dark"] .recruitment-card {
   background: rgba(255, 255, 255, 0.055);
+}
+
+html[data-theme="dark"] .news-card {
+  background: rgba(121, 184, 255, 0.07);
+}
+
+html[data-theme="dark"] .news-card h3 {
+  color: #79b8ff;
 }
 
 html[data-theme="dark"] .recruitment-card h3 {
@@ -253,8 +302,14 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
     min-width: 4.2rem;
   }
 
+  .news-card,
   .recruitment-card {
     padding: 1rem;
+  }
+
+  .news-list li {
+    grid-template-columns: 1fr;
+    gap: 0.2rem;
   }
 }
 </style>
@@ -284,6 +339,17 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 张智恒（英文姓名读音近似 “Zhee-hung Jahng”）自 2025 年 8 月起任[上海财经大学](https://www.sufe.edu.cn/)[统计与数据科学学院](https://ssds.sufe.edu.cn/)常任轨助理教授，同时兼职隶属于[上海财经大学大数据研究院](https://ibdr.sufe.edu.cn/)。此前，他于[清华大学交叉信息研究院](https://iiis.tsinghua.edu.cn/)（IIIS）获得博士学位，博士生导师为[王禹皓](https://yuhaow.github.io/)教授。他担任 2025 年度 [CCF—滴滴盖亚联合科研基金项目](https://outreach.didichuxing.com/app-outreach/CRFYS)“统一的多处理长期价值（LTV）因果模型”联合负责人，并担任 AAAI 2025 人工智能与因果技术方向（AICT track）领域主席。
 
 他正在招收[博士生、硕士生和科研实习生](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ)。 请申请者完成[开源项目研究申请考核](/open-source-project-questionnaire/)或者[理论/方法研究申请考核](https://causal-lab-application.pelusojoule28475.chatgpt.site/)；入组成员请阅读[实验室规范与培养要求](/lab-guidelines/)。也可发送邮件至 zhangzhiheng@mail.shufe.edu.cn。此外，欢迎对因果推断感兴趣的老师和同学参加实验室的论文讨论会；可通过[微信公众号 CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.jpg)加入。
+
+<div class="news-card" markdown="1">
+
+### 📰 News
+
+<ul class="news-list">
+  <li><time datetime="2026-09">2026.09</time><span>恭喜研究生王子妍与杜玉玺获得研究生国家奖学金！</span></li>
+  <li><time datetime="2026-08">2026.08</time><span>在上财的第一年，我们实验室中稿 COLT × 1、JASA × 1、ICML × 9、NeurIPS × 5、KDD × 1、IJOO × 1。</span></li>
+</ul>
+
+</div>
 
 <div class="recruitment-card" markdown="1">
 
@@ -365,6 +431,16 @@ Since August 2025, Zhiheng Zhang (pronounced “Zhee-hung Jahng”) has been a t
 
 He is recruiting [PhD students, master’s students, and research interns](https://mp.weixin.qq.com/s/XkFc2gSXFDegj9HVEHGPaQ). Applicants are requested to complete either the [Open-Source Project Research Application Assessment](/open-source-project-questionnaire/) or the [Theoretical/Methodological Research Application Assessment](https://causal-lab-application.pelusojoule28475.chatgpt.site/); new lab members should read the [Lab Guidelines and Training Requirements](/lab-guidelines/). Applications may also be sent by email to zhangzhiheng@mail.shufe.edu.cn. In addition, faculty members and students interested in causal inference are welcome to attend the lab’s paper discussion group; you can join via the [WeChat Official Account CAUSAL-lab-SSDS-SUFE](https://raw.githubusercontent.com/ZHzhang01/ZHzhang01.github.io/master/images/reading_group_link.jpg).
 
+<div class="news-card" markdown="1">
+
+### 📰 News
+
+<ul class="news-list">
+  <li><time datetime="2026-09">2026.09</time><span>Congratulations to graduate students Ziyan Wang and Yuxi Du on receiving the National Scholarship for Graduate Students!</span></li>
+  <li><time datetime="2026-08">2026.08</time><span>In our first year at SUFE, our lab had papers accepted at COLT × 1, JASA × 1, ICML × 9, NeurIPS × 5, KDD × 1, and IJOO × 1.</span></li>
+</ul>
+
+</div>
 
 <div class="recruitment-card" markdown="1">
 
