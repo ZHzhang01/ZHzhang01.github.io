@@ -345,6 +345,7 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 ### 📰 News
 
 <ul class="news-list">
+  <li><time datetime="2026-11">2026.11</time><span>我将于香港城市大学共同组织第 8 届分布式人工智能国际会议（The 8th International Conference on Distributed Artificial Intelligence，DAI 2026）的研讨会“Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems”。如感兴趣，欢迎与我联系。</span></li>
   <li><time datetime="2026-09">2026.09</time><span>恭喜研究生王子妍与杜玉玺获得研究生国家奖学金！</span></li>
   <li><time datetime="2026-09">2026.09</time><span>在上财的第一年，我们实验室中稿 COLT × 1、JASA × 1、ICML × 9、NeurIPS × 5、KDD × 1、IJOO × 1。</span></li>
 </ul>
@@ -436,6 +437,7 @@ He is recruiting [PhD students, master’s students, and research interns](https
 ### 📰 News
 
 <ul class="news-list">
+  <li><time datetime="2026-11">2026.11</time><span>I will co-organize “Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems,” a workshop at the 8th International Conference on Distributed Artificial Intelligence (DAI 2026), held at City University of Hong Kong. If you are interested, please feel free to contact me.</span></li>
   <li><time datetime="2026-09">2026.09</time><span>Congratulations to graduate students Ziyan Wang and Yuxi Du on receiving the National Scholarship for Graduate Students!</span></li>
   <li><time datetime="2026-09">2026.09</time><span>In our first year at SUFE, our lab had papers accepted at COLT × 1, JASA × 1, ICML × 9, NeurIPS × 5, KDD × 1, and IJOO × 1.</span></li>
 </ul>
