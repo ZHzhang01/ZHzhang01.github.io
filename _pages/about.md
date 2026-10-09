@@ -346,7 +346,7 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 
 <ul class="news-list">
   <li><time datetime="2026-11">2026.11</time><span>我将于香港城市大学共同组织第 8 届分布式人工智能国际会议（<a href="https://adai.ai/dai/2026/">The 8th International Conference on Distributed Artificial Intelligence，DAI 2026</a>）的研讨会“Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems”。如感兴趣，欢迎与我联系。</span></li>
-  <li><time datetime="2026-09">2026.09</time><span>恭喜研究生王子妍与杜玉玺获得研究生国家奖学金！（占总获奖人数约1/4（全院硕士9名，其中25届硕士8名））</span></li>
+  <li><time datetime="2026-09">2026.09</time><span>恭喜研究生王子妍与杜玉玺获得研究生国家奖学金（全院硕士共9名）！恭喜卢欣芸和梁婉婷获评本科优秀毕业论文（全院共5名）！</span></li>
   <li><time datetime="2026-09">2026.09</time><span>在上财的第一年，我们实验室中稿 COLT × 1、JASA × 1、ICML × 9、NeurIPS × 5、KDD × 1、IJOO × 1。</span></li>
 </ul>
 
@@ -438,7 +438,7 @@ He is recruiting [PhD students, master’s students, and research interns](https
 
 <ul class="news-list">
   <li><time datetime="2026-11">2026.11</time><span>I will co-organize “Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems,” a workshop at <a href="https://adai.ai/dai/2026/">the 8th International Conference on Distributed Artificial Intelligence (DAI 2026)</a>, held at City University of Hong Kong. If you are interested, please feel free to contact me.</span></li>
-  <li><time datetime="2026-09">2026.09</time><span>Congratulations to graduate students Ziyan Wang and Yuxi Du on receiving the National Scholarship for Graduate Students! (Together, they account for approximately one-quarter of all awardees: 9 master’s students school-wide, including 8 from the 2025 cohort.)</span></li>
+  <li><time datetime="2026-09">2026.09</time><span>Congratulations to graduate students Ziyan Wang and Yuxi Du on receiving the National Scholarship for Graduate Students (9 master’s-level recipients school-wide)! Congratulations to Xinyun Lu and Wanting Liang on receiving Outstanding Undergraduate Thesis honors (5 recipients school-wide)!</span></li>
   <li><time datetime="2026-09">2026.09</time><span>In our first year at SUFE, our lab had papers accepted at COLT × 1, JASA × 1, ICML × 9, NeurIPS × 5, KDD × 1, and IJOO × 1.</span></li>
 </ul>
 
