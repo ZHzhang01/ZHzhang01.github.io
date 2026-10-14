@@ -373,8 +373,6 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 
 </div>
 
-![学术体系图](/_pages/research_roadmap_%203_01.png)
-
 ## 先前研究综述
 
 <div class="previous-research-overview" markdown="1">
@@ -406,6 +404,8 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 2. **结构规律发现：从实验设计走向科学发现——构建因果驱动的可信 AI 决策系统。** 面对高维处理、网络暴露、组合行动空间和复杂行为轨迹，单个实验已难以充分刻画真实系统中的干预机制。未来的核心挑战不再只是设计更复杂的实验，而是如何将分散的实验对象、实验结果与情境条件组织为可计算、可比较、可桥接的因果结构，从而支撑长期可解释、可评估、可控制的 AI 决策系统。为此，我们将借助大模型的语义表征与生成能力，首先构建连接实验档案与科学发现的因果图谱层，将既有实验中的处理（treatment）、结果（outcome）、情境（context）与效应（effect）统一映射到结构化因果空间，研究多个实验何时可以组合、何时存在结论冲突、何处只能得到部分识别边界，并进一步通过最优桥接实验（bridge experiments）主动缩小不可识别区域。在此基础上，面向多智能体互动、平台机制、市场干预与大模型行为系统，我们将设计因果伪奖励、遗憾校准分配、动态网络控制和战略因果 AI 机制，使复杂系统不仅具有良好的短期表现，而且能在长期演化中保持可靠性。进一步地，我们还将通过稀疏 LLM 比较、低秩任务—模型能力结构与不确定性认证，构建可解释的因果路由器，使 AI 系统能够判断不同模型和策略在何种任务、何种环境下具有真正可迁移、可部署的因果优势。由此，整个研究形成一个闭环：从整理历史实验、构建因果图谱、发现识别冲突，到设计桥接实验、优化在线决策，再由新证据反哺图谱。最终，研究重点将从“如何设计复杂实验”推进到“如何组织实验空间、识别机制边界并构建可信决策机制”，从而形成面向科学发现的可识别学习理论；
 3. **智能估计与决策：** 大语言模型奖励建模（LLM reward modeling）、因果表格数据基础模型（foundation models for causal tabular data），以及随机算法中的因果性；
 4. **面向产业的交叉应用：** 针对产业现实约束的因果推断方法论，包括 RCT & OBS、pre & opt、结构化数据类型，以及网络结构下的在线实验设计与推断。
+
+![统计选择理论与 PFN 因果流程](/images/causal_inference_pipeline.png)
 
 ![ATLAS 计划](/_pages/main_direction_Causal_ATLAS_7papers_0625.png)
 
@@ -465,8 +465,6 @@ If you are interested, please feel free to contact me. Prospective PhD applicant
 
 </div>
 
-![Research roadmap](/_pages/research_roadmap_%203_01.png)
-
 ## Previous Research Overview
 
 <div class="previous-research-overview" markdown="1">
@@ -498,6 +496,8 @@ In this progression, Step 1 focuses on more flexible structural assumptions at t
 2. **Discovery of structural regularities: From experimental design to scientific discovery—building causality-driven trustworthy AI decision systems.** Given high-dimensional treatments, network exposure, combinatorial action spaces, and complex behavioral trajectories, no single experiment can adequately characterize intervention mechanisms in real-world systems. The central challenge ahead is therefore no longer simply to design more complex experiments, but to organize dispersed experimental objects, findings, and contextual conditions into causal structures that can be computed, compared, and bridged, thereby supporting AI decision systems that remain interpretable, evaluable, and controllable over the long term. To this end, we will leverage the semantic representations and generative capabilities of large models to first build a causal-atlas layer linking experimental archives to scientific discovery. This layer will map the treatments, outcomes, contexts, and effects from prior experiments into a unified, structured causal space; determine when findings across experiments can be combined, when conclusions conflict, and where only partial-identification bounds are available; and use optimal bridge experiments to actively shrink unidentified regions. Building on this foundation, we will develop causal pseudo-rewards, regret-calibrated allocation, dynamic network control, and strategic causal-AI mechanisms for multi-agent interactions, platform mechanisms, market interventions, and large-model behavioral systems, enabling complex systems not only to perform well in the short term but also to remain reliable as they evolve over time. We will further construct interpretable causal routers through sparse LLM comparisons, low-rank task–model capability structures, and uncertainty certification, allowing AI systems to determine which models and strategies possess genuinely transferable and deployable causal advantages in which tasks and environments. Together, these components form a closed loop: from organizing historical experiments, building causal atlases, and detecting identification conflicts, through designing bridge experiments and optimizing online decisions, to feeding new evidence back into the atlas. The goal is to shift the research focus from “how to design complex experiments” to “how to organize the experimental space, identify mechanism boundaries, and build trustworthy decision mechanisms,” thereby establishing a theory of identifiable learning for scientific discovery;
 3. **Intelligent estimation and decision-making:** LLM reward modeling, foundation models for causal tabular data, and causality in stochastic algorithms;
 4. **Industry-facing interdisciplinary applications:** Causal-inference methodologies tailored to real-world industrial constraints, including RCT & OBS, pre & opt, structural data types, and online experimental design and inference under network structures.
+
+![Statistical choice theory and PFN-based causal pipeline](/images/causal_inference_pipeline.png)
 
 ![ATLAS initiative](/_pages/main_direction_Causal_ATLAS_7papers_0625.png)
 
