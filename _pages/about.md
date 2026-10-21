@@ -165,7 +165,33 @@ html[data-home-lang="en"] .home-language-panel[data-lang="en"] {
   list-style: none;
 }
 
+.news-list.is-scrollable {
+  direction: rtl;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
+  scrollbar-width: thin;
+  scrollbar-color: #8b9bb2 transparent;
+}
+
+.news-list.is-scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+
+.news-list.is-scrollable::-webkit-scrollbar-thumb {
+  background: #8b9bb2;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  background-clip: padding-box;
+}
+
+.news-list.is-scrollable:focus-visible {
+  outline: 2px solid #0b3d91;
+  outline-offset: 4px;
+}
+
 .news-list li {
+  direction: ltr;
   display: grid;
   grid-template-columns: 5.2rem minmax(0, 1fr);
   gap: 0.75rem;
@@ -345,9 +371,10 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 ### 📰 News
 
 <ul class="news-list">
+  <li><time datetime="2026-11">2026.11</time><span>我们与 Xiaojie Mao、Nathan Kallus 以及 Masatoshi Uehara 的工作 <strong>A Minimax Learning Approach for Causal Inference Under Unmeasured Confounding with Negative Controls 被 JMLR 接收</strong>。</span></li>
   <li><time datetime="2026-11">2026.11</time><span>我将于香港城市大学共同组织第 8 届分布式人工智能国际会议（<a href="https://adai.ai/dai/2026/">The 8th International Conference on Distributed Artificial Intelligence，DAI 2026</a>）的研讨会“Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems”。如感兴趣，欢迎与我联系。</span></li>
   <li><time datetime="2026-09">2026.09</time><span>恭喜研究生王子妍与杜玉玺获得研究生国家奖学金（全院硕士共9名）！恭喜卢欣芸和梁婉婷获评本科优秀毕业论文（全院共5名）！</span></li>
-  <li><time datetime="2026-09">2026.09</time><span>在上财的第一年，我们实验室中稿 COLT × 1、JASA × 1、ICML × 9、NeurIPS × 5、KDD × 1、IJOO × 1。具体 <a href="https://mp.weixin.qq.com/s/KVYQe3di2OKcBuH4EhSRBw">COLT</a>、<a href="https://mp.weixin.qq.com/s/NT_2Pu9lHX7fogMDtmzEeg">ICML</a> 研究内容可以参考院系推送。</span></li>
+  <li><time datetime="2026-09">2026.09</time><span>在上财的第一年（2025.08-2026.09），我们实验室中稿 COLT × 1、JASA × 1、ICML × 9、NeurIPS × 5、KDD × 1、IJOO × 1。具体 <a href="https://mp.weixin.qq.com/s/KVYQe3di2OKcBuH4EhSRBw">COLT</a>、<a href="https://mp.weixin.qq.com/s/NT_2Pu9lHX7fogMDtmzEeg">ICML</a> 研究内容可以参考院系推送。</span></li>
 </ul>
 
 </div>
@@ -437,9 +464,10 @@ He is recruiting [PhD students, master’s students, and research interns](https
 ### 📰 News
 
 <ul class="news-list">
+  <li><time datetime="2026-11">2026.11</time><span>Our work with Xiaojie Mao, Nathan Kallus, and Masatoshi Uehara, <strong>A Minimax Learning Approach for Causal Inference Under Unmeasured Confounding with Negative Controls, has been accepted by JMLR</strong>.</span></li>
   <li><time datetime="2026-11">2026.11</time><span>I will co-organize “Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems,” a workshop at <a href="https://adai.ai/dai/2026/">the 8th International Conference on Distributed Artificial Intelligence (DAI 2026)</a>, held at City University of Hong Kong. If you are interested, please feel free to contact me.</span></li>
   <li><time datetime="2026-09">2026.09</time><span>Congratulations to graduate students Ziyan Wang and Yuxi Du on receiving the National Scholarship for Graduate Students (9 master’s-level recipients school-wide)! Congratulations to Xinyun Lu and Wanting Liang on receiving Outstanding Undergraduate Thesis honors (5 recipients school-wide)!</span></li>
-  <li><time datetime="2026-09">2026.09</time><span>In our first year at SUFE, our lab had papers accepted at COLT × 1, JASA × 1, ICML × 9, NeurIPS × 5, KDD × 1, and IJOO × 1. For details of our <a href="https://mp.weixin.qq.com/s/KVYQe3di2OKcBuH4EhSRBw">COLT</a> and <a href="https://mp.weixin.qq.com/s/NT_2Pu9lHX7fogMDtmzEeg">ICML</a> research, see the school’s feature articles.</span></li>
+  <li><time datetime="2026-09">2026.09</time><span>In our first year at SUFE (2025.08-2026.09), our lab had papers accepted at COLT × 1, JASA × 1, ICML × 9, NeurIPS × 5, KDD × 1, and IJOO × 1. For details of our <a href="https://mp.weixin.qq.com/s/KVYQe3di2OKcBuH4EhSRBw">COLT</a> and <a href="https://mp.weixin.qq.com/s/NT_2Pu9lHX7fogMDtmzEeg">ICML</a> research, see the school’s feature articles.</span></li>
 </ul>
 
 </div>
@@ -614,6 +642,30 @@ Gold Medal, 2018 Chinese Undergraduate Mathematics Competition Final (CMC; Top 1
     }
   }
 
+  function updateNewsLists() {
+    document.querySelectorAll(".news-list").forEach(function (list) {
+      if (!list.getClientRects().length) return;
+      var scrollable = list.children.length > 5;
+      list.classList.toggle("is-scrollable", scrollable);
+      if (scrollable) {
+        var previousScroll = list.scrollTop;
+        list.style.maxHeight = "none";
+        var visibleHeight = Array.prototype.slice.call(list.children, 0, 5).reduce(function (height, item) {
+          var spacing = window.getComputedStyle(item);
+          return height + item.getBoundingClientRect().height + parseFloat(spacing.marginTop) + parseFloat(spacing.marginBottom);
+        }, 0);
+        list.style.maxHeight = Math.ceil(visibleHeight) + "px";
+        list.scrollTop = previousScroll;
+        list.setAttribute("tabindex", "0");
+        list.setAttribute("aria-label", document.documentElement.lang === "zh-CN" ? "新闻，可上下滚动" : "News, scroll for more");
+      } else {
+        list.style.maxHeight = "";
+        list.removeAttribute("tabindex");
+        list.removeAttribute("aria-label");
+      }
+    });
+  }
+
   function setLanguage(language, remember) {
     var nextLanguage = language === "en" ? "en" : "zh";
     document.documentElement.setAttribute("data-home-lang", nextLanguage);
@@ -624,6 +676,7 @@ Gold Medal, 2018 Chinese Undergraduate Mathematics Competition Final (CMC; Top 1
     });
 
     updateSharedInterface(nextLanguage);
+    window.requestAnimationFrame(updateNewsLists);
 
     if (remember) {
       try {
@@ -639,6 +692,9 @@ Gold Medal, 2018 Chinese Undergraduate Mathematics Competition Final (CMC; Top 1
       setLanguage(button.getAttribute("data-set-home-lang"), true);
     });
   });
+
+  window.addEventListener("resize", function () { window.requestAnimationFrame(updateNewsLists); });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(updateNewsLists);
 
   setLanguage(document.documentElement.getAttribute("data-home-lang"), false);
 }());
