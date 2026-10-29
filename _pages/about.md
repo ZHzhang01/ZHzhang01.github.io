@@ -373,6 +373,7 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 <ul class="news-list">
   <li><time datetime="2026-11">2026.11</time><span>我们与 Xiaojie Mao、Nathan Kallus 以及 Masatoshi Uehara 的工作 <strong>A Minimax Learning Approach for Causal Inference Under Unmeasured Confounding with Negative Controls 被 JMLR 接收</strong>。</span></li>
   <li><time datetime="2026-11">2026.11</time><span>我将于香港城市大学共同组织第 8 届分布式人工智能国际会议（<a href="https://adai.ai/dai/2026/">The 8th International Conference on Distributed Artificial Intelligence，DAI 2026</a>）的研讨会“Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems”。如感兴趣，欢迎与我联系。</span></li>
+  <li><time datetime="2026-10">2026.10</time><span>感谢邀请我担任 <em>Entropy</em>（中科院 1 区）特刊“<strong>Recent Advances in Causal Machine Learning and Large Language Models</strong>”的客座编辑（Guest Editor）。</span></li>
   <li><time datetime="2026-09">2026.09</time><span>恭喜研究生王子妍与杜玉玺获得研究生国家奖学金（全院硕士共9名）！恭喜卢欣芸和梁婉婷获评本科优秀毕业论文（全院共5名）！</span></li>
   <li><time datetime="2026-09">2026.09</time><span>在上财的第一年（2025.08-2026.09），我们实验室中稿 COLT × 1、JASA × 1、ICML × 9、NeurIPS × 5、KDD × 1、IJOO × 1。具体 <a href="https://mp.weixin.qq.com/s/KVYQe3di2OKcBuH4EhSRBw">COLT</a>、<a href="https://mp.weixin.qq.com/s/NT_2Pu9lHX7fogMDtmzEeg">ICML</a> 研究内容可以参考院系推送。</span></li>
 </ul>
