@@ -371,6 +371,7 @@ html[data-theme="dark"] .page__content a.publication-citation:focus {
 ### 📰 News
 
 <ul class="news-list">
+  <li><time datetime="2026-11">2026.11</time><span>我们实验室联合多家合作团队发布了面向统计研究全流程的统计基模能力基准测试 <a href="https://mp.weixin.qq.com/s/TmYHb77PBA3XiPg9eqQSCA">StatArena</a>，系统评估基础模型在估计、不确定性量化、因果推断、实验设计与统计决策等任务中的统计智能与可靠性。</span></li>
   <li><time datetime="2026-11">2026.11</time><span>我们与 Xiaojie Mao、Nathan Kallus 以及 Masatoshi Uehara 的工作 <strong>A Minimax Learning Approach for Causal Inference Under Unmeasured Confounding with Negative Controls 被 JMLR 接收</strong>。</span></li>
   <li><time datetime="2026-11">2026.11</time><span>我将于香港城市大学共同组织第 8 届分布式人工智能国际会议（<a href="https://adai.ai/dai/2026/">The 8th International Conference on Distributed Artificial Intelligence，DAI 2026</a>）的研讨会“Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems”。如感兴趣，欢迎与我联系。</span></li>
   <li><time datetime="2026-10">2026.10</time><span>感谢邀请我担任 <em>Entropy</em>（中科院 1 区）特刊“<strong>Recent Advances in Causal Machine Learning and Large Language Models</strong>”的客座编辑（Guest Editor）。</span></li>
@@ -466,6 +467,7 @@ He is recruiting [PhD students, master’s students, and research interns](https
 ### 📰 News
 
 <ul class="news-list">
+  <li><time datetime="2026-11">2026.11</time><span>Our lab and collaborating teams have launched <a href="https://mp.weixin.qq.com/s/TmYHb77PBA3XiPg9eqQSCA">StatArena</a>, a benchmark spanning the statistical research pipeline that evaluates the statistical intelligence and reliability of foundation models across estimation, uncertainty quantification, causal inference, experimental design, and statistical decision-making.</span></li>
   <li><time datetime="2026-11">2026.11</time><span>Our work with Xiaojie Mao, Nathan Kallus, and Masatoshi Uehara, <strong>A Minimax Learning Approach for Causal Inference Under Unmeasured Confounding with Negative Controls, has been accepted by JMLR</strong>.</span></li>
   <li><time datetime="2026-11">2026.11</time><span>I will co-organize “Adaptive Decision Making: Foundations, Algorithms, and Agentic Systems,” a workshop at <a href="https://adai.ai/dai/2026/">the 8th International Conference on Distributed Artificial Intelligence (DAI 2026)</a>, held at City University of Hong Kong. If you are interested, please feel free to contact me.</span></li>
   <li><time datetime="2026-10">2026.10</time><span>I am grateful for the invitation to serve as a Guest Editor for the <em>Entropy</em> Special Issue “<strong>Recent Advances in Causal Machine Learning and Large Language Models</strong>” (CAS Tier 1).</span></li>
